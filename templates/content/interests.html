@@ -1,0 +1,25 @@
+<h2>Mathematical Databases</h2>
+<p>
+              The <a href="https://beta.lmfdb.org">LMFDB</a> is a website that hosts dozens of collections of mathematical objects, from the eponymous L-functions and classical modular forms to elliptic curves, number fields, finite groups and Artin representations.  Mathematically, it is motivated by the Langlands program, but many of the objects arise much more broadly.
+            </p>
+<p>
+              These databases make a new kind of experimental mathematics possible, with a spectacular example occurring in 2022.  While studying elliptic curves ordered by conductor, a group of mathematicians including an undergraduate student <a href="https://arxiv.org/abs/2204.10140">observed</a> that the average point counts modulo primes displayed an unexpected oscillation.  This "murmurations" phenomenon was only apparent when averaging over tens of thousands of curves, and has led to further theoretical exploration including a <a href="https://icerm.brown.edu/events/htw-23-ma/">workshop at ICERM</a> in July 2023, a proof of an analogue in the modular form setting, and <a href="https://davidlowryduda.com/maass-murmurations/">investigations</a> in non-arithmetic settings like Maass forms.  As the use of data more broadly in society continues to grow, I believe that mathematical databases have a key role to play.
+            </p>
+<p>
+              I have worked on most sections of the LMFDB, including major contributions to
+            </p><ul>
+<li><a href="https://beta.lmfdb.org/Groups/Abstract/">Finite groups</a> (with <a href="/writings/research/FiniteGroups.pdf">accompanying paper</a>)</li>
+<li><a href="https://beta.lmfdb.org/ModularForm/GL2/Q/holomorphic/">Classical modular forms</a> (with <a href="https://doi.org/10.1007/978-3-030-80914-0_4">accompanying paper</a>)</li>
+<li><a href="https://beta.lmfdb.org/Variety/Abelian/Fq/">Abelian varieties over finite fields</a> (with <a href="https://doi.org/10.1007/978-3-030-80914-0_13">accompanying paper</a>)</li>
+<li><a href="https://beta.lmfdb.org/ModularCurve/Q/">Modular curves</a> (paper in progress)</li>
+</ul>
+<h2><i>p</i>-adic Computation</h2>
+<p>
+<i>p</i>-adic numbers have played a central role in many advances in modern number theory, from <a href="https://doi.org/10.1007%2FBF02684780">Deligne's proof of the Weil conjectures</a> to the deformation theory underlying <a href="https://doi.org/10.2307%2F2118559">Wiles' proof of Fermat's Last Theorem</a> to <a href="https://doi.org/10.1007/s10240-012-0042-x">Scholze's perfectoid spaces</a>.  They can be defined either analytically, via the completion process that constructs the real numbers from the rationals, or algebraically, as the inverse limit of finite rings <i>ℤ/p^nℤ</i> as <i>n</i> increases.  In either perspective, they provide a link between divisibility and modular arithmetic on the one hand and topology and analysis on the other.
+            </p>
+<p>
+              From a computational point of view, there are two main challenges in implementing <i>p</i>-adic arithmetic: tracking precision through a computation, and handling algebraic extensions, which are far more complicated than for real numbers.  I have led the development of <i>p</i>-adic arithmetic in <a href="https://sagemath.org">Sage</a>, including a lattice method for tracking precision developed in a series of papers with Xavier Caruso and Tristan Vaccon (<a href="https://doi.org/10.1112/S1461157014000357">[1]</a> <a href="https://doi.org/10.1145/2755996.2756655">[2]</a> <a href="https://doi.org/10.1145/2930889.2930898">[3]</a> <a href="https://doi.org/10.1145/3087604.3087618">[4]</a> <a href="https://doi.org/10.1145/3208976.3208995">[5]</a>).
+	    </p>
+<p>
+              I am interested in applications of <i>p</i>-adics to number theory and have worked on <a href="https://smf.emath.fr/publications/estimation-du-nombre-de-picard-des-surfaces-par-la-cohomologie-p-adique">point counting algorithms</a> for surfaces over finite fields and average polynomial time algorithms for computing L-functions of hypergeometric motives.
+            </p>

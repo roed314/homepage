@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Conferences</h1>
+{% filter rel %}{% include "content/conferences_intro.html" %}{% endfilter %}
+<div class="table-wrap">
+  <table class="data">
+    <thead>
+      <tr><th>Dates</th><th>Year</th><th>Conference</th><th>Location</th></tr>
+    </thead>
+    <tbody>
+      {% for c in conferences %}
+      <tr{% if c.role %} class="{{ c.role }}"{% endif %}>
+        <td class="nowrap">{{ c.dates }}</td>
+        <td>{{ c.year }}</td>
+        <td>{% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</td>
+        <td>{{ c.location }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

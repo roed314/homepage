@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Contact Info</h1>
+<div class="contact-block">
+{% filter rel %}{% include "content/contact.html" %}{% endfilter %}
+</div>
+{% endblock %}

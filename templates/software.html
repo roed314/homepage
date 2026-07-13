@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% set kindclass = {'browse': 'browse', 'code': 'code', 'paper': 'arxiv'} %}
+{% block content %}
+<h1>Software</h1>
+{% for sec in software %}
+<h2>{{ sec.section }}</h2>
+<div class="table-wrap">
+  <table class="data software">
+    <thead>
+      <tr><th>Project</th><th></th><th>Active</th><th>Contributions</th></tr>
+    </thead>
+    <tbody>
+      {% for pr in sec.projects %}
+      <tr>
+        <td class="project-cell">
+          {% set label %}
+          {% if pr.logo and pr.banner %}
+          <img class="project-logo" src="{{ pr.logo|u }}" alt="{{ pr.name }}">
+          {% elif pr.logo %}
+          <img class="data-logo" src="{{ pr.logo|u }}" alt=""><span class="data-title">{{ pr.name }}</span>
+          {% else %}
+          {{ pr.name }}
+          {% endif %}
+          {% endset %}
+          {% if pr.url %}<a class="project-label" href="{{ pr.url|u }}">{{ label }}</a>{% else %}<span class="project-label">{{ label }}</span>{% endif %}
+        </td>
+        <td class="project-links">
+          {% for kind, href in (pr.links or {}).items() %}
+          <a class="badge {{ kindclass.get(kind, 'browse') }}" href="{{ href|u }}">{{ kind }}</a>
+          {% endfor %}
+        </td>
+        <td>
+          {% set stats %}
+          <span>{{ pr.active }}</span>
+          {% if pr.commits %}<span>{{ pr.commits }} commits</span>{% endif %}
+          {% if pr.additions %}<span class="plus">{{ pr.additions }} ++</span>{% endif %}
+          {% if pr.deletions %}<span class="minus">{{ pr.deletions }} --</span>{% endif %}
+          {% endset %}
+          {% if pr.stats_url %}<a class="active-container" href="{{ pr.stats_url }}">{{ stats }}</a>
+          {% else %}<div class="active-container">{{ stats }}</div>{% endif %}
+        </td>
+        <td>{{ pr.description|rel|safe }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endfor %}
+{% endblock %}

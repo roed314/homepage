@@ -1,0 +1,632 @@
+- title: 'LMFDB: Past, Present and Future'
+  date: Jun 29, 2026
+  topic: lmfdb
+  type: conf
+  venue: Bridging Lean and the LMFDB
+  venue_url: https://multramate.github.io/lean-lmfdb/
+  pdf: /writings/talks/2026_06_29.pdf
+  notes: Talk on the history and future plans of the <a href="https://www.lmfdb.org">LMFDB</a>
+- title: Building mathematical databases
+  date: Jun 24, 2026
+  topic: mathbases
+  type: conf
+  venue: Machine Computation in Homotopy Theory
+  venue_url: https://icerm.brown.edu/program/topical_workshop/tw-26-mch
+  pdf: /writings/talks/2026_06_24.pdf
+  notes: Talk on lessons learned from the <a href="https://www.lmfdb.org">LMFDB</a> for those interested in creating mathematical databases
+- title: p-adic fields in the LMFDB
+  date: Nov 7, 2025
+  topic: padic-fields
+  type: conf
+  venue: Bayou Arithmetic Research Day 6
+  venue_url: https://bardsmath.com/
+  pdf: /writings/talks/2025_11_07.pdf
+  paper: https://arxiv.org/abs/2507.02360
+  notes: Talk on the database of <a href="https://www.lmfdb.org/padicField/">p-adic fields</a> in the LMFDB
+- title: The L-functions and Modular Forms DataBase
+  date: Sep 15, 2025
+  topic: lmfdb
+  type: conf
+  venue: code4math Grand Opening Symposium
+  venue_url: https://code4math.org/
+  pdf: /writings/talks/2025_09_15.pdf
+  notes: Introduction to the <a href="https://www.lmfdb.org">LMFDB</a>
+- title: Incubating Mathematical Databases
+  date: Jul 7, 2025
+  topic: mathbases
+  type: conf
+  venue: Lucant 2025
+  venue_url: https://icerm.brown.edu/program/topical_workshop/tw-25-lucant
+  pdf: /writings/talks/2025_07_07.pdf
+  notes: Talk on <a href="https://mathbases.org">MathBases</a> and a proposed library of Diophantine equations
+- title: Hypergeometric L-functions in average polynomial time
+  date: Jan 9, 2025
+  topic: hgm
+  type: conf
+  venue: JMM 2025
+  venue_url: https://meetings.ams.org/math/jmm2025/meetingapp.cgi/Session/11057
+  pdf: /writings/talks/2025_01_09.pdf
+  paper: https://arxiv.org/abs/2310.06971
+  notes: See also <a href="https://antsmath.org/ANTSXVI/slides/Costa.pdf">Edgar's talk</a> from ANTS and <a href="https://kskedlaya.org/slides/nz2024-handout.pdf">Kiran's talk</a> in New Zealand
+- title: How to Win the Lottery
+  date: July 1, 2024
+  topic: lottery
+  venue: MathRoots
+  venue_url: http://mathroots.mit.edu/
+  pdf: /writings/talks/2024_07_01.pdf
+  notes: Talk on Cash Winfall, the lottery game that was actually profitable to play
+- title: Finite groups and K3 surfaces in the LMFDB
+  date: Jun 25, 2024
+  topic: gps-k3
+  type: conf
+  venue: Computational Geometry
+  venue_url: http://www.birs.ca/events/2024/5-day-workshops/24w5229
+  pdf: /writings/talks/2024_06_25.pdf
+  notes: Talk on <a href="https://beta.lmfdb.org/Groups/Abstract/">finite groups</a> and K3 surfaces in the LMFDB
+- title: Modular curves in the LMFDB
+  date: Sep 21, 2023
+  topic: gps-modcurves
+  type: conf
+  venue: Modular curves and Galois representations
+  venue_url: https://web.math.pmf.unizg.hr/~fnajman/Mod_curves.html
+  pdf: /writings/talks/2023_09_21.pdf
+  notes: Talk on <a href="https://beta.lmfdb.org/ModularCurve/Q/">modular curves</a> in the LMFDB
+- title: 'Modular curves and Finite Groups: Building Connections via Computation'
+  date: Mar 2, 2023
+  topic: gps-modcurves
+  type: conf
+  venue: COUNT
+  venue_url: https://conferences.cirm-math.fr/2805.html
+  pdf: /writings/talks/2023_03_02.pdf
+  notes: Talk on <a href="https://beta.lmfdb.org/ModularCurve/Q/">modular curves</a> and <a href="https://beta.lmfdb.org/Groups/Abstract/">finite groups</a> in the LMFDB
+- title: 'Modular curves and Finite Groups: Building Connections via Computation'
+  date: Jan 11, 2023
+  topic: gps-modcurves
+  type: conf
+  venue: 2023 Simons collaboration annual meeting
+  venue_url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2023/
+  pdf: /writings/talks/2023_01_11.pdf
+  notes: Talk on <a href="https://alpha.lmfdb.org/ModularCurve/Q/">modular curves</a> and <a href="https://beta.lmfdb.org/Groups/Abstract/">finite groups</a> in the LMFDB
+- title: The L-functions and modular forms database
+  date: May 22, 2022
+  topic: lmfdb
+  type: conf
+  venue: Big Data in Pure Mathematics
+  venue_url: https://math-data.github.io/big-data-pure-math-2022/
+  pdf: /writings/talks/2022_05_22.pdf
+  notes: Introduction to the <a href="https://lmfdb.org">LMFDB</a>
+- title: p-adic precision
+  date: May 7, 2021
+  topic: padic-comp
+  type: sem
+  venue: Simons collaboration monthly meeting
+  venue_url: https://simonscollab.icerm.brown.edu/
+  pdf: /writings/talks/2021_05_07.pdf
+  paper: https://arxiv.org/abs/1802.08532
+  notes: Different approaches to <i>p</i>-adic precision, including lattice and lazy methods.
+- title: Algebraic structures in Sage
+  date: February 15, 2021
+  topic: sage-intro
+  type: conf
+  venue: Sage-Oscar Days
+  venue_url: https://icerm.brown.edu/programs/sp-s21/w2/
+  pdf: /writings/talks/2021_02_15.pdf
+  notes: Introduction to Sage, with a view toward finite fields
+- title: A database of p-adic tori
+  date: March 18, 2020
+  topic: toridb
+  type: sem
+  venue: MIT Lie groups seminar
+  pdf: /writings/talks/2020_03_18.pdf
+  notes: Talk on <a href="http://tori.lmfdb.xyz/AlgebraicTori/">database of tori</a>
+- title: A database of p-adic tori
+  date: November 21, 2019
+  topic: toridb
+  type: sem
+  venue: University of British Columbia number theory seminar
+  pdf: /writings/talks/2019_11_21.pdf
+  notes: Talk on <a href="http://tori.lmfdb.xyz/AlgebraicTori/">database of tori</a>
+- title: The inverse Galois problem for p-adic fields
+  date: September 10, 2019
+  topic: inv-gal-prob
+  type: sem
+  venue: University of Bordeaux number theory seminar
+  pdf: /writings/talks/2019_09_10.pdf
+  paper: https://arxiv.org/abs/1809.10195
+- title: A database of p-adic tori
+  date: September 2, 2019
+  topic: toridb
+  type: conf
+  venue: p-Adic Langlands Correspondence Conference
+  venue_url: https://www.lebesgue.fr/content/sem2019-clapclap
+  pdf: /writings/talks/2019_09_02.pdf
+  notes: Talk on <a href="http://tori.lmfdb.xyz/AlgebraicTori/">database of tori</a>
+- title: The inverse Galois problem for p-adic fields
+  date: August 30, 2019
+  topic: inv-gal-prob
+  type: sem
+  venue: University of Utrecht number theory seminar
+  pdf: /writings/talks/2019_08_30.pdf
+  paper: https://arxiv.org/abs/1809.10195
+- title: A database of p-adic tori
+  date: June 8, 2019
+  topic: toridb
+  type: conf
+  venue: 2019 CMS Summer Meetings
+  venue_url: https://summer19.cms.math.ca/
+  pdf: /writings/talks/2019_06_08.pdf
+  notes: Talk on <a href="http://tori.lmfdb.xyz/AlgebraicTori/">database of tori</a>
+- title: A database of abelian varieties
+  date: June 6, 2019
+  topic: abvardb
+  type: conf
+  venue: Arithmetic of Low-Dimensional Abelian Varieties
+  venue_url: https://icerm.brown.edu/events/sc19-1-aldav/
+  notes: Lightning talk on <a href="http://tori.lmfdb.xyz/AlgebraicTori/">database of abelian varieties</a>
+- title: The inverse Galois problem for p-adic fields
+  date: July 17, 2018
+  topic: inv-gal-prob
+  type: conf
+  venue: ANTS 13
+  venue_url: http://www.math.grinnell.edu/~paulhusj/ants2018/
+  pdf: /writings/talks/2018_07_17.pdf
+  paper: https://arxiv.org/abs/1809.10195
+- title: Using lattices to track p-adic precision
+  date: February 20, 2018
+  topic: padic-comp
+  type: conf
+  venue: Numerical Methods for Algebraic Curves
+  venue_url: https://www.lebesgue.fr/content/sem2018-courbes-program
+  pdf: /writings/talks/2018_02_20.pdf
+  paper: https://arxiv.org/abs/1802.08532
+  notes: Lattice-based precision for p-adic computation.
+- title: Computing with higher genus curves, abelian varieties and K3 surfaces
+  date: December 7, 2017
+  topic: simons
+  type: sem
+  venue: Pitt algebra seminar
+  notes: Introduction to goals of the <a href="https://icerm.brown.edu/simonscollaboration/">Simons Collaboration</a>
+- title: The inverse Galois problem for p-adic fields
+  date: November 13, 2017
+  topic: inv-gal-prob
+  type: sem
+  venue: BU number theory seminar
+  venue_url: http://math.bu.edu/research/algebra/seminar.html
+  pdf: /writings/talks/2017_11_13.pdf
+  paper: https://arxiv.org/abs/1809.10195
+- title: How to Win the Lottery
+  date: September 14, 2017
+  topic: lottery
+  type: coll
+  venue: Reed Colloquium
+  venue_url: http://www.reed.edu/math/seminars/
+  notes: Talk on Cash Winfall, the lottery game that was actually profitable to play
+- title: An introduction to p-adics in Sage
+  date: August 22, 2017
+  topic: sage-padics
+  type: conf
+  venue: Sage Days 88
+  venue_url: https://www.ima.umn.edu/2017-2018.2/W8.21-25.17
+- title: p-adics in Sage
+  date: July 17, 2017
+  topic: sage-padics
+  type: conf
+  venue: Sage Days 87
+  venue_url: https://wiki.sagemath.org/days87
+  notes: Introduction to Sage and p-adics.
+- title: Makdisi's algorithm for Jacobians of p-adic curves
+  date: June 5, 2017
+  topic: makdisi
+  type: conf
+  venue: Sage Days 86.5
+  venue_url: https://wiki.sagemath.org/days86.5
+  notes: Application of p-adic precision to computing with divisors
+- title: Computing with Modular Forms
+  date: May 22-26, 2017
+  topic: sage-modular-intro2
+  type: conf
+  venue: UNCG Summer School
+  venue_url: http://www.uncg.edu/mat/numbertheory/summerschool/
+  notes: Summer school on computational modular forms; I'm speaking on overconvergent modular symbols
+- title: Modular Forms and Modular Symbols in Sage
+  date: February 8, 2017
+  topic: sage-modular-intro
+  type: conf
+  venue: CLap-CLap
+  venue_url: http://xavier.toonywood.org/clapclap/
+  notes: Introduction to using Sage for computations of modular forms
+- title: Commutative Character Sheaves
+  date: December 2, 2016
+  topic: dictionary
+  type: sem
+  venue: American University
+  paper: https://arxiv.org/abs/1605.08820
+  notes: Talk on the new function-sheaf dictionary paper.
+- title: The Inverse Galois Problem for p-adic Fields
+  date: September 29, 2016
+  topic: inv-gal-prob
+  type: coll
+  venue: University of Calgary Colloquium
+  venue_url: http://www.math.ucalgary.ca/
+  paper: https://arxiv.org/abs/1809.10195
+  notes: Talk on algebraic tori database project
+- title: Algebraic Tori and a Computational Inverse Galois Problem
+  date: September 17, 2016
+  topic: inv-gal-prob
+  type: conf
+  venue: PANTS XXVI
+  venue_url: https://www.uncg.edu/mat/numbertheory/conferences/PANTS-XXVI.html
+  paper: https://arxiv.org/abs/1809.10195
+  notes: Talk on algebraic tori database project
+- title: Overcongergent Modular Symbols in Sage
+  date: March 20, 2016
+  topic: oms-sage
+  type: conf
+  venue: Sage Days 71
+  venue_url: https://wiki.sagemath.org/days71
+  pdf: /writings/talks/2016_03_20.pdf
+  notes: Introduction to <a href="http://trac.sagemath.org/ticket/812">Overconvergent Modular Symbols in Sage</a>
+- title: Elliptic Curves, Triangles and L-functions
+  date: March 11, 2016
+  topic: ellcurve-coll
+  type: coll
+  venue: Tufts University Colloquium
+  venue_url: http://math.tufts.edu/seminars/colloquiumPast.htm
+  notes: Colloquium on ranks of elliptic curves, the congruent number problem and the Birch and Swinnerton-Dyer conjecture
+- title: Algebraic Tori and a Computational Inverse Galois Problem
+  date: January 26, 2016
+  topic: inv-gal-prob
+  type: coll
+  venue: University of Pittsburgh
+  venue_url: http://www.mathematics.pitt.edu/
+  pdf: /writings/talks/2016_01_26.pdf
+  paper: https://arxiv.org/abs/1809.10195
+  notes: Talk on algebraic tori database project
+- title: Overconvergent Modular Symbols in Sage
+  date: September 30, 2015
+  topic: oms-sage
+  type: conf
+  venue: RIMS Workshop on Computer Algebra Systems
+  venue_url: http://sphere.s.kanazawa-u.ac.jp/2015RIMSAlgSys-e.html
+  pdf: /writings/talks/2015_09_30.pdf
+  notes: Talk on <a href="http://www.sagemath.org">Sage</a> and <a href="http://trac.sagemath.org/ticket/812">Overconvergent Modular Symbols</a>
+- title: Positive slope pieces of the eigencurve via interpolation
+  date: July 30, 2015
+  topic: pos-slope-fam
+  type: conf
+  venue: Computational Representation Theory in Number Theory
+  venue_url: http://people.oregonstate.edu/~swisherh/CRTNTconference/
+  notes: Talk on joint work with Ander Steele
+- title: Positive slope pieces of the eigencurve via interpolation
+  date: May 28, 2015
+  topic: pos-slope-fam
+  type: conf
+  venue: Explicit Methods for Abelian Varieties
+  venue_url: https://www.pims.math.ca/scientific-event/150525-emavkw
+  notes: Talk on joint work with Ander Steele
+- title: A function-sheaf dictionary for tori over local fields
+  date: June 17, 2014
+  topic: quasicharacter
+  type: conf
+  venue: CNTA XIII
+  venue_url: https://www.fields.utoronto.ca/programs/scientific/13-14/CNTAXIII/
+  pdf: /writings/talks/2014_06_17.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Talk on my function-sheaf dictionary paper
+- title: A function-sheaf dictionary for tori over local fields
+  date: May 24, 2014
+  topic: quasicharacter
+  type: conf
+  venue: FRG on periods of automorphic forms and applications to L-functions
+  pdf: /writings/talks/2014_05_24.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Half-hour talk on my function-sheaf dictionary paper
+- title: Numerical Methods in p-adic Linear Algebra
+  date: February 3, 2014
+  topic: padic-comp
+  type: sem
+  venue: Lethbridge Number Theory and Combinatorics Seminar
+  venue_url: http://www.uleth.ca/artsci/event/49501
+  pdf: /writings/talks/2014_02_03.pdf
+  paper: http://arxiv.org/abs/1402.7142
+- title: A function-sheaf dictionary for tori over local fields
+  date: January 15, 2014
+  topic: quasicharacter
+  type: conf
+  venue: Joint Mathematics Meetings 2014
+  venue_url: http://jointmathematicsmeetings.org/meetings/national/jmm2014/2160_program_ss15.html
+  pdf: /writings/talks/2014_01_15.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Shorter talk on my work with Clifton
+- title: Quasicharacter Sheaves for Tori
+  date: December 5, 2013
+  topic: quasicharacter
+  type: sem
+  venue: QVNTS
+  venue_url: http://www.dms.umontreal.ca/~qvnts/
+  pdf: /writings/talks/2013_12_05.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Updated talk on my work with Clifton
+- title: Plans for p-adics in Sage
+  date: September 5, 2013
+  topic: sage-padics
+  type: conf
+  venue: Sage Days 52
+  venue_url: http://wiki.sagemath.org/sagedays-padics-Rennes
+  pdf: /writings/talks/2013_09_05.pdf
+- title: Geometrizing Characters of Tori
+  date: June 24, 2013
+  topic: quasicharacter
+  type: conf
+  venue: PRIMA 2013
+  venue_url: http://www.math.sjtu.edu.cn/Conference/prima/NumRepr.htm
+  pdf: /writings/talks/2013_06_24.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Updated talk on my work with Clifton
+- title: Geometrizing Characters of Tori
+  date: May 12, 2013
+  topic: quasicharacter
+  type: conf
+  venue: Alberta Number Theory Days 2013
+  venue_url: https://../conferences/ANTD13/
+  pdf: /writings/talks/2013_05_12.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Updated talk on my work with Clifton
+- title: Geometrizing Quasi-characters of Tori
+  date: January 28, 2013
+  topic: quasicharacter
+  type: sem
+  venue: UCSC Number Theory Seminar
+  pdf: /writings/talks/2013_01_28.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: Hour talk on my work with Clifton - some material has since been corrected
+- title: Geometrizing Quasi-characters of Tori
+  date: January 10, 2013
+  topic: quasicharacter
+  type: conf
+  venue: Joint Mathematics Meetings 2013
+  venue_url: http://jointmathematicsmeetings.org/meetings/national/jmm2013/2141_program_ss39.html#title
+  pdf: /writings/talks/2013_01_10.pdf
+  paper: http://arxiv.org/abs/1310.2988
+  notes: 20 minute talk on my work with Clifton
+- title: The ABC Conjecture
+  date: November 16, 2012
+  topic: ABC
+  type: coll
+  venue: University of Calgary Colloquium
+  venue_url: http://www.math.ucalgary.ca/
+  pdf: /writings/talks/2012_11_16.pdf
+  notes: Sketch of Mochizuki's work
+- title: Introduction to Sage
+  date: October 16, 2012
+  topic: sage-intro
+  type: sem
+  venue: University of Calgary - PMAT 621
+  pdf: /writings/talks/2012_10_16.pdf
+  notes: Most of the talk was this <a href="/writings/talks/2012_10_16.sws">Sage notebook</a>.
+- title: The Local Langlands Correspondence and Character Sheaves
+  date: May 19, 2012
+  topic: quasicharacter
+  type: conf
+  venue: Pacific Northwest Number Theory Conference 2012
+  venue_url: http://www.uiweb.uidaho.edu/johnsonleung/pnwnt2012/pnwnt2012schedule.html
+  pdf: /writings/talks/2012_05_19.pdf
+  notes: Similar to UW Number theory talk
+- title: The Local Langlands Correspondence and Character Sheaves
+  date: May 17, 2012
+  topic: quasicharacter
+  type: sem
+  venue: University of Washington Number Theory Seminar
+  pdf: /writings/talks/2012_05_17.pdf
+  notes: Improved version of talk from Utah
+- title: The Local Langlands Correspondence and Character Sheaves
+  date: April 26, 2012
+  topic: quasicharacter
+  type: sem
+  venue: University of Utah number theory seminar
+  pdf: /writings/talks/2012_04_26.pdf
+  notes: Thesis talk with a bit added on my work with Clifton
+- title: Precision Models for Arithmetic in Local Fields
+  date: March 1, 2012
+  topic: padic-comp
+  type: sem
+  venue: UBC number theory seminar
+  pdf: /writings/talks/2012_03_01.pdf
+  paper: http://arxiv.org/abs/1402.7142
+  notes: An improved version of my talk from Lyon in June
+- title: The State of p-Adics in Sage
+  date: February 19, 2012
+  topic: sage-padics
+  type: conf
+  venue: Sage Days 36
+- title: Coercions and Categories in Sage
+  date: January 26, 2012
+  topic: sage-coerce
+  type: sem
+  venue: UW Sage Seminar
+  notes: Sage notebook of this talk available <a href="http://www.sagenb.org/home/pub/4229">here</a>
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
+  date: December 8, 2011
+  topic: thesis
+  type: sem
+  venue: PIMS Number Theory Seminar
+  pdf: /writings/talks/LLC3.pdf
+  notes: Thesis talk, extended to a 2 hour format
+- title: Zeta Functions with p-Adic Cohomology
+  date: June 24, 2011
+  topic: zeta-func
+  type: conf
+  venue: Geocrypt 2011
+  venue_url: http://iml.univ-mrs.fr/ati/GeoCrypt2011/
+  pdf: /writings/talks/Zeta11.pdf
+  paper: http://arxiv.org/abs/math/0601508
+  notes: A modified version of the talk I gave at CRM in April 2010
+- title: Precision Models for Arithmetic in Local Fields
+  date: June 6, 2011
+  topic: padic-comp
+  type: conf
+  venue: Théorie de Hodge p-adique, équations différentielles p-adiques et leurs applications
+  pdf: /writings/talks/2011_06_06.pdf
+  paper: http://arxiv.org/abs/1402.7142
+  notes: Talk on my work with Xavier Caruso
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
+  date: February 9, 2011
+  topic: thesis
+  type: sem
+  venue: Harvard number theory seminar
+  pdf: /writings/talks/LLC2.pdf
+  notes: Thesis talk, modified notes from my October 2010 talk.
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
+  date: January 20, 2011
+  topic: thesis
+  type: sem
+  venue: University of Calgary number theory seminar
+  pdf: /writings/thesis.pdf
+  notes: Thesis talk, similar notes to my October 2010 talk.
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
+  date: December 1, 2010
+  topic: thesis
+  type: sem
+  venue: Universite Rennes Cryptography Seminar
+  pdf: /writings/thesis.pdf
+  notes: Thesis talk, similar notes to my October 2010 talk.
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
+  date: October 2, 2010
+  topic: thesis
+  type: conf
+  venue: Quebec-Maine Number Theory 2010
+  venue_url: http://www.math.umaine.edu/numbertheory/qm10.html
+  pdf: /writings/talks/LLC.pdf
+  notes: An overview of the Langlands correspondence for GL_n and an outline of my thesis work.
+- title: Zeta Functions with p-adic cohomology
+  date: April 20, 2010
+  topic: zeta-func
+  type: conf
+  venue: 'Counting Points: Theory, Algorithms and Practice'
+  venue_url: http://www.crm.umontreal.ca/Points10/index_e.php
+  pdf: /writings/talks/Zeta10.pdf
+  paper: http://arxiv.org/abs/math/0601508
+  notes: A presentation of the algorithm in my <a href="https://picard.pdf">paper</a> with Kiran and Tim.
+- title: Bruhat-Tits Theory
+  date: April 2, 9, 16, 2010
+  topic: bruhat-tits
+  type: sem
+  venue: Alcove Seminar
+  venue_url: http://www.math.harvard.edu/~roed/courses/alcoveS10.html
+  notes: An overview of the Bruhat-Tits building.
+- title: Coxeter Groups and 4-dimensional Polytopes
+  date: February 25, 2010
+  topic: coxeter-groups
+  type: sem
+  venue: Trivial Notions
+  venue_url: http://www.math.harvard.edu/trivial/index.html
+  notes: Coxeter groups and classification of polytopes, together with Zome models of polyhedra and the 120-cell.
+- title: Berkovich Spaces
+  date: April 29, 2009
+  topic: berkovic-spaces
+  type: sem
+  venue: Alcove Seminar
+  venue_url: http://www.math.harvard.edu/~roed/courses/alcoveS09.html
+  notes: An overview of Berkovich spaces.
+- title: Weil Conjectures
+  date: February 26, 2009
+  topic: weil-conj
+  type: sem
+  venue: Trivial Notions
+  venue_url: http://www.math.harvard.edu/trivial/trivial_2008-2009.html
+  notes: Weil conjectures and Weil cohomology theories for non-number theorists.
+- title: Laplace to Langlands
+  date: Sept 25, Sept 30, Oct 2, 2008
+  topic: laplace-to-langlands
+  type: sem
+  venue: Alcove Seminar
+  venue_url: http://www.math.harvard.edu/~roed/courses/alcoveF08.html
+  notes: A presentation on Gross's paper <a href="http://www.math.harvard.edu/~gross/preprints/LaplaceLanglands6.pdf">From Laplace to Langlands via representations of orthogonal groups</a>.
+- title: Embeddings of PSL_2(F_p) into semisimple linear algebraic groups
+  date: May 19, 2008
+  topic: psl2-embeddings
+  type: sem
+  venue: STAGE
+  venue_url: http://www-math.mit.edu/~kedlaya/stage/
+  notes: A presentation of the results in Serre's Exemples de plongements des groupes PSL_2(F_p) dans des groupes de Lie simples, <cite>Inventiones mathematicae</cite>, 1996.
+- title: A Bound for the number of automorphisms of an arithmetic Riemann surface
+  date: April 10, 2008
+  topic: triangle-groups
+  type: sem
+  venue: Trivial Notions
+  venue_url: http://www.math.harvard.edu/trivial/index.html
+  notes: Based on the Arizona Winter School talk.
+- title: A Bound for the number of automorphisms of an arithmetic Riemann surface
+  date: April 1, 2008
+  topic: triangle-groups
+  type: sem
+  venue: UW Number Theory Seminar
+  venue_url: http://www.math.washington.edu
+  pdf: /writings/talks/mAWS08.pdf
+  notes: Based on the Arizona Winter School talk.
+- title: A Bound for the number of automorphisms of an arithmetic Riemann surface
+  date: March 19, 2008
+  topic: triangle-groups
+  type: conf
+  venue: Arizona Winter School
+  venue_url: http://swc.math.arizona.edu/
+  pdf: /writings/talks/AWS08.pdf
+  notes: Joint work with Linda Gruendken, Guillermo Mantilla, Dermot McCarthy, Kate Stange, Ying Zong, Maryna Viazovska. Based on <a href="http://eprints.soton.ac.uk/41174/">Belolipetsky and Jones' paper</a> of the same name.
+- title: Representations de GL_2(Q_p) et (phi, Gamma)-modules
+  date: February 20, 27, March 5, 2008
+  topic: phi-gamma
+  type: sem
+  venue: Taylor's Seminar
+  pdf: /writings/talks/colmez_notes.pdf
+  notes: 'Talks on <a href="http://www.math.jussieu.fr/~colmez/publications.html">Colmez''s paper</a> of the same name.  Joint talks with Ana Caraiani.  List of results and index of notation: <a class="btn-sm pdf-download" href="/writings/talks/colmez.pdf">PDF</a>.'
+- title: Eigenvarieties
+  date: December 10, 2007
+  topic: sums-of-squares
+  type: sem
+  venue: STAGE
+  venue_url: http://www-math.mit.edu/~kedlaya/stage/
+  notes: A review based on Kevin Buzzard's lecture notes from the Eigenvarieties semester, which can be found <a href="http://www.math.harvard.edu/ev/documents.html">here</a>.
+- title: p-Adic arithmetic in SAGE
+  date: September 30, 2007
+  topic: sage-padics
+  type: conf
+  venue: Sage Days 5
+  venue_url: http://wiki.sagemath.org/days5
+  pdf: /writings/talks/sd5.pdf
+  notes: Future directions for <i>p</i>-adic support in Sage.
+- title: p-Adics in SAGE
+  date: June 14, 2007
+  topic: sage-padics
+  type: conf
+  venue: Sage Days 4
+  venue_url: http://wiki.sagemath.org/days4
+  pdf: /writings/talks/sd4.pdf
+  notes: Implementation notes for <i>p</i>-adics in Sage.
+- title: Algorithms for p-adic polynomials and matrices
+  date: April 9, 2007
+  topic: padic-comp
+  type: sem
+  venue: STAGE
+  venue_url: http://www-math.mit.edu/~kedlaya/stage/
+  notes: A discussion of some work of mine on algorithms for computing determinants and characteristic polynomials of <i>p</i>-adic matrices.  I haven't written this material up yet.
+- title: Sums of Squares Formulas
+  date: March 8, 2007
+  topic: sums-of-squares
+  type: sem
+  venue: Trivial Notions
+  venue_url: http://www.math.harvard.edu/trivial/index.html
+  notes: Overview of the results in <a href="http://math.uoregon.edu/~ddugger/hopf.html">this paper</a> of Dugger and Isaksen.
+- title: Vanishing cycles in the analytic case
+  date: December 11, 2006
+  topic: vanishing-cycles
+  type: sem
+  venue: Weil II seminar
+  notes: Vanishing cycles and perverse sheaves as used in Deligne's proof of the Weil conjectures.
+- title: The eigencurve near the boundary of weight space for p=2 and p=3
+  date: November 13, 2006
+  topic: eigencurve
+  type: sem
+  venue: STAGE
+  venue_url: http://www-math.mit.edu/~kedlaya/stage/
+  paper: http://arxiv.org/abs/1310.7354
+  notes: Presentation of <a "href='http://www.ma.ic.ac.uk/~buzzard/maths/research/papers/annuli.pdf"'>a paper of Buzzard's</a> and a followup <a href="https://eigencurve.pdf">paper of mine</a>

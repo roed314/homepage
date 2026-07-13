@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="David Roe — computational number theory and arithmetic geometry at MIT">
+  <meta name="author" content="David Roe">
+  <title>{% if page.title %}David Roe &mdash; {{ page.title }}{% else %}David Roe{% endif %}</title>
+  <link rel="icon" href="{{ '/favicon.ico'|u }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/css/site.css'|u }}">
+{% block head %}{% endblock %}
+</head>
+<body class="{% block bodyclass %}{% endblock %}">
+  <header class="topbar">
+    <a class="brand" href="{{ '/'|u }}">David Roe</a>
+    <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <ul class="topnav" id="topnav">
+      {% for sid, s in sections.items() %}
+      <li{% if page.section == sid %} class="active"{% endif %}><a href="{{ s.path|u }}">{{ s.label }}</a></li>
+      {% endfor %}
+      <li class="right{% if page.title == 'Contact' %} active{% endif %}"><a href="{{ '/contact/'|u }}">Contact</a></li>
+    </ul>
+    <span class="email">{{ profile.email }}</span>
+  </header>
+{% block body %}
+  <div class="frame">
+    <aside class="sidebar">
+      <div class="inner">
+        <img class="me" src="{{ profile.photo|u }}" alt="photo of David Roe">
+{% block sidebar %}
+  {% if page.section %}
+    {% for group in sections[page.section].groups %}
+        <ul>
+      {% for pid, path, label in group %}
+          <li{% if page.subpage == pid %} class="active"{% endif %}><a href="{{ path|u }}">{{ label }}</a></li>
+      {% endfor %}
+        </ul>
+    {% endfor %}
+  {% endif %}
+{% endblock %}
+        <div class="foot"><a href="https://accessibility.mit.edu">Accessibility</a></div>
+      </div>
+    </aside>
+    <main>
+{% block content %}{% endblock %}
+    </main>
+  </div>
+{% endblock %}
+  <script src="{{ '/js/site.js'|u }}" defer></script>
+</body>
+</html>

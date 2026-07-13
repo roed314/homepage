@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% import "macros.html" as m with context %}
+{% block content %}
+<h1>Articles &nbsp;<a class="badge bib lg" href="{{ '/bib/roe.bib'|u }}">BibTeX</a></h1>
+{{ m.paper_table(papers.articles) }}
+<h1>Theses</h1>
+{{ m.paper_table(papers.theses) }}
+{% endblock %}

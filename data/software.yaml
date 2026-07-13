@@ -1,0 +1,159 @@
+- section: Mathematical Databases
+  projects:
+  - name: LMFDB
+    url: https://www.lmfdb.org/
+    logo: /pics/lmfdb_logo.png
+    banner: true
+    links:
+      browse: https://www.lmfdb.org
+      code: https://github.com/LMFDB/lmfdb
+      paper: /writings/research/zen.pdf
+    stats_url: https://github.com/LMFDB/lmfdb/graphs/contributors
+    active: 2008-2026
+    commits: 3,332
+    additions: '0'
+    deletions: '0'
+    description: 'The LMFDB has been a major focus of my work at MIT since 2018, and I now serve on its <a href="https://www.lmfdb.org/management">editorial board</a>.  My contributions fall into two categories: improving LMFDB''s infrastructure and adding mathematical content to the site.  On the infrastructure front, I converted the backend database from <a href="https://www.mongodb.com/">MongoDB</a> to <a href="https://www.postgresql.org/">PostgreSQL</a>, spinning off a Python-SQL interface library, <a href="https://github.com/roed314/psycodict">Psycodict</a>, in the process.  I have also worked on centralizing functionality (such as code for laying out search pages) that had been duplicated in many sections, easing the process of adding new site-wide functionality and adding new sections.  My mathematical contributions are described below.'
+    since: 2008
+  - name: Abelian varieties over finite fields
+    url: https://www.lmfdb.org/Variety/Abelian/Fq/6/2/ag_r_abd_bg_ay_u
+    logo: /pics/AV2_logo.png
+    links:
+      browse: https://beta.lmfdb.org/Variety/Abelian/Fq/
+      code: https://github.com/roed314/abvar-fq
+      paper: https://arxiv.org/abs/2003.05380
+    stats_url: https://github.com/roed314/abvar-fq/graphs/contributors
+    active: 2016-2025
+    commits: '46'
+    additions: 11,998
+    deletions: 8,253
+    description: In part 1 of the project to build a database of abelian varieties over finite fields within the LMFDB (joint with Dupuy, Kedlaya and Vincent), we used the Honda-Tate theorem to enumerate isogeny classes and compute many quantities that are invariant across isogeny classes.
+  - name: Classical modular forms
+    url: https://www.lmfdb.org/ModularForm/GL2/Q/holomorphic/1/12/a/a/
+    logo: /pics/CMF_logo.png
+    links:
+      browse: https://beta.lmfdb.org/ModularForm/GL2/Q/holomorphic/
+      code: https://github.com/JohnCremona/CMFs
+      paper: https://arxiv.org/abs/2002.04717
+    stats_url: https://github.com/JohnCremona/CMFs/graphs/contributors
+    active: 2018-2019
+    commits: '51'
+    additions: '852'
+    deletions: '233'
+    description: As part of a <a href="https://arxiv.org/abs/2002.04717">large group effort</a>, we rebuilt the classical modular form section of the LMFDB from scratch, using code from <a href="http://magma.maths.usyd.edu.au/magma/handbook/part/17">Magma</a>, <a href="https://pari.math.u-bordeaux.fr/dochtml/html/Modular_forms.html">Pari</a> and <a href="https://doc.sagemath.org/html/en/reference/modfrm/index.html">Sage</a>.  My contributions were mostly on front-end code, so are reflected in the commits to the <a href="https://github.com/LMFDB/lmfdb/graphs/contributors">LMFDB respository</a> more than the <a href="https://github.com/JohnCremona/CMFs/graphs/contributors">CMF repository</a>.
+  - name: Abelian varieties over finite fields
+    url: https://www.lmfdb.org/Variety/Abelian/Fq/4/2/ad_c_a_b
+    logo: /pics/AV_logo.png
+    links:
+      browse: https://beta.lmfdb.org/Variety/Abelian/Fq/
+      code: https://github.com/roed314/AbVarFq
+    stats_url: https://github.com/roed314/AbVarFq/graphs/contributors
+    active: 2019-2023
+    commits: '105'
+    additions: 2,554
+    deletions: 1,205
+    description: In part 2 of the project to build a database of abelian varieties over finite fields within the LMFDB (joint with Costa, Dupuy, Marseglia, Vincent and West) we are using Deligne modules and work of <a href="https://arxiv.org/abs/1501.02446">Centeleghe-Stix</a> to compute isomorphism classes and polarizations within many of the isogeny classes.
+  - name: Finite groups
+    url: https://beta.lmfdb.org/Groups/Abstract
+    logo: /pics/FiniteGroups_logo.svg
+    links:
+      browse: https://beta.lmfdb.org/Groups/Abstract/
+      code: https://github.com/roed314/FiniteGroups
+      paper: /writings/research/FiniteGroups.pdf
+    stats_url: https://github.com/roed314/FiniteGroups/graphs/contributors
+    active: 2019-2026
+    commits: 1,259
+    additions: 63,164
+    deletions: 24,555
+    description: As part of a collaboration with Combes, Jones, Paulhus, Roy, and Schiavone, we have taken existing databases of finite groups, computed various quantities about them (most notably subgroup lattices, character tables and abstract isomorphism classes for permutation groups) and created a searchable database of groups, subgroups, and characters.
+  - name: Modular curves
+    url: https://alpha.lmfdb.org/ModularCurve/Q/13.91.3.b.1/
+    logo: /pics/ModCurve_logo.png
+    links:
+      browse: https://alpha.lmfdb.org/ModularCurve/Q/
+      code: https://github.com/roed314/ModularCurves
+    stats_url: https://github.com/roed314/ModularCurves/graphs/contributors
+    active: 2022-2025
+    commits: '411'
+    additions: 48,887
+    deletions: 13,617
+    description: Building on <a href="https://math.mit.edu/~edgarc/MCW.html">two</a> <a href="https://math.mit.edu/~edgarc/MCW2.html">workshops</a>, we are building a database of modular curves using the bijection with finite index subgroups of GL(2, Zhat).  I have been helping coordinate work on finding models, maps between them, and rational points.
+  - name: Lattices
+    url: https://alpha.lmfdb.org/Lattice/
+    logo: /pics/Lattice_logo.svg
+    links:
+      browse: https://alpha.lmfdb.org/Lattice/
+      code: https://github.com/jvoight/k3s-lmfdb/
+    stats_url: https://github.com/jvoight/k3s-lmfdb/graphs/contributors
+    description: Growing out of a <a href="/conferences/Lat26/">workshop held at MIT in February 2026</a>, we are rebuilding the Lattice section of the LMFDB, greatly expanding the collection of integral lattices and the invariants computed for each, in support both of lattice searches in their own right and of other parts of the site such as a planned section on K3 surfaces.
+    active: 2024-2026
+    commits: '36'
+    additions: 2,534
+    deletions: '476'
+- section: Open Source Computation
+  projects:
+  - name: SageMath
+    url: https://www.sagemath.org
+    logo: /pics/sagemath_logo.png
+    banner: true
+    links:
+      try: https://sagecell.sagemath.org/
+      code: https://github.com/sagemath/sage
+    stats_url: https://github.com/sagemath/sage/graphs/contributors
+    active: 2006-2026
+    commits: '696'
+    additions: '0'
+    deletions: '0'
+    description: I have been involved in Sage since <a href="https://wiki.sagemath.org/Workshops#Past_Workshops">Sage Days 1</a>.  Much of my effort has gone toward creating the p-adics module, but I have also worked on finite fields, elliptic curves, number fields, the transition to git and github, the coercion system and many other parts of the software.
+    since: 2006
+- section: Infrastructure & Collaboration
+  projects:
+  - name: researchseminars.org
+    url: https://researchseminars.org
+    logo: /pics/researchseminars_logo.png
+    banner: true
+    links:
+      browse: https://researchseminars.org/
+      code: https://github.com/roed314/seminars
+      paper: https://math.mit.edu/~drew/ResearchSeminars.pdf
+    stats_url: https://github.com/roed314/seminars/graphs/contributors
+    active: 2020-2025
+    commits: '378'
+    additions: 22,045
+    deletions: 7,656
+    description: With the start of the COVID-19 pandemic, many research seminars moved online.  Together with Costa, Poonen and Sutherland, I created an online index of these seminars which helps researchers worldwide find talks of interest that are newly accessible.  It also provides useful tools for creating lightweight homepages for seminars and conferences.
+  - name: PSet Partners
+    url: https://psetpartners.mit.edu/about
+    logo: /pics/psetpartners_logo.png
+    banner: true
+    links:
+      try: https://psetpartners-test.mit.edu/
+      code: https://github.com/AndrewVSutherland/psetpartners
+      paper: https://www.ams.org/journals/notices/202111/rnoti-p1919.pdf
+    stats_url: https://github.com/AndrewVSutherland/psetpartners/graphs/contributors
+    active: 2020-2020
+    commits: '17'
+    additions: 12,276
+    deletions: '402'
+    description: The pandemic made it harder to form collaborations between students in undergraduate classes to work on homework.  This site allows instructors at MIT to opt in and help their students find study groups.  The project is mostly driven by Sutherland (and the linked paper is written by him), but I helped with the initial setup and the matching algorithm.
+  - name: Psycodict
+    logo: /pics/psycodict_logo.png
+    banner: true
+    links:
+      code: https://github.com/roed314/psycodict
+    stats_url: https://github.com/roed314/psycodict/graphs/contributors
+    active: 2019-2025
+    commits: '165'
+    additions: 21,081
+    deletions: 13,093
+    description: The most popular interface to PostgreSQL from Python is <a href="https://www.psycopg.org/">psycopg</a>, which allows for the execution of SQL commands from python.  While robust and fast, it requires users to know SQL.  For the LMFDB, I developed a layer on top of psycopg that constructs queries from dictionaries and returns the output in dictionaries as well.  In support of researchseminars and psetpartners, this part of the LMFDB was extracted out into its own library.
+  - name: Paperforge
+    logo: /pics/paperforge_logo.svg
+    links:
+      code: https://github.com/roed-math/paperforge
+    stats_url: https://github.com/roed-math/paperforge/graphs/contributors
+    description: 'As language models begin to contribute to research mathematics, the process of writing papers needs new infrastructure.  Paperforge is a framework for turning an AI-written paper, backed by a <a href="https://leanprover.github.io/">Lean</a> formalization, into two synchronized outputs: LaTeX for arXiv and structured HTML with reader-controlled levels of detail and links into the formalization.  The source of truth is <a href="https://pretextbook.org/">PreTeXt</a>, authored by the model; deterministic validators (checking notation, references, and links to the formalization) provide regression safety, while generative passes handle drafting and revision.'
+    active: 2026-2026
+    commits: '66'
+    additions: 12,940
+    deletions: 1,060

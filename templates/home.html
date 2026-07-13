@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block bodyclass %}home{% endblock %}
+{% block head %}
+  <script>
+    // Redirect bookmarks to the old single-page site's hash urls.
+    (function () {
+      var map = {
+        'home': '.', 'research': 'papers/', 'research-papers': 'papers/',
+        'research-software': 'software/', 'research-talks': 'talks/',
+        'research-conferences': 'conferences/', 'research-cv': 'cv/',
+        'research-students': 'students/', 'research-interests': 'interests/',
+        'teaching': 'teaching/', 'teaching-courses': 'teaching/',
+        'teaching-resources': 'resources/', 'other': 'padicts/',
+        'other-padicts': 'padicts/', 'contact': 'contact/'
+      };
+      var h = location.hash.replace('#', '');
+      if (h && map[h]) location.replace(map[h]);
+    })();
+  </script>
+{% endblock %}
+{% block body %}
+  <div class="hero">
+    <img class="me" src="{{ profile.photo|u }}" alt="photo of David Roe">
+    <div>
+      <h1 class="name">{{ profile.name }}</h1>
+      <p class="position">
+        <a href="{{ profile.position_url }}">{{ profile.position }}</a><br>
+        <a href="{{ profile.department_url }}">{{ profile.department }}</a>
+      </p>
+      {# research blurb, currently hidden:
+      <p class="blurb">
+{% filter rel %}{% include "content/home_blurb.html" %}{% endfilter %}
+      </p>
+      #}
+    </div>
+  </div>
+
+  <div class="tiles">
+    <section class="tile">
+      <h2><a href="{{ '/papers/'|u }}">Papers</a></h2>
+      <ul>
+        {% for p in recent_papers %}
+        <li>
+          <span class="t">{{ p.title }}</span>
+          {% if p['with'] %}<span class="meta">with {{ p['with']|join(', ') }}</span>{% endif %}
+          {% if p.status %}<span class="meta">{{ p.status|rel|safe }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="more"><a href="{{ '/papers/'|u }}">All papers &rarr;</a></div>
+    </section>
+
+    <section class="tile">
+      <h2><a href="{{ '/talks/'|u }}">Talks</a></h2>
+      <ul>
+        {% for t in recent_talks %}
+        <li>
+          <span class="t">{% if t.pdf %}<a href="{{ t.pdf|u }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</span>
+          <span class="meta">{{ t.venue }} &middot; {{ t.date }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="more"><a href="{{ '/talks/'|u }}">All talks &rarr;</a></div>
+    </section>
+
+    <section class="tile">
+      <h2><a href="{{ '/conferences/'|u }}">Conferences</a></h2>
+      <ul>
+        {% for c in (upcoming_conferences[:3] if upcoming_conferences else recent_conferences) %}
+        <li>
+          <span class="t">
+            {% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}
+            {% if c.role %}<span class="rolemark {{ c.role }}">{{ c.role }}</span>{% endif %}
+          </span>
+          <span class="meta">{{ c.dates }}, {{ c.year }} &middot; {{ c.location }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="more"><a href="{{ '/conferences/'|u }}">All conferences &rarr;</a></div>
+    </section>
+
+    <section class="tile">
+      <h2><a href="{{ '/software/'|u }}">Software</a></h2>
+      <ul>
+        {% for pr in featured_software %}
+        <li>
+          <span class="t"><a href="{{ pr.url|u }}">{{ pr.name }}</a></span>
+          <span class="meta">active {{ pr.active }}{% if pr.commits %} &middot; {{ pr.commits }} commits{% endif %}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="more"><a href="{{ '/software/'|u }}">All projects &rarr;</a></div>
+    </section>
+
+    <section class="tile">
+      <h2><a href="{{ '/teaching/'|u }}">Teaching</a></h2>
+      <ul>
+        {% for c in recent_courses %}
+        <li>
+          <span class="t">{% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</span>
+          <span class="meta">{{ c.institution }} &middot; {{ c.semester }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="more"><a href="{{ '/teaching/'|u }}">All courses &rarr;</a></div>
+    </section>
+
+    <section class="tile">
+      <h2><a href="{{ '/students/'|u }}">Students</a></h2>
+      <p>
+        I am happy to supervise MIT undergraduates through
+        <a href="https://urop.mit.edu/">UROP</a>.  Topics include algorithms in
+        computational number theory, contributions to open source software and
+        the LMFDB, machine learning on number theoretic data, and formalization
+        in Lean's Mathlib.
+      </p>
+      <div class="more"><a href="{{ '/students/'|u }}">Details &rarr;</a></div>
+    </section>
+  </div>
+
+  <div class="findme">
+    <span class="lead">Find me on</span>
+    {% for f in profile.findme %}
+    <a href="{{ f.url }}">{{ f.label }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="home-foot"><a href="https://accessibility.mit.edu">Accessibility</a></div>
+{% endblock %}

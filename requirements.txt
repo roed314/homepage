@@ -1,0 +1,5 @@
+jinja2
+pyyaml
+# only needed for scripts/extract_data.py (one-time migration)
+beautifulsoup4
+lxml

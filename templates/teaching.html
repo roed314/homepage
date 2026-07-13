@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Courses</h1>
+<p>
+{% filter rel %}{% include "content/courses_intro.html" %}{% endfilter %}
+</p>
+<div class="table-wrap">
+  <table class="data">
+    <thead>
+      <tr><th>Course</th><th>Institution</th><th>Semester</th></tr>
+    </thead>
+    <tbody>
+      {% for c in courses %}
+      <tr>
+        <td>{% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</td>
+        <td>{{ c.institution }}</td>
+        <td class="nowrap">{{ c.semester }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

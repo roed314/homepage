@@ -1,0 +1,26 @@
+{% macro badges(item, lg=false) %}
+{% if item.pdf %}<a class="badge pdf{{ ' lg' if lg }}" href="{{ item.pdf|u }}">PDF</a> {% endif %}
+{% if item.arxiv %}<a class="badge arxiv{{ ' lg' if lg }}" href="https://arxiv.org/abs/{{ item.arxiv }}">arXiv</a> {% endif %}
+{% if item.doi %}<a class="badge doi{{ ' lg' if lg }}" href="{{ item.doi }}">DOI</a> {% endif %}
+{% if item.bibtex %}<a class="badge bib{{ ' lg' if lg }}" href="{{ ('/bib/' + item.bibtex.key + '.bib')|u }}">BibTeX</a>{% endif %}
+{% endmacro %}
+
+{% macro paper_table(entries) %}
+<div class="table-wrap">
+  <table class="data">
+    <thead>
+      <tr><th></th><th>Title</th><th>With</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      {% for p in entries %}
+      <tr>
+        <td class="nowrap">{{ badges(p) }}</td>
+        <td>{{ p.title }}</td>
+        <td>{{ p['with']|join(', ') if p['with'] }}</td>
+        <td>{% if p.status %}{{ p.status|rel|safe }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endmacro %}

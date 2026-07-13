@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Curriculum Vitae &nbsp;<a class="badge pdf lg" href="{{ '/about/cv.pdf'|u }}">PDF</a></h1>
+{% for sec in cv %}
+{% if sec.link %}
+<h2><a href="{{ sec.link|u }}">{{ sec.section }}</a></h2>
+{% else %}
+<h2>{{ sec.section }}</h2>
+{% endif %}
+{% if sec.generate == 'organized' %}
+<div class="table-wrap">
+  <table class="data condensed">
+    <thead>
+      <tr><th>Conference</th><th>Co-organizers</th><th>Dates</th></tr>
+    </thead>
+    <tbody>
+      {% for c in organized_conferences %}
+      <tr>
+        <td>{% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}</td>
+        <td>{{ c.organizers|join(', ') if c.organizers }}</td>
+        <td class="nowrap">{{ c.dates }}, {{ c.year }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+{% if sec.rows %}
+<div class="table-wrap">
+  <table class="data condensed">
+    {% if sec.headers|select|list %}
+    <thead>
+      <tr>{% for h in sec.headers %}<th>{{ h }}</th>{% endfor %}</tr>
+    </thead>
+    {% endif %}
+    <tbody>
+      {% for row in sec.rows %}
+      <tr>{% for cell in row %}<td>{{ cell|rel|safe }}</td>{% endfor %}</tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+{% endfor %}
+{% endblock %}

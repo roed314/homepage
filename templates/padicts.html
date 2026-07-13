@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Society of <i>p</i>-adicts</h1>
+{% filter rel %}{% include "content/padicts.html" %}{% endfilter %}
+{% endblock %}

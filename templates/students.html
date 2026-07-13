@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Student Research</h1>
+{% filter rel %}{% include "content/students.html" %}{% endfilter %}
+{% endblock %}

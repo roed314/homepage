@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Talks</h1>
+<p>
+{% filter rel %}{% include "content/talks_intro.html" %}{% endfilter %}
+</p>
+<form class="filters" id="talk-filters">
+  <label><input type="checkbox" id="opt-show-conf" checked> Show conference talks.</label>
+  <label><input type="checkbox" id="opt-show-sem" checked> Show seminar and colloquium talks.</label>
+  <label><input type="checkbox" id="opt-show-one"> Only show most recent talk on each topic.</label>
+</form>
+<div class="table-wrap">
+  <table class="data" id="talks-table">
+    <thead>
+      <tr><th></th><th>Title</th><th>Dates</th><th>Venue</th><th>Paper</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      {% for t in talks %}
+      <tr{% if t.topic %} data-topic="{{ t.topic }}"{% endif %}{% if t.type %} data-type="{{ t.type }}"{% endif %}>
+        <td>{% if t.pdf %}<a class="badge pdf" href="{{ t.pdf|u }}">PDF</a>{% endif %}</td>
+        <td>{{ t.title }}</td>
+        <td class="nowrap">{{ t.date }}</td>
+        <td>{% if t.venue_url %}<a href="{{ t.venue_url|u }}">{{ t.venue }}</a>{% else %}{{ t.venue }}{% endif %}</td>
+        <td>{% if t.paper %}<a class="badge arxiv" href="{{ t.paper|u }}">arXiv</a>{% endif %}</td>
+        <td>{% if t.notes %}{{ t.notes|rel|safe }}{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

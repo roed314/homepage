@@ -1,0 +1,528 @@
+articles:
+- title: A Profinite Presentation of the Absolute Galois Group of ℚ₂
+  with:
+  - David Corneliu Turturean
+  pdf: https://roed314.github.io/gq2/paper.pdf
+  status: Preprint; <a href="https://roed314.github.io/gq2/">interactive version</a>
+- title: Distinguished defining polynomials for extensions of p-adic fields
+  with:
+  - Jordi Guàrdia
+  - John Jones
+  - Kevin Keating
+  - Sebastian Pauli
+  - David Roberts
+  arxiv: '2606.01453'
+  status: Accepted to <a href="https://www.antsxvii.org/">ANTS XVII</a>
+  bibtex:
+    type: misc
+    key: Guardia_2026
+    fields:
+      doi: 10.48550/ARXIV.2606.01453
+      url: https://arxiv.org/abs/2606.01453
+      author: Guàrdia i Rúbies, Jordi and Jones, John W. and Keating, Kevin and Pauli, Sebastian and Roberts, David P. and Roe, David
+      keywords: 'Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics, 11Y40'
+      title: Distinguished defining polynomials for extensions of p-adic fields
+      publisher: arXiv
+      year: '2026'
+      copyright: arXiv.org perpetual, non-exclusive license
+- title: 'Ordinary abelian varieties: isogeny graphs and polarizations'
+  with:
+  - Edgar Costa
+  - Taylor Dupuy
+  - Stefano Marseglia
+  - Christelle Vincent
+  arxiv: '2601.20979'
+  status: Accepted to <a href="https://www.antsxvii.org/">ANTS XVII</a>
+  bibtex:
+    type: misc
+    key: Costa_2026
+    fields:
+      doi: 10.48550/ARXIV.2601.20979
+      url: https://arxiv.org/abs/2601.20979
+      author: Costa, Edgar and Dupuy, Taylor and Marseglia, Stefano and Roe, David and Vincent, Christelle
+      keywords: 'Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics, 11G10, 11G25, 11Y40, 14K02, 14K15, 14K22'
+      title: 'Ordinary abelian varieties: isogeny graphs and polarizations'
+      publisher: arXiv
+      year: '2026'
+      copyright: Creative Commons Attribution Non Commercial Share Alike 4.0 International
+- title: Families of p-adic fields
+  with:
+  - Jordi Guàrdia
+  - John Jones
+  - Kevin Keating
+  - Sebastian Pauli
+  - David Roberts
+  arxiv: '2507.02360'
+  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  bibtex:
+    type: misc
+    key: Guardia_2025
+    fields:
+      doi: 10.48550/ARXIV.2507.02360
+      url: https://arxiv.org/abs/2507.02360
+      author: Guàrdia i Rúbies, Jordi and Jones, John W. and Keating, Kevin and Pauli, Sebastian and Roberts, David P. and Roe, David
+      keywords: 'Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics, 11S15 (primary), 11F85, 11S05, 11S20, 11Y40, 12F05 (secondary)'
+      title: Families of p-adic fields
+      publisher: arXiv
+      year: '2025'
+      copyright: arXiv.org perpetual, non-exclusive license
+- title: Labeling abelian varieties over finite fields
+  with:
+  - Edgar Costa
+  - Taylor Dupuy
+  - Stefano Marseglia
+  - Christelle Vincent
+  arxiv: '2501.17012'
+  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  bibtex:
+    type: misc
+    key: Costa_2025
+    fields:
+      doi: 10.48550/ARXIV.2501.17012
+      url: https://arxiv.org/abs/2501.17012
+      author: Costa, Edgar and Dupuy, Taylor and Marseglia, Stefano and Roe, David and Vincent, Christelle
+      keywords: 'Number Theory (math.NT), Algebraic Geometry (math.AG), FOS: Mathematics, FOS: Mathematics, 16H10, 16H20, 11Y40, 11R54, 13H10, 14H20, 11C20, 15B36, 14K15'
+      title: Labeling abelian varieties over finite fields
+      publisher: arXiv
+      year: '2025'
+      copyright: Creative Commons Attribution Non Commercial Share Alike 4.0 International
+- title: Creating a Dynamic Database of Finite Groups
+  with:
+  - Lewis Combes
+  - John Jones
+  - Jennifer Paulhus
+  - Manami Roy
+  - Sam Schiavone
+  pdf: /writings/research/FiniteGroups.pdf
+  arxiv: '2409.09189'
+  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  bibtex:
+    type: misc
+    key: Combes_2024
+    fields:
+      doi: 10.48550/ARXIV.2409.09189
+      url: https://arxiv.org/abs/2409.09189
+      author: Combes, Lewis and Jones, John W. and Paulhus, Jennifer and Roe, David and Roy, Manami and Schiavone, Sam
+      keywords: 'Group Theory (math.GR), Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics, 20-04'
+      title: Creating a dynamic database of finite groups
+      publisher: arXiv
+      year: '2024'
+      copyright: arXiv.org perpetual, non-exclusive license
+- title: Hypergeometric L-functions in average polynomial time II
+  with:
+  - Edgar Costa
+  - Kiran Kedlaya
+  pdf: /writings/research/avgpoly2.pdf
+  arxiv: '2310.06971'
+  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  bibtex:
+    type: misc
+    key: Costa_2023
+    fields:
+      doi: 10.48550/ARXIV.2310.06971
+      url: https://arxiv.org/abs/2310.06971
+      author: Costa, Edgar and Kedlaya, Kiran S. and Roe, David
+      keywords: 'Number Theory (math.NT), Algebraic Geometry (math.AG), FOS: Mathematics, FOS: Mathematics, 11Y16, 33C20 (primary), and 11G09, 11M38, 11T24 (secondary)'
+      title: Hypergeometric $L$-functions in average polynomial time, II
+      publisher: arXiv
+      year: '2023'
+      copyright: arXiv.org perpetual, non-exclusive license
+- title: Counterexamples to a Conjecture of Ahmadi and Shparlinski
+  with:
+  - Taylor Dupuy
+  - Kiran Kedlaya
+  - Christelle Vincent
+  pdf: /writings/research/conjas.pdf
+  arxiv: '2003.05368'
+  doi: https://doi.org/10.1080/10586458.2021.1980463
+  status: Experimental Mathematics <b>32</b> (2023) no. 3, pp 540-544
+  bibtex:
+    type: article
+    key: Dupuy_2021
+    fields:
+      title: Counterexamples to a Conjecture of Ahmadi and Shparlinski
+      volume: '32'
+      issn: 1944-950X
+      url: http://dx.doi.org/10.1080/10586458.2021.1980463
+      doi: 10.1080/10586458.2021.1980463
+      number: '3'
+      journal: Experimental Mathematics
+      publisher: Informa UK Limited
+      author: Dupuy, Taylor and Kedlaya, Kiran and Roe, David and Vincent, Christelle
+      year: '2021'
+      pages: 540–544
+- title: Commutative character sheaves and geometric types for supercuspidal representations
+  with:
+  - Clifton Cunningham
+  pdf: /writings/research/function_sheaf_tori_followup.pdf
+  arxiv: '1605.08820'
+  doi: https://doi.org/10.5802/ahl.105
+  status: Annales Henri Lebesgue <b>4</b> (2021), pp 1389-1420
+  bibtex:
+    type: article
+    key: Cunningham_2021
+    fields:
+      title: Commutative character sheaves and geometric types for supercuspidal representations
+      volume: '4'
+      issn: 2644-9463
+      url: http://dx.doi.org/10.5802/ahl.105
+      doi: 10.5802/ahl.105
+      journal: Annales Henri Lebesgue
+      publisher: MathDoc/Centre Mersenne
+      author: Cunningham, Clifton and Roe, David
+      year: '2021'
+      pages: 1389–1420
+- title: Computing classical modular forms
+  with:
+  - Alex Best
+  - Jonathan Bober
+  - Andrew Booker
+  - Edgar Costa
+  - John Cremona
+  - Maarten Derickx
+  - Min Lee
+  - David Lowry-Duda
+  - Andrew Sutherland
+  - John Voight
+  arxiv: '2002.04717'
+  doi: https://doi.org/10.1007/978-3-030-80914-0_4
+  status: Arithmetic Geometry, Number Theory, and Computation, Simons Symp, Springer, 2021, pp 131-213
+  bibtex:
+    type: inbook
+    key: Best_2021
+    fields:
+      title: Computing Classical Modular Forms
+      isbn: '9783030809140'
+      issn: 2365-9572
+      url: http://dx.doi.org/10.1007/978-3-030-80914-0_4
+      doi: 10.1007/978-3-030-80914-0_4
+      booktitle: Arithmetic Geometry, Number Theory, and Computation
+      publisher: Springer International Publishing
+      author: Best, Alex J. and Bober, Jonathan and Booker, Andrew R. and Costa, Edgar and Cremona, John E. and Derickx, Maarten and Lee, Min and Lowry-Duda, David and Roe, David and Sutherland, Andrew V. and Voight, John
+      year: '2021'
+      pages: 131–213
+- title: Isogeny Classes of Abelian Varieties over Finite Fields in the LMFDB
+  with:
+  - Taylor Dupuy
+  - Kiran Kedlaya
+  - Christelle Vincent
+  pdf: /writings/research/avfq.pdf
+  arxiv: '2003.05380'
+  doi: https://doi.org/10.1007/978-3-030-80914-0_13
+  status: Arithmetic Geometry, Number Theory, and Computation, Simons Symp, Springer, 2021, pp 375-448
+  bibtex:
+    type: inbook
+    key: Dupuy_2021a
+    fields:
+      title: Isogeny Classes of Abelian Varieties over Finite Fields in the LMFDB
+      isbn: '9783030809140'
+      issn: 2365-9572
+      url: http://dx.doi.org/10.1007/978-3-030-80914-0_13
+      doi: 10.1007/978-3-030-80914-0_13
+      booktitle: Arithmetic Geometry, Number Theory, and Computation
+      publisher: Springer International Publishing
+      author: Dupuy, Taylor and Kedlaya, Kiran and Roe, David and Vincent, Christelle
+      year: '2021'
+      pages: 375–448
+- title: Zen and the art of database maintenance
+  with:
+  - Edgar Costa
+  pdf: /writings/research/zen.pdf
+  doi: https://doi.org/10.1007/978-3-030-80914-0_8
+  status: Arithmetic Geometry, Number Theory, and Computation, Simons Symp, Springer, 2021, pp 277-292
+  bibtex:
+    type: inbook
+    key: Costa_2021
+    fields:
+      title: Zen and the Art of Database Maintenance
+      isbn: '9783030809140'
+      issn: 2365-9572
+      url: http://dx.doi.org/10.1007/978-3-030-80914-0_8
+      doi: 10.1007/978-3-030-80914-0_8
+      booktitle: Arithmetic Geometry, Number Theory, and Computation
+      publisher: Springer International Publishing
+      author: Costa, Edgar and Roe, David
+      year: '2021'
+      pages: 277–292
+- title: Hypergeometric L-functions in average polynomial time
+  with:
+  - Edgar Costa
+  - Kiran Kedlaya
+  pdf: /writings/research/avgpoly.pdf
+  arxiv: '2005.13640'
+  doi: https://doi.org/10.2140/obs.2020.4.143
+  status: Proceedings of the Fourteenth Algorithmic Number Theory Symposium (ANTS-XIV), Open Book Series <b>4</b>, Math. Sci. Pub., Berkeley, 2020, pp 143-159
+  bibtex:
+    type: article
+    key: Costa_2020
+    fields:
+      title: Hypergeometric L-functions in average polynomial time
+      volume: '4'
+      issn: 2329-9061
+      url: http://dx.doi.org/10.2140/obs.2020.4.143
+      doi: 10.2140/obs.2020.4.143
+      number: '1'
+      journal: Open Book Series
+      publisher: Mathematical Sciences Publishers
+      author: Costa, Edgar and Kedlaya, Kiran S. and Roe, David
+      year: '2020'
+      pages: 143–159
+- title: The Inverse Galois Problem for p-adic fields
+  pdf: /writings/research/igp.pdf
+  arxiv: '1809.10195'
+  doi: https://doi.org/10.2140/obs.2019.2.393
+  status: Proceedings of the Thirteenth Algorithmic Number Theory Symposium (ANTS-XIII), Open Book Series <b>2</b>, Math. Sci. Pub., Berkeley, 2019, pp 393-409
+  bibtex:
+    type: article
+    key: Roe_2019
+    fields:
+      title: The inverse Galois problem for p-adic fields
+      volume: '2'
+      issn: 2329-9061
+      url: http://dx.doi.org/10.2140/obs.2019.2.393
+      doi: 10.2140/obs.2019.2.393
+      number: '1'
+      journal: The Open Book Series
+      publisher: Mathematical Sciences Publishers
+      author: Roe, David
+      year: '2019'
+      pages: 393–409
+- title: From the function-sheaf dictionary to quasicharacters of p-adic tori
+  with:
+  - Clifton Cunningham
+  pdf: /writings/research/function_sheaf_tori.pdf
+  arxiv: '1310.2988'
+  doi: https://doi.org/10.1017/S1474748015000286
+  status: Journal of the Institute of Mathematics of Jussieu <b>17</b> (2018) no. 1, pp 1-37
+  bibtex:
+    type: article
+    key: Cunningham_2015
+    fields:
+      title: FROM THE FUNCTION-SHEAF DICTIONARY TO QUASICHARACTERS OF -ADIC TORI
+      volume: '17'
+      issn: 1475-3030
+      url: http://dx.doi.org/10.1017/S1474748015000286
+      doi: 10.1017/s1474748015000286
+      number: '1'
+      journal: Journal of the Institute of Mathematics of Jussieu
+      publisher: Cambridge University Press (CUP)
+      author: Cunningham, Clifton and Roe, David
+      year: '2015'
+      pages: 1–37
+- title: 'ZpL: a p-adic precision package'
+  with:
+  - Xavier Caruso
+  - Tristan Vaccon
+  pdf: /writings/research/ZpL.pdf
+  arxiv: '1802.08532'
+  doi: https://doi.org/10.1145/3208976.3208995
+  status: Proceedings of the 2018 ACM on International Symposium on Symbolic and Algebraic Computation. ACM, New York, 2018, pp 119-126
+  bibtex:
+    type: inproceedings
+    key: Caruso_2018
+    fields:
+      series: ISSAC ’18
+      title: 'ZpL: a p-adic Precision Package'
+      url: http://dx.doi.org/10.1145/3208976.3208995
+      doi: 10.1145/3208976.3208995
+      booktitle: Proceedings of the 2018 ACM International Symposium on Symbolic and Algebraic Computation
+      publisher: ACM
+      author: Caruso, Xavier and Roe, David and Vaccon, Tristan
+      year: '2018'
+      pages: 119–126
+      collection: ISSAC ’18
+- title: Characteristic polynomials of p-adic matrices
+  with:
+  - Xavier Caruso
+  - Tristan Vaccon
+  pdf: /writings/research/charpoly.pdf
+  arxiv: '1702.01653'
+  doi: https://doi.org/10.1145/3087604.3087618
+  status: Proceedings of the 2017 ACM on International Symposium on Symbolic and Algebraic Computation. ACM, New York, 2017, pp 389-396
+  bibtex:
+    type: inproceedings
+    key: Caruso_2017
+    fields:
+      series: ISSAC ’17
+      title: Characteristic Polynomials of p-adic Matrices
+      url: http://dx.doi.org/10.1145/3087604.3087618
+      doi: 10.1145/3087604.3087618
+      booktitle: Proceedings of the 2017 ACM International Symposium on Symbolic and Algebraic Computation
+      publisher: ACM
+      author: Caruso, Xavier and Roe, David and Vaccon, Tristan
+      year: '2017'
+      pages: 389–396
+      collection: ISSAC ’17
+- title: Division and slope factorization of p-adic polynomials
+  with:
+  - Xavier Caruso
+  - Tristan Vaccon
+  pdf: /writings/research/slopefact.pdf
+  arxiv: '1602.01303'
+  doi: https://doi.org/10.1145/2930889.2930898
+  status: Proceedings of the 2016 ACM on International Symposium on Symbolic and Algebraic Computation. ACM, New York, 2016, pp 159-166.
+  bibtex:
+    type: inproceedings
+    key: Caruso_2016
+    fields:
+      series: ISSAC ’16
+      title: Division and Slope Factorization of p-Adic Polynomials
+      url: http://dx.doi.org/10.1145/2930889.2930898
+      doi: 10.1145/2930889.2930898
+      booktitle: Proceedings of the ACM on International Symposium on Symbolic and Algebraic Computation
+      publisher: ACM
+      author: Caruso, Xavier and Roe, David and Vaccon, Tristan
+      year: '2016'
+      pages: 159–166
+      collection: ISSAC ’16
+- title: 'Rectifiers and the local Langlands correspondence: the unramified case'
+  with:
+  - Moshe Adrian
+  pdf: /writings/research/rectifiers.pdf
+  arxiv: '1307.0469'
+  doi: https://doi.org/10.4310/MRL.2016.v23.n3.a1
+  status: Mathematical Research Letters <b>23</b> (2016) no. 3, pp 593-619
+  bibtex:
+    type: article
+    key: Adrian_2016
+    fields:
+      title: 'Rectifiers and the local Langlands correspondence: the unramified case'
+      volume: '23'
+      issn: 1945-001X
+      url: http://dx.doi.org/10.4310/MRL.2016.v23.n3.a1
+      doi: 10.4310/mrl.2016.v23.n3.a1
+      number: '3'
+      journal: Mathematical Research Letters
+      publisher: International Press of Boston
+      author: Adrian, Moshe and Roe, David
+      year: '2016'
+      pages: 593–619
+- title: p-adic Stability in Linear Algebra
+  with:
+  - Xavier Caruso
+  - Tristan Vaccon
+  pdf: /writings/research/stability.pdf
+  arxiv: '1506.05644'
+  doi: https://doi.org/10.1145/2755996.2756655
+  status: Proceedings of the 2015 ACM on International Symposium on Symbolic and Algebraic Computation. ACM, New York, 2015, pp 101-108.
+  bibtex:
+    type: inproceedings
+    key: Caruso_2015
+    fields:
+      series: ISSAC′15
+      title: p-Adic Stability In Linear Algebra
+      url: http://dx.doi.org/10.1145/2755996.2756655
+      doi: 10.1145/2755996.2756655
+      booktitle: Proceedings of the 2015 ACM International Symposium on Symbolic and Algebraic Computation
+      publisher: ACM
+      author: Caruso, Xavier and Roe, David and Vaccon, Tristan
+      year: '2015'
+      pages: 101–108
+      collection: ISSAC′15
+- title: The canonical measure on a reductive p-adic group is motivic
+  with:
+  - Julia Gordon
+  pdf: /writings/research/motivic_tori.pdf
+  arxiv: '1507.02619'
+  doi: https://doi.org/10.24033/asens.2322
+  status: Annales scientifiques de l'École normale supérieure <b>50</b> (2015) no. 2, pp 345-355
+  bibtex:
+    type: article
+    key: Julia_Gordon_2017
+    fields:
+      title: The canonical measure on a reductive p-adic group is motivic
+      volume: '50'
+      issn: 1873-2151
+      url: http://dx.doi.org/10.24033/asens.2322
+      doi: 10.24033/asens.2322
+      number: '2'
+      journal: Annales scientifiques de l’École normale supérieure
+      publisher: Societe Mathematique de France
+      author: Julia Gordon and David Roe
+      year: '2017'
+      pages: 345–355
+- title: The 3-adic eigencurve at the boundary of weight space
+  pdf: /writings/research/eigencurve.pdf
+  arxiv: '1310.7354'
+  doi: https://doi.org/10.1142/S1793042114500560
+  status: International Journal of Number Theory <b>10</b> (2014), no. 7, 1791-1806.
+  bibtex:
+    type: article
+    key: Roe_2014
+    fields:
+      title: The 3-adic eigencurve at the boundary of weight space
+      volume: '10'
+      issn: 1793-7310
+      url: http://dx.doi.org/10.1142/S1793042114500560
+      doi: 10.1142/s1793042114500560
+      number: '07'
+      journal: International Journal of Number Theory
+      publisher: World Scientific Pub Co Pte Lt
+      author: Roe, David
+      year: '2014'
+      pages: 1791–1806
+- title: Tracking p-adic precision
+  with:
+  - Xavier Caruso
+  - Tristan Vaccon
+  pdf: /writings/research/padicprec.pdf
+  arxiv: '1402.7142'
+  doi: https://doi.org/10.1112/S1461157014000357
+  status: LMS Journal of Computation and Mathematics <b>17</b> (Special issue A) (2014), 274-294.
+  bibtex:
+    type: article
+    key: Caruso_2014
+    fields:
+      title: Tracking -adic precision
+      volume: '17'
+      issn: 1461-1570
+      url: http://dx.doi.org/10.1112/S1461157014000357
+      doi: 10.1112/s1461157014000357
+      number: A
+      journal: LMS Journal of Computation and Mathematics
+      publisher: Wiley
+      author: Caruso, Xavier and Roe, David and Vaccon, Tristan
+      year: '2014'
+      pages: 274–294
+- title: Bounding Picard numbers of surfaces using p-adic cohomology
+  with:
+  - Timothy Abbott
+  - Kiran Kedlaya
+  pdf: /writings/research/picard.pdf
+  arxiv: math/0601508
+  doi: https://smf.emath.fr/publications/estimation-du-nombre-de-picard-des-surfaces-par-la-cohomologie-p-adique
+  status: "<cite>Arithmetic, Geometry and Coding Theory (AGCT 2005)</cite>, Séminaires et Congrès 21, Societé Mathématique de France, 2009, 125-159.\n\t\t      <a href=\"https://kskedlaya.org/papers/picard-magma.tar\">Magma source</a> is available."
+  bibtex:
+    type: misc
+    key: Abbott_2006
+    fields:
+      doi: 10.48550/ARXIV.MATH/0601508
+      url: https://arxiv.org/abs/math/0601508
+      author: Abbott, Timothy G. and Kedlaya, Kiran S. and Roe, David
+      keywords: 'Number Theory (math.NT), Algebraic Geometry (math.AG), FOS: Mathematics, FOS: Mathematics, 14C22, 14F30'
+      title: Bounding Picard numbers of surfaces using p-adic cohomology
+      publisher: arXiv
+      year: '2006'
+      copyright: Assumed arXiv.org perpetual, non-exclusive license to distribute this article for submissions made before January 2004
+- title: Constructing local L-packets for tame unitary groups
+  pdf: /writings/research/thesis_pub.pdf
+  arxiv: '1311.7456'
+  bibtex:
+    type: misc
+    key: Roe_2013
+    fields:
+      doi: 10.48550/ARXIV.1311.7456
+      url: https://arxiv.org/abs/1311.7456
+      author: Roe, David
+      keywords: 'Representation Theory (math.RT), Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics'
+      title: Constructing local L-packets for tame unitary groups
+      publisher: arXiv
+      year: '2013'
+      copyright: arXiv.org perpetual, non-exclusive license
+theses:
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
+  pdf: /writings/thesis.pdf
+  status: Ph.D. Thesis under <a href="http://www.math.harvard.edu/~gross/">Benedict Gross</a>. Defended April 19, 2011
+- title: Formal Groups, Complex Cobordism and Quillen's Theorem
+  pdf: /writings/papers_expository/minors_thesis.pdf
+  status: Minor thesis, a Ph.D. requirement at Harvard

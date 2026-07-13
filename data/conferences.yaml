@@ -1,0 +1,656 @@
+- name: Computational Number Theory at Scale
+  url: https://icerm.brown.edu/program/semester_program/sp-s28
+  dates: January 19-April 21
+  year: 2028
+  location: ICERM, Providence, RI
+  role: organizer
+  organizers:
+  - Eran Assaf
+  - Jennifer Balakrishnan
+  - Edgar Costa
+  - John Jones
+  - Wanlin Li
+  - Jennifer Paulhus
+  - Andrew Sutherland
+- name: Lucant 2027
+  url: https://lucant.org/
+  dates: June 21-25
+  year: 2027
+  location: CIRM, Luminy, France
+  role: organizer
+- name: Bridging the LMFDB and Lean
+  url: /conferences/lean-lmfdb2/
+  dates: January 25-29
+  year: 2027
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Andrew Sutherland
+- name: K3 Surfaces over finite fields
+  url: https://icerm.brown.edu/program/semester_research_cluster/sp-f26-rc1
+  dates: October 19-23
+  year: 2026
+  location: ICERM, Providence, RI
+  role: organizer
+  organizers:
+  - Jack Garzella
+  - Kiran Kedlaya
+- name: ANTS XVII
+  url: https://www.antsxvii.org/
+  dates: July 6-10
+  year: 2026
+  location: University of Groningen, Netherlands
+- name: Bridging Lean and the LMFDB
+  url: https://multramate.github.io/lean-lmfdb/
+  dates: June 29-July 3
+  year: 2026
+  location: University of East Anglia, Norwich, UK
+  role: speaker
+- name: LMFDB Lattice Workshop
+  url: /conferences/Lat26/
+  dates: February 23-27
+  year: 2026
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Eran Assaf
+- name: LMFDB workshop
+  url: /conferences/LMFDB25/
+  dates: July 14-18
+  year: 2025
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Eran Assaf
+  - Edgar Costa
+  - Andrew Sutherland
+- name: Lucant 2025
+  url: https://icerm.brown.edu/program/topical_workshop/tw-25-lucant
+  dates: July 7-11
+  year: 2025
+  location: ICERM, Providence, RI
+  role: speaker
+- name: The Legacy of John Tate, and Beyond
+  url: https://www.math.harvard.edu/event/the-legacy-of-john-tate-and-beyond/
+  dates: March 17-21
+  year: 2025
+  location: Harvard, Cambridge, MA
+- name: 2025 Simons collaboration annual meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2025/
+  dates: January 15-16
+  year: 2025
+  location: Simons, New York, NY
+- name: 'JMM: Mathematics Informed by Computing'
+  url: https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program_friday.html
+  dates: January 10
+  year: 2025
+  location: Seattle, WA
+  role: organizer
+  organizers:
+  - Eran Assaf
+  - David Lowry-Duda
+  - Christelle Vincent
+- name: 'JMM: Modular Forms, Hypergeometric Functions, and Related Topics'
+  url: https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program_thursday.html
+  dates: January 9
+  year: 2025
+  location: Seattle, WA
+  role: speaker
+- name: Joint Mathematics Meetings
+  url: https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program.html
+  dates: January 8-11
+  year: 2025
+  location: Seattle, WA
+- name: SQuaRE on p-adic databases
+  dates: October 7-11
+  year: 2024
+  location: AIM, Pasadena, CA
+- name: ANTS 16
+  url: https://antsmath.org/ANTSXVI/
+  dates: July 15-19
+  year: 2024
+  location: MIT, Cambridge, MA
+- name: The Mordell conjecture 100 years later
+  url: https://mordell.org
+  dates: July 8-12
+  year: 2024
+  location: MIT, Cambridge, MA
+- name: Computational geometry
+  url: http://www.birs.ca/events/2024/5-day-workshops/24w5229
+  dates: June 24-28
+  year: 2024
+  location: BIRS, Banff, AB
+  role: speaker
+- name: Hypergeometric motives
+  url: https://edgarcosta.org/HGMworkshop24
+  dates: April 22-26
+  year: 2024
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Edgar Costa
+  - Kiran Kedlaya
+  - John Voight
+- name: Modular curves workshop 3
+  url: https://math.mit.edu/~edgarc/MCW3.html
+  dates: March 11-15
+  year: 2024
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Edgar Costa
+  - Andrew Sutherland
+  - John Voight
+- name: K3 surfaces
+  url: https://icerm.brown.edu/events/sc-24-k3s/
+  dates: February 14-17
+  year: 2024
+  location: ICERM, Providence, RI
+- name: Shimura curves in the LMFDB
+  url: https://math.dartmouth.edu/~cschembri/shimcurve.php
+  dates: February 5-9
+  year: 2024
+  location: Dartmouth, Hanover, NH
+- name: 2024 Simons collaboration annual meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2024/
+  dates: January 11-12
+  year: 2024
+  location: Simons, New York, NY
+- name: Open-source cyberinfrastructure supporting mathematics research
+  url: https://aimath.org/pastworkshops/cyberinfrastructure.html
+  dates: December 4-8
+  year: 2023
+  location: AIM, Pasadena, CA
+- name: Modular curves and Galois representations
+  url: https://web.math.pmf.unizg.hr/~fnajman/Mod_curves.html
+  dates: September 18-22
+  year: 2023
+  location: University of Zagreb
+  role: speaker
+- name: Lucant
+  url: https://icerm.brown.edu/events/sc-23-lucant/
+  dates: July 10-14
+  year: 2023
+  location: ICERM, Providence, RI
+- name: SQuaRE on p-adic databases
+  dates: March 6-10
+  year: 2023
+  location: AIM, San Jose, CA
+- name: COUNT
+  url: https://conferences.cirm-math.fr/2805.html
+  dates: February 27-March 3
+  year: 2023
+  location: CIRM, Luminy, France
+  role: speaker
+- name: Sage Days 117
+  url: https://wiki.sagemath.org/days117
+  dates: February 6-10
+  year: 2023
+  location: Le Teich, France
+- name: 2023 Simons collaboration annual meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2023/
+  dates: January 11-12
+  year: 2023
+  location: Simons, New York, NY
+  role: speaker
+- name: Modular curves workshop 2
+  url: https://math.mit.edu/~edgarc/MCW2.html
+  dates: November 5-9
+  year: 2022
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Edgar Costa
+  - Andrew Sutherland
+  - John Voight
+- name: Number theory informed by computation
+  url: https://www.msri.org/summer_schools/1011
+  dates: July 17-August 6
+  year: 2022
+  location: PCMI, Park City, UT
+- name: SQuaRE on p-adic databases
+  dates: May 23-27
+  year: 2022
+  location: AIM, San Jose, CA
+- name: Big Data in Pure Mathematics
+  url: https://math-data.github.io/big-data-pure-math-2022/
+  dates: May 21-22
+  year: 2022
+  location: Online
+  role: speaker
+- name: Explicit Methods in Modularity
+  url: https://researchseminars.org/seminar/ExplicitModularity
+  dates: April 11-15
+  year: 2022
+  location: Online
+  role: organizer
+  organizers:
+  - Eran Assaf
+  - Edgar Costa
+  - Brendan Hassett
+- name: Modular curves workshop
+  url: https://math.mit.edu/~edgarc/MCW.html
+  dates: March 21-25
+  year: 2022
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers:
+  - Edgar Costa
+  - Andrew Sutherland
+  - John Voight
+- name: 2022 Simons collaboration annual meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2022/
+  dates: January 13-14
+  year: 2022
+  location: Simons, New York, NY
+- name: Sage/Oscar Days for Combinatorial Algebraic Geometry
+  url: https://icerm.brown.edu/programs/sp-s21/w2/
+  dates: February 15-19
+  year: 2021
+  location: Online
+  role: speaker
+- name: ANTS 14
+  url: https://www.math.auckland.ac.nz/~sgal018/ANTS/index.html
+  dates: June 30-July 4
+  year: 2020
+  location: Online
+- name: 2020 Simons collaboration annual meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2020/
+  dates: January 9-10
+  year: 2020
+  location: Simons, New York, NY
+- name: p-Adic Langlands Correspondence Conference
+  url: https://www.lebesgue.fr/content/sem2019-clapclap
+  dates: September 2-6
+  year: 2019
+  location: Université Rennes 1, Rennes, France
+  role: speaker
+- name: 2019 CMS Summer Meetings
+  url: https://summer19.cms.math.ca/
+  dates: June 7-10
+  year: 2019
+  location: Regina, SK
+  role: speaker
+- name: Arithmetic of Low-Dimensional Abelian Varieties
+  url: https://icerm.brown.edu/events/sc19-1-aldav/
+  dates: June 3-7
+  year: 2019
+  location: ICERM, Providence, RI
+  role: speaker
+- name: 2019 Simons collaboration annual meeting
+  url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2019/
+  dates: January 10-11
+  year: 2019
+  location: Simons, New York, NY
+- name: ANTS 13
+  url: http://www.math.grinnell.edu/~paulhusj/ants2018/
+  dates: July 16-20
+  year: 2018
+  location: UW, Madison, WI
+  role: speaker
+- name: Numerical Methods for Algebraic Curves
+  url: https://www.lebesgue.fr/content/sem2018-courbes
+  dates: February 19-23
+  year: 2018
+  location: Rennes 1, Rennes, France
+  role: speaker
+- name: Open Source Computation and Algebraic Surfaces
+  url: http://www.birs.ca/events/2017/2-day-workshops/17w2677
+  dates: Sep 29-Oct 1
+  year: 2017
+  location: BIRS, Banff, AB
+- name: Sage Days 88
+  url: https://wiki.sagemath.org/days88
+  dates: August 21-25
+  year: 2017
+  location: IMA, Minneapolis, MN
+  role: speaker
+- name: Sage Days 87
+  url: https://wiki.sagemath.org/days87
+  dates: July 17-21
+  year: 2017
+  location: UVM, Burlington, VT
+  role: organizer
+  organizers:
+  - Jen Balakrishnan
+  - Xavier Caruso
+  - Edgar Costa
+  - Taylor Dupuy
+  - William Stein
+  - Christelle Vincent
+- name: Sage Days 86.5
+  url: https://wiki.sagemath.org/days86.5
+  dates: June 5-9
+  year: 2017
+  location: Simon Frasier, Vancouver, BC
+  role: speaker
+- name: 'UNCG Summer School on Computational Number Theory: Modular Forms'
+  url: http://www.uncg.edu/mat/numbertheory/summerschool/
+  dates: May 22-26
+  year: 2017
+  location: UNCG, Greensboro, NC
+  role: speaker
+- name: CLap-CLap
+  url: http://xavier.toonywood.org/clapclap/
+  dates: February 6-10
+  year: 2017
+  location: Université Rennes 1, Rennes, France
+  role: speaker
+- name: PANTS XXVI
+  url: https://www.uncg.edu/mat/numbertheory/conferences/PANTS-XXVI.html
+  dates: September 17-18
+  year: 2016
+  location: UNCG, Greensboro, NC
+  role: speaker
+- name: The p-adic Langlands Program and Related Topics
+  url: http://pages.iu.edu/~mstrauch/conference_2016/
+  dates: May 16-20
+  year: 2016
+  location: IU, Bloomington, IN
+- name: AIM LMFDB Workshop
+  dates: May 9-13
+  year: 2016
+  location: AIM, San Jose, CA
+- name: Brisol LMFDB Workshop
+  url: http://www.maths.bris.ac.uk/~maarb/public/lmfdb2016.html
+  dates: March 25-28
+  year: 2016
+  location: Bristol, UK
+- name: Explicit p-adic methods in number theory
+  url: http://wiki.sagemath.org/days71
+  dates: March 20-24
+  year: 2016
+  location: Oxford, UK
+  role: organizer
+  organizers:
+  - Jen Balakrishnan
+- name: 'CMS Winter Meeting: Representation Theory'
+  url: /conferences/CMS15/
+  dates: December 4-7
+  year: 2015
+  location: Montreal, QC
+  role: organizer
+  organizers:
+  - Clifton Cunningham
+- name: Towards New Development of Mathematics via Computational Algebra Systems
+  url: http://sphere.s.kanazawa-u.ac.jp/2015RIMSAlgSys-e.html
+  dates: Sep 30-Oct 2
+  year: 2015
+  location: RIMS, Kyoto, Japan
+  role: speaker
+- name: Computational Representation Theory in Number Theory
+  url: http://people.oregonstate.edu/~swisherh/CRTNTconference/travel.html
+  dates: July 27-31
+  year: 2015
+  location: OSU, Corvallis, OR
+  role: speaker
+- name: Explicit Methods for Abelian Varieties
+  url: https://www.pims.math.ca/scientific-event/150525-emavkw
+  dates: May 25-29
+  year: 2015
+  location: UC, Calgary, AB
+  role: speaker
+- name: The Kudla Programme
+  url: http://www.crm.umontreal.ca/2015/Kudla15/index_e.php
+  dates: April 6-10
+  year: 2015
+  location: CRM, Montreal, QC
+- name: Regulators, Mahler measures, and special values of L-functions
+  url: http://www.crm.umontreal.ca/2015/Mahler15/index_e.php
+  dates: February 16-20
+  year: 2015
+  location: CRM, Montreal, QC
+- name: Motivic Integration, Orbital Integrals, and Zeta-Functions
+  url: http://www.birs.ca/events/2014/5-day-workshops/14w5155
+  dates: December 1-5
+  year: 2014
+  location: BIRS, Banff, AB
+- name: Counting Arithmetic Objects
+  url: http://www.dms.umontreal.ca/%7Esms/index_e.php
+  dates: June 23-July 4
+  year: 2014
+  location: CRM, Montreal, QC
+- name: CNTA XIII
+  url: https://www.fields.utoronto.ca/programs/scientific/13-14/CNTAXIII/
+  dates: June 16-20
+  year: 2014
+  location: Carleton, Ottawa, ON
+  role: speaker
+- name: p-adic variation in number theory
+  url: http://math.bu.edu/Glennfest/Glennfest.html
+  dates: June 2-6
+  year: 2014
+  location: BU, Boston, MA
+- name: Periods of automorphic forms and applications to L-functions
+  url: http://www.math.harvard.edu/conferences/frg14/index.html
+  dates: May 23-25
+  year: 2014
+  location: Harvard, Cambridge, MA
+  role: speaker
+- name: Representations of Reductive Groups
+  url: http://math.mit.edu/conferences/Vogan/
+  dates: May 19-23
+  year: 2014
+  location: MIT, Cambridge, MA
+- name: Alberta Number Theory Days VI
+  url: http://www.birs.ca/events/2014/2-day-workshops/14w2192
+  dates: April 18-20
+  year: 2014
+  location: BIRS, Banff, AB
+- name: 'Hot Topics: Perfectoid Spaces and their Applications'
+  url: https://www.msri.org/workshops/731
+  dates: February 17-21
+  year: 2014
+  location: MSRI, Berkeley, CA
+- name: Joint Mathematics Meetings
+  url: http://jointmathematicsmeetings.org/meetings/national/jmm2014/2160_program_ss15.html
+  dates: January 15-18
+  year: 2014
+  location: Baltimore, MD
+  role: speaker
+- name: CMS Winter Meeting
+  url: https://cms.math.ca/Events/winter13/
+  dates: December 6-9
+  year: 2013
+  location: Ottawa, ON
+- name: Sage Days 52
+  url: http://wiki.sagemath.org/sagedays-padics-Rennes
+  dates: September 2-6
+  year: 2013
+  location: Université Rennes 1, Rennes, France
+  role: speaker
+- name: Workshop on Curves and Applications
+  url: http://www.pims.math.ca/scientific-event/130819-wca
+  dates: August 19-21
+  year: 2013
+  location: UC, Calgary, AB
+- name: PRIMA 2013
+  url: http://meeting.healife.com/prima2013/en/index.asp
+  dates: June 24-28
+  year: 2013
+  location: Jiao Tong University, Shanghai, China
+  role: speaker
+- name: Alberta Number Theory Days
+  url: /conferences/ANTD13/
+  dates: May 10-12
+  year: 2013
+  location: BIRS, Banff, AB
+  role: organizer
+  organizers:
+  - Brandon Fodden
+- name: Sage Days 47
+  url: http://wiki.sagemath.org/sagedaysgit
+  dates: March 25-29
+  year: 2013
+  location: PSU, Portland, OR
+- name: Sage Days 46
+  url: http://wiki.sagemath.org/sagedays46
+  dates: Feb 26-Mar 2
+  year: 2013
+  location: Oahu, HI
+- name: Sage Days 44
+  url: http://wiki.sagemath.org/sagedays44
+  dates: Jan 31-Feb 3
+  year: 2013
+  location: UW, Madison, WI
+  role: organizer
+  organizers:
+  - Rob Harron
+  - William Stein
+- name: Joint Mathematics Meetings
+  url: http://jointmathematicsmeetings.org/meetings/national/jmm2013/2141_program_ss39.html
+  dates: January 9-12
+  year: 2013
+  location: San Diego, CA
+  role: speaker
+- name: CMS Winter Meeting
+  url: http://cms.math.ca/Events/winter12/
+  dates: December 7-10
+  year: 2012
+  location: Montreal, QC
+- name: Sage Days 40.5
+  url: http://wiki.sagemath.org/bug19
+  dates: May 24-29
+  year: 2012
+  location: Wallace Falls, Seattle, WA
+  role: organizer
+  organizers:
+  - William Stein
+- name: Pacific Northwest Number Theory Conference
+  url: http://www.uiweb.uidaho.edu/johnsonleung/pnwnt2012/pnwnt2012.html
+  dates: May 19-21
+  year: 2012
+  location: University of Idaho, Moscow, ID
+  role: speaker
+- name: Geometrization of Smooth Characters
+  url: http://www.birs.ca/events/2012/focussed-research-groups/12frg163
+  dates: May 7-11
+  year: 2012
+  location: BIRS, Banff, AB
+- name: LMFDB workshop
+  url: http://www.lmfdb.org/
+  dates: Mar 24-Apr 1
+  year: 2012
+  location: Bristol, UK
+- name: Galois Representations, Shimura Varieties and Automorphic Forms
+  url: http://www.fields.utoronto.ca/programs/scientific/11-12/galoisrep/wksp_PDFgrad/index.html
+  dates: March 11-16
+  year: 2012
+  location: Fields Institute, Toronto, ON
+- name: Sage Days 36
+  url: http://wiki.sagemath.org/padicSageDays
+  dates: February 19-23
+  year: 2012
+  location: UCSD, La Jolla, CA
+  role: organizer
+  organizers:
+  - Kiran Kedlaya
+  - William Stein
+- name: Periods of Automorphic Forms and Applications to L-functions
+  dates: September 15-18
+  year: 2011
+  location: Columbia, New York, NY
+- name: L-packets
+  url: http://www.birs.ca/birspages.php?task=displayevent&event_id=11w5100
+  dates: June 26-July 1
+  year: 2011
+  location: BIRS, Banff, AB
+- name: GeoCrypt 2011
+  url: http://iml.univ-mrs.fr/ati/GeoCrypt2011/
+  dates: June 18-22
+  year: 2011
+  location: Bastia, France
+  role: speaker
+- name: Théorie de Hodge p-adique, équations différentielles p-adiques et leurs applications
+  dates: June 6-9
+  year: 2011
+  location: Lyon, France
+  role: speaker
+- name: Quebec-Maine Number Theory Conference
+  url: http://www.math.umaine.edu/numbertheory/qm10.html
+  dates: October 2-3
+  year: 2010
+  location: Université Laval, Quebec City, QC
+  role: speaker
+- name: 'Number Theory and Representation Theory: Dick Gross'' 60th Birthday Conference'
+  url: http://math.harvard.edu/conferences/gross_10/index.html
+  dates: June 2-5
+  year: 2010
+  location: Harvard, Cambridge, MA
+- name: 'Counting Points: Theory, Algorithms and Practice'
+  url: http://www.crm.umontreal.ca/Points10/index_e.php
+  dates: April 19-23
+  year: 2010
+  location: CRM, Montreal, QC
+  role: speaker
+- name: Sage Days 18
+  url: http://wiki.sagemath.org/dayscambridge2
+  dates: December 1-4
+  year: 2009
+  location: CMI, Cambridge, MA
+- name: Sage Days 15
+  url: http://wiki.sagemath.org/days15
+  dates: May 16-21
+  year: 2009
+  location: UW, Seattle, WA
+- name: p-Adic Methods in Arithmetic Algebraic Geometry
+  url: http://www.ma.huji.ac.il/conf/minerva_09.html
+  dates: Mar 29-Apr 7
+  year: 2009
+  location: Hebrew University, Jerusalem, Israel
+- name: 'Arizona Winter School: Quadratic Forms'
+  url: http://swc.math.arizona.edu/
+  dates: March 13-19
+  year: 2009
+  location: UA, Tucson, AZ
+- name: Sage Days 12
+  url: http://wiki.sagemath.org/days12
+  dates: January 20-25
+  year: 2009
+  location: UCSD, San Diego, CA
+- name: LMFDB Workshop
+  url: http://www.lmfdb.org/
+  dates: June 23-27
+  year: 2008
+  location: UW, Seattle, WA
+- name: Sage Devel Days 1
+  url: http://wiki.sagemath.org/dev1
+  dates: June 9-20
+  year: 2008
+  location: UW, Seattle, WA
+- name: Sage Days 7
+  url: http://wiki.sagemath.org/days7
+  dates: February 5-9
+  year: 2008
+  location: IPAM, Los Angeles, CA
+- name: Sage Days 6
+  url: http://wiki.sagemath.org/days6
+  dates: November 10-14
+  year: 2007
+  location: Bristol, UK
+- name: Sage Days 5
+  url: http://wiki.sagemath.org/days5
+  dates: Sep 30-Oct 3
+  year: 2007
+  location: CMI, Cambridge, MA
+  role: speaker
+- name: Sage Days 4
+  url: http://wiki.sagemath.org/days4
+  dates: June 12-17
+  year: 2007
+  location: UW, Seattle, WA
+  role: speaker
+- name: Sage Days 3
+  url: http://wiki.sagemath.org/days3
+  dates: February 17-21
+  year: 2007
+  location: IPAM, Los Angeles, CA
+- name: Sage Days 2
+  url: http://wiki.sagemath.org/days2
+  dates: October 6-10
+  year: 2006
+  location: UW, Seattle, WA
+- name: Sage Days 1
+  dates: February 4-5
+  year: 2006
+  location: UCSD, San Diego, CA

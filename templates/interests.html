@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Interests &nbsp;<a class="badge pdf lg" href="{{ '/about/Research_Statement.pdf'|u }}">PDF</a></h1>
+{% filter rel %}{% include "content/interests.html" %}{% endfilter %}
+{% endblock %}
