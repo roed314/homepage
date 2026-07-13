@@ -63,7 +63,7 @@ articles:
     type: misc
     key: Guardia_2026a
     fields:
-      title: Families of 𝑝-adic fields
+      title: Families of $p$-adic fields
       isbn: '9781470480325'
       issn: 1098-3627
       url: http://dx.doi.org/10.1090/conm/840/16803
@@ -134,7 +134,7 @@ articles:
     type: article
     key: Costa_2025
     fields:
-      title: Hypergeometric L-functions in average polynomial time, II
+      title: Hypergeometric {L-functions} in average polynomial time, {II}
       volume: '11'
       issn: 2363-9555
       url: http://dx.doi.org/10.1007/s40993-024-00593-8
@@ -157,7 +157,7 @@ articles:
     type: article
     key: Dupuy_2021
     fields:
-      title: Counterexamples to a Conjecture of Ahmadi and Shparlinski
+      title: Counterexamples to a {Conjecture} of {Ahmadi} and {Shparlinski}
       volume: '32'
       issn: 1944-950X
       url: http://dx.doi.org/10.1080/10586458.2021.1980463
@@ -208,7 +208,7 @@ articles:
     type: inbook
     key: Best_2021
     fields:
-      title: Computing Classical Modular Forms
+      title: Computing {Classical} {Modular} {Forms}
       isbn: '9783030809140'
       issn: 2365-9572
       url: http://dx.doi.org/10.1007/978-3-030-80914-0_4
@@ -231,7 +231,7 @@ articles:
     type: inbook
     key: Dupuy_2021a
     fields:
-      title: Isogeny Classes of Abelian Varieties over Finite Fields in the LMFDB
+      title: Isogeny {Classes} of {Abelian} {Varieties} over {Finite} {Fields} in the {LMFDB}
       isbn: '9783030809140'
       issn: 2365-9572
       url: http://dx.doi.org/10.1007/978-3-030-80914-0_13
@@ -251,7 +251,7 @@ articles:
     type: inbook
     key: Costa_2021
     fields:
-      title: Zen and the Art of Database Maintenance
+      title: Zen and the {Art} of {Database} {Maintenance}
       isbn: '9783030809140'
       issn: 2365-9572
       url: http://dx.doi.org/10.1007/978-3-030-80914-0_8
@@ -273,7 +273,7 @@ articles:
     type: article
     key: Costa_2020
     fields:
-      title: Hypergeometric L-functions in average polynomial time
+      title: Hypergeometric {L-functions} in average polynomial time
       volume: '4'
       issn: 2329-9061
       url: http://dx.doi.org/10.2140/obs.2020.4.143
@@ -293,7 +293,7 @@ articles:
     type: article
     key: Roe_2019
     fields:
-      title: The inverse Galois problem for p-adic fields
+      title: The inverse {Galois} problem for p-adic fields
       volume: '2'
       issn: 2329-9061
       url: http://dx.doi.org/10.2140/obs.2019.2.393
@@ -315,7 +315,7 @@ articles:
     type: article
     key: Cunningham_2015
     fields:
-      title: FROM THE FUNCTION-SHEAF DICTIONARY TO QUASICHARACTERS OF -ADIC TORI
+      title: From the function-sheaf dictionary to quasicharacters of $p$-adic tori
       volume: '17'
       issn: 1475-3030
       url: http://dx.doi.org/10.1017/S1474748015000286
@@ -339,7 +339,7 @@ articles:
     key: Caruso_2018
     fields:
       series: ISSAC ’18
-      title: 'ZpL: a p-adic Precision Package'
+      title: '{ZpL}: a p-adic {Precision} {Package}'
       url: http://dx.doi.org/10.1145/3208976.3208995
       doi: 10.1145/3208976.3208995
       booktitle: Proceedings of the 2018 ACM International Symposium on Symbolic and Algebraic Computation
@@ -361,7 +361,7 @@ articles:
     key: Caruso_2017
     fields:
       series: ISSAC ’17
-      title: Characteristic Polynomials of p-adic Matrices
+      title: Characteristic {Polynomials} of p-adic {Matrices}
       url: http://dx.doi.org/10.1145/3087604.3087618
       doi: 10.1145/3087604.3087618
       booktitle: Proceedings of the 2017 ACM International Symposium on Symbolic and Algebraic Computation
@@ -383,7 +383,7 @@ articles:
     key: Caruso_2016
     fields:
       series: ISSAC ’16
-      title: Division and Slope Factorization of p-Adic Polynomials
+      title: Division and {Slope} {Factorization} of {p-Adic} {Polynomials}
       url: http://dx.doi.org/10.1145/2930889.2930898
       doi: 10.1145/2930889.2930898
       booktitle: Proceedings of the ACM on International Symposium on Symbolic and Algebraic Computation
@@ -403,7 +403,7 @@ articles:
     type: article
     key: Adrian_2016
     fields:
-      title: 'Rectifiers and the local Langlands correspondence: the unramified case'
+      title: 'Rectifiers and the local {Langlands} correspondence: the unramified case'
       volume: '23'
       issn: 1945-001X
       url: http://dx.doi.org/10.4310/MRL.2016.v23.n3.a1
@@ -426,8 +426,8 @@ articles:
     type: inproceedings
     key: Caruso_2015
     fields:
-      series: ISSAC′15
-      title: p-Adic Stability In Linear Algebra
+      series: ISSAC'15
+      title: '{p-Adic} {Stability} {In} {Linear} {Algebra}'
       url: http://dx.doi.org/10.1145/2755996.2756655
       doi: 10.1145/2755996.2756655
       booktitle: Proceedings of the 2015 ACM International Symposium on Symbolic and Algebraic Computation
@@ -435,7 +435,7 @@ articles:
       author: Caruso, Xavier and Roe, David and Vaccon, Tristan
       year: '2015'
       pages: 101–108
-      collection: ISSAC′15
+      collection: ISSAC'15
 - title: The canonical measure on a reductive p-adic group is motivic
   with:
   - Julia Gordon
@@ -490,7 +490,7 @@ articles:
     type: article
     key: Caruso_2014
     fields:
-      title: Tracking -adic precision
+      title: Tracking $p$-adic precision
       volume: '17'
       issn: 1461-1570
       url: http://dx.doi.org/10.1112/S1461157014000357
@@ -517,7 +517,7 @@ articles:
       url: https://arxiv.org/abs/math/0601508
       author: Abbott, Timothy G. and Kedlaya, Kiran S. and Roe, David
       keywords: 'Number Theory (math.NT), Algebraic Geometry (math.AG), FOS: Mathematics, FOS: Mathematics, 14C22, 14F30'
-      title: Bounding Picard numbers of surfaces using p-adic cohomology
+      title: Bounding {Picard} numbers of surfaces using p-adic cohomology
       publisher: arXiv
       year: '2006'
       copyright: Assumed arXiv.org perpetual, non-exclusive license to distribute this article for submissions made before January 2004
@@ -533,7 +533,7 @@ articles:
       url: https://arxiv.org/abs/1311.7456
       author: Roe, David
       keywords: 'Representation Theory (math.RT), Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics'
-      title: Constructing local L-packets for tame unitary groups
+      title: Constructing local {L-packets} for tame unitary groups
       publisher: arXiv
       year: '2013'
       copyright: arXiv.org perpetual, non-exclusive license

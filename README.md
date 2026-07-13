@@ -84,10 +84,11 @@ site's stylesheets/) is never touched.
 
 ## LaTeX CV
 
-The moderncv sources live in `cv/` (shells: `cv.tex`, `publist.tex`, plus
-the not-yet-wired `cvMIT.tex` and `SoS_CV.tex`).  `make cv` runs
+The moderncv sources live in `cv/` (shells: `cv.tex`, `cvMIT.tex`,
+`publist.tex`; `SoS_CV.tex` is an old application snapshot, left alone).  `make cv` runs
 `scripts/build_cv.py`, which renders the data-driven sections
-(Preprints/Publications, Invited Talks, Conferences Organized) from
+(Preprints/Publications, Invited Talks, Conferences Organized, Awards,
+Editorial Positions, Software, Other Activities) from
 `data/*.yaml` into `cv/generated/*.tex`; the shells `\input` those
 fragments and keep everything else (preamble, References, framing)
 hand-maintained.  latexmk then builds the PDFs and the CV lands at

@@ -13,6 +13,7 @@ Usage: .venv/bin/python scripts/fetch_bibtex.py [--refresh]
 import re
 import sys
 import time
+import unicodedata
 import urllib.request
 from pathlib import Path
 
@@ -34,13 +35,41 @@ def fetch(url):
         return r.read().decode("utf-8")
 
 
+# Crossref/DataCite responses sometimes contain Unicode that pdflatex cannot
+# digest (mathematical-alphanumeric letters, primes).  Latin-1 accents,
+# en-dashes and curly quotes are fine and left alone.
+MATH_ALNUM = re.compile(r"[\U0001D400-\U0001D7FF]")
+
+
+def sanitize(value):
+    value = MATH_ALNUM.sub(lambda m: "$%s$" % unicodedata.normalize("NFKC", m.group(0)), value)
+    return value.replace("′", "'").replace("″", "''")
+
+
+def protect(title):
+    """Brace-protect capitals in a title so bibtex case-folding keeps them."""
+    out = []
+    for i, w in enumerate(title.split(" ")):
+        if "{" in w or "$" in w:
+            out.append(w)
+        elif re.search(r"[A-ZÀ-Þ]", w[1:]) or (i > 0 and w[:1].isupper()):
+            m = re.match(r"^(.*?)([,:.;]*)$", w)
+            out.append("{%s}%s" % (m.group(1), m.group(2)))
+        else:
+            out.append(w)
+    return " ".join(out)
+
+
 def parse(bib):
     head = HEAD_RE.search(bib)
     if not head:
         return None
     fields = {}
     for name, value in FIELD_RE.findall(bib):
-        fields[name.lower()] = re.sub(r"\s+", " ", value).strip()
+        value = sanitize(re.sub(r"\s+", " ", value).strip())
+        if name.lower() == "title":
+            value = protect(value)
+        fields[name.lower()] = value
     return {"type": head.group(1).lower(), "key": head.group(2), "fields": fields}
 
 

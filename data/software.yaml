@@ -1,6 +1,7 @@
 - section: Mathematical Databases
   projects:
   - name: LMFDB
+    cv_note: Serve on editorial board, develop site-wide infrastructure, add content (described below)
     url: https://www.lmfdb.org/
     logo: /pics/lmfdb_logo.png
     banner: true
@@ -117,6 +118,7 @@
 - section: Infrastructure & Collaboration
   projects:
   - name: researchseminars.org
+    cv_note: Cofounder of online index of research seminars worldwide
     url: https://researchseminars.org
     logo: /pics/researchseminars_logo.png
     banner: true
@@ -131,6 +133,7 @@
     deletions: 7,656
     description: With the start of the COVID-19 pandemic, many research seminars moved online.  Together with Costa, Poonen and Sutherland, I created an online index of these seminars which helps researchers worldwide find talks of interest that are newly accessible.  It also provides useful tools for creating lightweight homepages for seminars and conferences.
   - name: PSet Partners
+    cv_note: Helped with initial setup and matching algorithm
     url: https://psetpartners.mit.edu/about
     logo: /pics/psetpartners_logo.png
     banner: true
@@ -145,6 +148,7 @@
     deletions: '402'
     description: The pandemic made it harder to form collaborations between students in undergraduate classes to work on homework.  This site allows instructors at MIT to opt in and help their students find study groups.  The project is mostly driven by Sutherland (and the linked paper is written by him), but I helped with the initial setup and the matching algorithm.
   - name: Psycodict
+    cv_note: Python-SQL interface, used in LMFDB, researchseminars and psetpartners
     logo: /pics/psycodict_logo.png
     banner: true
     links:

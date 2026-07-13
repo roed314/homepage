@@ -22,7 +22,7 @@ bib:
 TEXBIN = /Library/TeX/texbin
 cv:
 	$(PY) scripts/build_cv.py
-	cd cv && PATH=$(TEXBIN):$$PATH latexmk -pdf -quiet -interaction=nonstopmode cv.tex publist.tex
+	cd cv && PATH=$(TEXBIN):$$PATH latexmk -pdf -quiet -interaction=nonstopmode cv.tex cvMIT.tex publist.tex
 	mkdir -p static/about
 	cp cv/cv.pdf static/about/cv.pdf
 
