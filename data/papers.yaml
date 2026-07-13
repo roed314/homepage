@@ -3,7 +3,8 @@ articles:
   with:
   - David Corneliu Turturean
   pdf: https://roed314.github.io/gq2/paper.pdf
-  status: Preprint; <a href="https://roed314.github.io/gq2/">interactive version</a>
+  html: https://roed314.github.io/gq2/
+  status: Preprint
 - title: Distinguished defining polynomials for extensions of p-adic fields
   with:
   - Jordi Guàrdia
@@ -11,6 +12,7 @@ articles:
   - Kevin Keating
   - Sebastian Pauli
   - David Roberts
+  pdf: /writings/research/distpoly.pdf
   arxiv: '2606.01453'
   status: Accepted to <a href="https://www.antsxvii.org/">ANTS XVII</a>
   bibtex:
@@ -31,6 +33,7 @@ articles:
   - Taylor Dupuy
   - Stefano Marseglia
   - Christelle Vincent
+  pdf: /writings/research/ordabvar.pdf
   arxiv: '2601.20979'
   status: Accepted to <a href="https://www.antsxvii.org/">ANTS XVII</a>
   bibtex:
@@ -52,40 +55,48 @@ articles:
   - Kevin Keating
   - Sebastian Pauli
   - David Roberts
+  pdf: /writings/research/padicfamilies.pdf
   arxiv: '2507.02360'
-  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  doi: https://doi.org/10.1090/conm/840/16803
+  status: Contemporary Mathematics <b>840</b> (2026), pp 1-28
   bibtex:
     type: misc
-    key: Guardia_2025
+    key: Guardia_2026a
     fields:
-      doi: 10.48550/ARXIV.2507.02360
-      url: https://arxiv.org/abs/2507.02360
-      author: Guàrdia i Rúbies, Jordi and Jones, John W. and Keating, Kevin and Pauli, Sebastian and Roberts, David P. and Roe, David
-      keywords: 'Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics, 11S15 (primary), 11F85, 11S05, 11S20, 11Y40, 12F05 (secondary)'
-      title: Families of p-adic fields
-      publisher: arXiv
-      year: '2025'
-      copyright: arXiv.org perpetual, non-exclusive license
+      title: Families of 𝑝-adic fields
+      isbn: '9781470480325'
+      issn: 1098-3627
+      url: http://dx.doi.org/10.1090/conm/840/16803
+      doi: 10.1090/conm/840/16803
+      journal: 'LuCaNT: Databases, Algorithms, and Computational Number Theory'
+      publisher: American Mathematical Society
+      author: Guàrdia-Rubies, Jordi and Jones, John and Keating, Kevin and Pauli, Sebastian and Roberts, David and Roe, David
+      year: '2026'
+      pages: 1–28
 - title: Labeling abelian varieties over finite fields
   with:
   - Edgar Costa
   - Taylor Dupuy
   - Stefano Marseglia
   - Christelle Vincent
+  pdf: /writings/research/avlabels.pdf
   arxiv: '2501.17012'
-  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  doi: https://doi.org/10.1090/conm/840/16820
+  status: Contemporary Mathematics <b>840</b> (2026), pp 277-283
   bibtex:
     type: misc
-    key: Costa_2025
+    key: Costa_2026a
     fields:
-      doi: 10.48550/ARXIV.2501.17012
-      url: https://arxiv.org/abs/2501.17012
-      author: Costa, Edgar and Dupuy, Taylor and Marseglia, Stefano and Roe, David and Vincent, Christelle
-      keywords: 'Number Theory (math.NT), Algebraic Geometry (math.AG), FOS: Mathematics, FOS: Mathematics, 16H10, 16H20, 11Y40, 11R54, 13H10, 14H20, 11C20, 15B36, 14K15'
       title: Labeling abelian varieties over finite fields
-      publisher: arXiv
-      year: '2025'
-      copyright: Creative Commons Attribution Non Commercial Share Alike 4.0 International
+      isbn: '9781470480325'
+      issn: 1098-3627
+      url: http://dx.doi.org/10.1090/conm/840/16820
+      doi: 10.1090/conm/840/16820
+      journal: 'LuCaNT: Databases, Algorithms, and Computational Number Theory'
+      publisher: American Mathematical Society
+      author: Costa, Edgar and Dupuy, Taylor and Marseglia, Stefano and Roe, David and Vincent, Christelle
+      year: '2026'
+      pages: 277–283
 - title: Creating a Dynamic Database of Finite Groups
   with:
   - Lewis Combes
@@ -95,38 +106,44 @@ articles:
   - Sam Schiavone
   pdf: /writings/research/FiniteGroups.pdf
   arxiv: '2409.09189'
-  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  doi: https://doi.org/10.1090/conm/840/16811
+  status: Contemporary Mathematics <b>840</b> (2026), pp 119-139
   bibtex:
     type: misc
-    key: Combes_2024
+    key: Combes_2026
     fields:
-      doi: 10.48550/ARXIV.2409.09189
-      url: https://arxiv.org/abs/2409.09189
-      author: Combes, Lewis and Jones, John W. and Paulhus, Jennifer and Roe, David and Roy, Manami and Schiavone, Sam
-      keywords: 'Group Theory (math.GR), Number Theory (math.NT), FOS: Mathematics, FOS: Mathematics, 20-04'
       title: Creating a dynamic database of finite groups
-      publisher: arXiv
-      year: '2024'
-      copyright: arXiv.org perpetual, non-exclusive license
+      isbn: '9781470480325'
+      issn: 1098-3627
+      url: http://dx.doi.org/10.1090/conm/840/16811
+      doi: 10.1090/conm/840/16811
+      journal: 'LuCaNT: Databases, Algorithms, and Computational Number Theory'
+      publisher: American Mathematical Society
+      author: Combes, Lewis and Jones, John and Paulhus, Jennifer and Roe, David and Roy, Manami and Schiavone, Sam
+      year: '2026'
+      pages: 119–139
 - title: Hypergeometric L-functions in average polynomial time II
   with:
   - Edgar Costa
   - Kiran Kedlaya
   pdf: /writings/research/avgpoly2.pdf
   arxiv: '2310.06971'
-  status: Published in <a href="https://icerm.brown.edu/program/topical_workshop/tw-25-lucant">Lucant 2025</a>
+  doi: https://doi.org/10.1007/s40993-024-00593-8
+  status: Research in Number Theory <b>11</b> (2025), article 32
   bibtex:
-    type: misc
-    key: Costa_2023
+    type: article
+    key: Costa_2025
     fields:
-      doi: 10.48550/ARXIV.2310.06971
-      url: https://arxiv.org/abs/2310.06971
+      title: Hypergeometric L-functions in average polynomial time, II
+      volume: '11'
+      issn: 2363-9555
+      url: http://dx.doi.org/10.1007/s40993-024-00593-8
+      doi: 10.1007/s40993-024-00593-8
+      number: '1'
+      journal: Research in Number Theory
+      publisher: Springer Science and Business Media LLC
       author: Costa, Edgar and Kedlaya, Kiran S. and Roe, David
-      keywords: 'Number Theory (math.NT), Algebraic Geometry (math.AG), FOS: Mathematics, FOS: Mathematics, 11Y16, 33C20 (primary), and 11G09, 11M38, 11T24 (secondary)'
-      title: Hypergeometric $L$-functions in average polynomial time, II
-      publisher: arXiv
-      year: '2023'
-      copyright: arXiv.org perpetual, non-exclusive license
+      year: '2025'
 - title: Counterexamples to a Conjecture of Ahmadi and Shparlinski
   with:
   - Taylor Dupuy

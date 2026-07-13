@@ -1,8 +1,9 @@
 {% macro badges(item, lg=false) %}
 {% if item.pdf %}<a class="badge pdf{{ ' lg' if lg }}" href="{{ item.pdf|u }}">PDF</a> {% endif %}
+{% if item.html %}<a class="badge html{{ ' lg' if lg }}" href="{{ item.html|u }}">HTML</a> {% endif %}
 {% if item.arxiv %}<a class="badge arxiv{{ ' lg' if lg }}" href="https://arxiv.org/abs/{{ item.arxiv }}">arXiv</a> {% endif %}
 {% if item.doi %}<a class="badge doi{{ ' lg' if lg }}" href="{{ item.doi }}">DOI</a> {% endif %}
-{% if item.bibtex %}<a class="badge bib{{ ' lg' if lg }}" href="{{ ('/bib/' + item.bibtex.key + '.bib')|u }}">BibTeX</a>{% endif %}
+{% if item.bibtex %}<a class="badge bib bib-copy{{ ' lg' if lg }}" href="{{ ('/bib/' + item.bibtex.key + '.bib')|u }}" title="Copy BibTeX to clipboard">BibTeX</a>{% endif %}
 {% endmacro %}
 
 {% macro paper_table(entries) %}

@@ -11,8 +11,8 @@
     stats_url: https://github.com/LMFDB/lmfdb/graphs/contributors
     active: 2008-2026
     commits: 3,332
-    additions: '0'
-    deletions: '0'
+    additions: 101,824
+    deletions: 88,791
     description: 'The LMFDB has been a major focus of my work at MIT since 2018, and I now serve on its <a href="https://www.lmfdb.org/management">editorial board</a>.  My contributions fall into two categories: improving LMFDB''s infrastructure and adding mathematical content to the site.  On the infrastructure front, I converted the backend database from <a href="https://www.mongodb.com/">MongoDB</a> to <a href="https://www.postgresql.org/">PostgreSQL</a>, spinning off a Python-SQL interface library, <a href="https://github.com/roed314/psycodict">Psycodict</a>, in the process.  I have also worked on centralizing functionality (such as code for laying out search pages) that had been duplicated in many sections, easing the process of adding new site-wide functionality and adding new sections.  My mathematical contributions are described below.'
     since: 2008
   - name: Abelian varieties over finite fields
@@ -102,8 +102,8 @@
     stats_url: https://github.com/sagemath/sage/graphs/contributors
     active: 2006-2026
     commits: '696'
-    additions: '0'
-    deletions: '0'
+    additions: 40,099
+    deletions: 23,426
     description: I have been involved in Sage since <a href="https://wiki.sagemath.org/Workshops#Past_Workshops">Sage Days 1</a>.  Much of my effort has gone toward creating the p-adics module, but I have also worked on finite fields, elliptic curves, number fields, the transition to git and github, the coercion system and many other parts of the software.
     since: 2006
 - section: Infrastructure & Collaboration
@@ -149,6 +149,7 @@
     description: The most popular interface to PostgreSQL from Python is <a href="https://www.psycopg.org/">psycopg</a>, which allows for the execution of SQL commands from python.  While robust and fast, it requires users to know SQL.  For the LMFDB, I developed a layer on top of psycopg that constructs queries from dictionaries and returns the output in dictionaries as well.  In support of researchseminars and psetpartners, this part of the LMFDB was extracted out into its own library.
   - name: Paperforge
     logo: /pics/paperforge_logo.svg
+    banner: true
     links:
       code: https://github.com/roed-math/paperforge
     stats_url: https://github.com/roed-math/paperforge/graphs/contributors

@@ -18,6 +18,11 @@
   year: 2027
   location: CIRM, Luminy, France
   role: organizer
+  organizers:
+  - John Jones
+  - Céline Maistret
+  - Jen Paulhus
+  - Andrew Sutherland
 - name: Bridging the LMFDB and Lean
   url: /conferences/lean-lmfdb2/
   dates: January 25-29
@@ -35,6 +40,11 @@
   organizers:
   - Jack Garzella
   - Kiran Kedlaya
+- name: Simons Foundation MPS annual meeting
+  url: https://www.simonsfoundation.org/event/mps-annual-meeting-2026/
+  dates: October 15-16
+  year: 2026
+  location: Simons, New York, NY
 - name: ANTS XVII
   url: https://www.antsxvii.org/
   dates: July 6-10
@@ -46,6 +56,23 @@
   year: 2026
   location: University of East Anglia, Norwich, UK
   role: speaker
+- name: Machine Computation in Homotopy Theory
+  url: https://icerm.brown.edu/program/topical_workshop/tw-26-mch
+  dates: June 22-26
+  year: 2026
+  location: ICERM, Providence, RI
+  role: speaker
+- name: Number Field Counting in the LMFDB
+  url: https://icerm.brown.edu/program/topical_workshop/tw-26-nfc
+  dates: June 8-12
+  year: 2026
+  location: ICERM, Providence, RI
+  role: organizer
+  organizers:
+  - Brandon Alberts
+  - Peter Koymans
+  - Robert Lemke Oliver
+  - Daniel Loughran
 - name: LMFDB Lattice Workshop
   url: /conferences/Lat26/
   dates: February 23-27
@@ -54,6 +81,18 @@
   role: organizer
   organizers:
   - Eran Assaf
+- name: Bayou Arithmetic Research Day 6
+  url: https://bardsmath.com/bard6-schedule/
+  dates: November 7
+  year: 2025
+  location: LSU, Baton Rouge, LA
+  role: speaker
+- name: code4math Grand Opening Symposium
+  url: https://scholarlattice.org/events/35a87abf-ab02-4d58-a1eb-e1fc954e395f
+  dates: September 15
+  year: 2025
+  location: Online
+  role: speaker
 - name: LMFDB workshop
   url: /conferences/LMFDB25/
   dates: July 14-18

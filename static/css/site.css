@@ -179,16 +179,21 @@ a.badge:hover { text-decoration: none; color: #fff; }
 
 a.badge.lg { font-size: 15px; padding: 4px 10px; border-radius: 6px; vertical-align: middle; }
 
-.badge.pdf, .badge.course { background-image: linear-gradient(to bottom, #f00c00, #960700); }
-.badge.pdf:hover, .badge.course:hover { background-image: linear-gradient(to bottom, #f00c00, #cc0a00); }
+/* all gradient stops keep >=4.5:1 contrast with the badge text color */
+.badge.pdf, .badge.course { background-image: linear-gradient(to bottom, #d90b00, #960700); }
+.badge.pdf:hover, .badge.course:hover { background-image: linear-gradient(to bottom, #d90b00, #b50900); }
 .badge.arxiv { background-image: linear-gradient(to bottom, #4077a8, #2c5173); }
 .badge.arxiv:hover { background-image: linear-gradient(to bottom, #4077a8, #346087); }
-.badge.doi, .badge.browse { background-image: linear-gradient(to bottom, #40a877, #2c7351); }
-.badge.doi:hover, .badge.browse:hover { background-image: linear-gradient(to bottom, #40a877, #348760); }
-.badge.code { background-image: linear-gradient(to bottom, #c4b257, #796c2a); }
-.badge.code:hover { background-image: linear-gradient(to bottom, #c4b257, #a6943a); }
-.badge.bib { background-image: linear-gradient(to bottom, #8a8f98, #545a64); }
-.badge.bib:hover { background-image: linear-gradient(to bottom, #8a8f98, #6a707a); }
+.badge.doi, .badge.browse { background-image: linear-gradient(to bottom, #2b7f58, #24684a); }
+.badge.doi:hover, .badge.browse:hover { background-image: linear-gradient(to bottom, #2b7f58, #2c7351); }
+.badge.code { background-image: linear-gradient(to bottom, #c4b257, #ac9a45); color: var(--navy); }
+.badge.code:hover { background-image: linear-gradient(to bottom, #cfbe66, #ac9a45); color: var(--navy); }
+.badge.html, .badge.video { background-image: linear-gradient(to bottom, #8b5fbf, #5c3a86); }
+.badge.html:hover, .badge.video:hover { background-image: linear-gradient(to bottom, #8b5fbf, #6f4a9e); }
+.badge.bib { background-image: linear-gradient(to bottom, #6e737d, #545a64); }
+.badge.bib:hover { background-image: linear-gradient(to bottom, #6e737d, #616770); }
+.badge.bib.copied, .badge.bib.copied:hover { background-image: linear-gradient(to bottom, #2b7f58, #24684a); }
+.badge.pdf + .badge.video { margin-left: 6px; }
 
 /* ------------------------------------------------------------- tables */
 
@@ -220,6 +225,9 @@ table.data tr:first-child td { border-top: none; }
 
 table.data tr.organizer td { background: var(--gold); }
 table.data tr.speaker td { background: var(--speaker-blue); }
+/* the default link blue only reaches ~3.4:1 on the colored rows; use a
+ * darker blue there (>=5.6:1 on both gold and speaker-blue) */
+table.data tr.organizer a, table.data tr.speaker a { color: #1a2a8c; }
 
 .gold-row, .blue-row { padding: 0 4px; border-radius: 3px; }
 .gold-row { background: var(--gold); }

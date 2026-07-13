@@ -16,8 +16,9 @@
     </thead>
     <tbody>
       {% for t in talks %}
-      <tr{% if t.topic %} data-topic="{{ t.topic }}"{% endif %}{% if t.type %} data-type="{{ t.type }}"{% endif %}>
-        <td>{% if t.pdf %}<a class="badge pdf" href="{{ t.pdf|u }}">PDF</a>{% endif %}</td>
+      <tr{% if t.topic %} data-topic="{{ t.topic if t.topic is string else t.topic|join(' ') }}"{% endif %}{% if t.type %} data-type="{{ t.type }}"{% endif %}>
+        <td class="nowrap">{% if t.pdf %}<a class="badge pdf" href="{{ t.pdf|u }}">PDF</a>{% endif %}
+          {% if t.video %}<a class="badge video" href="{{ t.video }}">Video</a>{% endif %}</td>
         <td>{{ t.title }}</td>
         <td class="nowrap">{{ t.date }}</td>
         <td>{% if t.venue_url %}<a href="{{ t.venue_url|u }}">{{ t.venue }}</a>{% else %}{{ t.venue }}{% endif %}</td>

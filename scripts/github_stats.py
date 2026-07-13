@@ -97,8 +97,17 @@ def main():
             start = pr.get("since", min(years))
             pr["active"] = f"{start}-{max(years)}"
             pr["commits"] = f"{mine['total']:,}"
-            pr["additions"] = f"{sum(w['a'] for w in mine['weeks']):,}"
-            pr["deletions"] = f"{sum(w['d'] for w in mine['weeks']):,}"
+            adds = sum(w["a"] for w in mine["weeks"])
+            dels = sum(w["d"] for w in mine["weeks"])
+            if adds or dels:
+                pr["additions"] = f"{adds:,}"
+                pr["deletions"] = f"{dels:,}"
+            else:
+                # GitHub omits line counts for repos with >10k commits (the
+                # weeks all come back a=0, d=0); keep the stored numbers,
+                # which are computed by other means (e.g. git log --numstat
+                # on a local clone) rather than overwriting them with zeros.
+                print(f"  {pr['name']}: no line counts from GitHub; keeping stored additions/deletions")
             print(f"  {pr['name']}: {old[0]} · {old[1]}  ->  {pr['active']} · {pr['commits']}")
     with open(SOFTWARE, "w") as f:
         yaml.dump(data, f, allow_unicode=True, sort_keys=False, width=10000)

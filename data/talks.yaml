@@ -13,7 +13,16 @@
   venue: Machine Computation in Homotopy Theory
   venue_url: https://icerm.brown.edu/program/topical_workshop/tw-26-mch
   pdf: /writings/talks/2026_06_24.pdf
+  video: https://icerm.brown.edu/video_archive/4709
   notes: Talk on lessons learned from the <a href="https://www.lmfdb.org">LMFDB</a> for those interested in creating mathematical databases
+- title: Malle's conjecture in the LMFDB
+  date: Jun 9, 2026
+  topic: numberfields
+  type: conf
+  venue: Number Field Counting in the LMFDB
+  venue_url: https://icerm.brown.edu/program/topical_workshop/tw-26-nfc
+  video: https://icerm.brown.edu/video_archive/4701
+  notes: Live demonstration of <a href="https://www.lmfdb.org/NumberField/">number fields in the LMFDB</a> and improvements hoped for from the workshop
 - title: p-adic fields in the LMFDB
   date: Nov 7, 2025
   topic: padic-fields
@@ -38,6 +47,7 @@
   venue: Lucant 2025
   venue_url: https://icerm.brown.edu/program/topical_workshop/tw-25-lucant
   pdf: /writings/talks/2025_07_07.pdf
+  video: https://icerm.brown.edu/video_archive/4198
   notes: Talk on <a href="https://mathbases.org">MathBases</a> and a proposed library of Diophantine equations
 - title: Hypergeometric L-functions in average polynomial time
   date: Jan 9, 2025
@@ -57,15 +67,16 @@
   notes: Talk on Cash Winfall, the lottery game that was actually profitable to play
 - title: Finite groups and K3 surfaces in the LMFDB
   date: Jun 25, 2024
-  topic: gps-k3
+  topic: [groups, k3]
   type: conf
   venue: Computational Geometry
   venue_url: http://www.birs.ca/events/2024/5-day-workshops/24w5229
   pdf: /writings/talks/2024_06_25.pdf
+  video: https://www.birs.ca/events/2024/5-day-workshops/24w5229/videos/watch/202406251030-Roe.html
   notes: Talk on <a href="https://beta.lmfdb.org/Groups/Abstract/">finite groups</a> and K3 surfaces in the LMFDB
 - title: Modular curves in the LMFDB
   date: Sep 21, 2023
-  topic: gps-modcurves
+  topic: modcurves
   type: conf
   venue: Modular curves and Galois representations
   venue_url: https://web.math.pmf.unizg.hr/~fnajman/Mod_curves.html
@@ -73,19 +84,21 @@
   notes: Talk on <a href="https://beta.lmfdb.org/ModularCurve/Q/">modular curves</a> in the LMFDB
 - title: 'Modular curves and Finite Groups: Building Connections via Computation'
   date: Mar 2, 2023
-  topic: gps-modcurves
+  topic: [modcurves, groups]
   type: conf
   venue: COUNT
   venue_url: https://conferences.cirm-math.fr/2805.html
   pdf: /writings/talks/2023_03_02.pdf
+  video: https://www.youtube.com/watch?v=mCXKq3KfIGg
   notes: Talk on <a href="https://beta.lmfdb.org/ModularCurve/Q/">modular curves</a> and <a href="https://beta.lmfdb.org/Groups/Abstract/">finite groups</a> in the LMFDB
 - title: 'Modular curves and Finite Groups: Building Connections via Computation'
   date: Jan 11, 2023
-  topic: gps-modcurves
+  topic: [modcurves, groups]
   type: conf
   venue: 2023 Simons collaboration annual meeting
   venue_url: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2023/
   pdf: /writings/talks/2023_01_11.pdf
+  video: https://www.simonsfoundation.org/event/simons-collaboration-on-arithmetic-geometry-number-theory-and-computation-annual-meeting-2023/
   notes: Talk on <a href="https://alpha.lmfdb.org/ModularCurve/Q/">modular curves</a> and <a href="https://beta.lmfdb.org/Groups/Abstract/">finite groups</a> in the LMFDB
 - title: The L-functions and modular forms database
   date: May 22, 2022
@@ -118,6 +131,7 @@
   type: sem
   venue: MIT Lie groups seminar
   pdf: /writings/talks/2020_03_18.pdf
+  video: https://www.youtube.com/watch?v=J70hJuf_yNU
   notes: Talk on <a href="http://tori.lmfdb.xyz/AlgebraicTori/">database of tori</a>
 - title: A database of p-adic tori
   date: November 21, 2019
