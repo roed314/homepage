@@ -4,8 +4,7 @@ build:
 	$(PY) build.py
 
 serve: build
-	@echo "http://localhost:8314/"
-	cd site && python3 -m http.server 8314
+	$(PY) scripts/serve.py
 
 # refresh GitHub contribution figures in data/software.yaml (best-effort:
 # on network/API trouble it keeps the old numbers and never fails the build)

@@ -88,7 +88,7 @@ The moderncv sources live in `cv/` (shells: `cv.tex`, `cvMIT.tex`,
 `publist.tex`; `SoS_CV.tex` is an old application snapshot, left alone).  `make cv` runs
 `scripts/build_cv.py`, which renders the data-driven sections
 (Preprints/Publications, Invited Talks, Conferences Organized, Awards,
-Editorial Positions, Software, Other Activities) from
+Editorial Positions, Software, Teaching, Other Activities) from
 `data/*.yaml` into `cv/generated/*.tex`; the shells `\input` those
 fragments and keep everything else (preamble, References, framing)
 hand-maintained.  latexmk then builds the PDFs and the CV lands at
