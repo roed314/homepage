@@ -524,6 +524,7 @@ articles:
 - title: Constructing local L-packets for tame unitary groups
   pdf: /writings/research/thesis_pub.pdf
   arxiv: '1311.7456'
+  cv_section: publications
   bibtex:
     type: misc
     key: Roe_2013
@@ -543,3 +544,4 @@ theses:
 - title: Formal Groups, Complex Cobordism and Quillen's Theorem
   pdf: /writings/papers_expository/minors_thesis.pdf
   status: Minor thesis, a Ph.D. requirement at Harvard
+  cv: false

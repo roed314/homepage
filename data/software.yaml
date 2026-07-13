@@ -66,6 +66,13 @@
     additions: 63,164
     deletions: 24,555
     description: As part of a collaboration with Combes, Jones, Paulhus, Roy, and Schiavone, we have taken existing databases of finite groups, computed various quantities about them (most notably subgroup lattices, character tables and abstract isomorphism classes for permutation groups) and created a searchable database of groups, subgroups, and characters.
+  - name: Hypergeometric motives
+    url: https://beta.lmfdb.org/Motive/Hypergeometric/Q/
+    cv_only: true
+    links:
+      browse: https://beta.lmfdb.org/Motive/Hypergeometric/Q/
+    active: 2020-2025
+    description: Computation of hypergeometric L-functions in average polynomial time, in support of the hypergeometric motives section of the LMFDB.
   - name: Modular curves
     url: https://alpha.lmfdb.org/ModularCurve/Q/13.91.3.b.1/
     logo: /pics/ModCurve_logo.png
@@ -105,6 +112,7 @@
     additions: 40,099
     deletions: 23,426
     description: I have been involved in Sage since <a href="https://wiki.sagemath.org/Workshops#Past_Workshops">Sage Days 1</a>.  Much of my effort has gone toward creating the p-adics module, but I have also worked on finite fields, elliptic curves, number fields, the transition to git and github, the coercion system and many other parts of the software.
+    cv_note: I also serve on the Code of Conduct Committee.
     since: 2006
 - section: Infrastructure & Collaboration
   projects:

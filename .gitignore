@@ -3,3 +3,12 @@ site/
 __pycache__/
 .DS_Store
 *~
+cv/generated/
+cv/*.pdf
+cv/*.aux
+cv/*.log
+cv/*.out
+cv/*.fls
+cv/*.fdb_latexmk
+cv/*.synctex.gz
+static/about/cv.pdf

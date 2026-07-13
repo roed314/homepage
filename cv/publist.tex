@@ -1,0 +1,40 @@
+\documentclass[10pt]{moderncv}
+
+\moderncvstyle{publist}
+
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+
+\definecolor{firstnamecolor}{rgb}{0.25,0.5,0.75}
+\definecolor{familynamecolor}{rgb}{0.25,0.5,0.75}
+
+\firstname{\textsc{Publication}}
+\familyname{\textsc{List} \\[0.25in] {\huge \color{black} David Roe}}
+\title{}
+%\address{Dept. of Mathematics \\ Massachusetts Institute of Technology \\ 2-106, 77 Massachusetts Ave}{Cambridge, MA 02139}
+%\email{roed@mit.edu}
+%\extrainfo{\weblink{https://math.mit.edu/\textasciitilde roed}}
+
+\newcommand{\goodindentsection}[3]{\section{#1} \cvline{}{} \cvline[-12pt]{#2}{#3}}
+\newcommand{\goodindententrysection}[7]{\section{#1} \cvline{}{} \cvline[-12pt]{#2}{
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .%
+    \ifthenelse{\equal{#7}{}}{}{\newline{}\small#7}}}
+\newcommand{\cvlinesm}[2]{\cvline[-8pt]{#1}{#2}}
+\newcommand{\bluelink}[2]{\httplink[\color{blue}{#1}]{#2}}
+
+\newcommand{\ZZ}{\mathbb{Z}}
+\nopagenumbers 
+
+\begin{document}
+
+\maketitle
+
+%\thispagestyle{empty}
+
+\input{generated/publications}
+
+\end{document}

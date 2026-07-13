@@ -361,6 +361,10 @@
   pdf: /writings/talks/2013_12_05.pdf
   paper: http://arxiv.org/abs/1310.2988
   notes: Updated talk on my work with Clifton
+- title: An introduction to the local Langlands correspondence
+  date: December 2013
+  type: sem
+  venue: UQAM combinatorics seminar
 - title: Plans for p-adics in Sage
   date: September 5, 2013
   topic: sage-padics
@@ -416,6 +420,7 @@
   topic: sage-intro
   type: sem
   venue: University of Calgary - PMAT 621
+  cv: false
   pdf: /writings/talks/2012_10_16.pdf
   notes: Most of the talk was this <a href="/writings/talks/2012_10_16.sws">Sage notebook</a>.
 - title: The Local Langlands Correspondence and Character Sheaves
@@ -458,6 +463,7 @@
   topic: sage-coerce
   type: sem
   venue: UW Sage Seminar
+  cv: false
   notes: Sage notebook of this talk available <a href="http://www.sagenb.org/home/pub/4229">here</a>
 - title: The Local Langlands Correspondence for Tamely Ramified Groups
   date: December 8, 2011
@@ -505,6 +511,11 @@
   pdf: /writings/thesis.pdf
   notes: Thesis talk, similar notes to my October 2010 talk.
 - title: The Local Langlands Correspondence for Tamely Ramified Groups
+  date: October 2010
+  topic: thesis
+  type: sem
+  venue: CCR West
+- title: The Local Langlands Correspondence for Tamely Ramified Groups
   date: October 2, 2010
   topic: thesis
   type: conf
@@ -526,6 +537,7 @@
   topic: bruhat-tits
   type: sem
   venue: Alcove Seminar
+  cv: false
   venue_url: http://www.math.harvard.edu/~roed/courses/alcoveS10.html
   notes: An overview of the Bruhat-Tits building.
 - title: Coxeter Groups and 4-dimensional Polytopes
@@ -533,6 +545,7 @@
   topic: coxeter-groups
   type: sem
   venue: Trivial Notions
+  cv: false
   venue_url: http://www.math.harvard.edu/trivial/index.html
   notes: Coxeter groups and classification of polytopes, together with Zome models of polyhedra and the 120-cell.
 - title: Berkovich Spaces
@@ -540,6 +553,7 @@
   topic: berkovic-spaces
   type: sem
   venue: Alcove Seminar
+  cv: false
   venue_url: http://www.math.harvard.edu/~roed/courses/alcoveS09.html
   notes: An overview of Berkovich spaces.
 - title: Weil Conjectures
@@ -547,6 +561,7 @@
   topic: weil-conj
   type: sem
   venue: Trivial Notions
+  cv: false
   venue_url: http://www.math.harvard.edu/trivial/trivial_2008-2009.html
   notes: Weil conjectures and Weil cohomology theories for non-number theorists.
 - title: Laplace to Langlands
@@ -554,6 +569,7 @@
   topic: laplace-to-langlands
   type: sem
   venue: Alcove Seminar
+  cv: false
   venue_url: http://www.math.harvard.edu/~roed/courses/alcoveF08.html
   notes: A presentation on Gross's paper <a href="http://www.math.harvard.edu/~gross/preprints/LaplaceLanglands6.pdf">From Laplace to Langlands via representations of orthogonal groups</a>.
 - title: Embeddings of PSL_2(F_p) into semisimple linear algebraic groups
@@ -561,6 +577,7 @@
   topic: psl2-embeddings
   type: sem
   venue: STAGE
+  cv: false
   venue_url: http://www-math.mit.edu/~kedlaya/stage/
   notes: A presentation of the results in Serre's Exemples de plongements des groupes PSL_2(F_p) dans des groupes de Lie simples, <cite>Inventiones mathematicae</cite>, 1996.
 - title: A Bound for the number of automorphisms of an arithmetic Riemann surface
@@ -568,6 +585,7 @@
   topic: triangle-groups
   type: sem
   venue: Trivial Notions
+  cv: false
   venue_url: http://www.math.harvard.edu/trivial/index.html
   notes: Based on the Arizona Winter School talk.
 - title: A Bound for the number of automorphisms of an arithmetic Riemann surface
@@ -591,6 +609,7 @@
   topic: phi-gamma
   type: sem
   venue: Taylor's Seminar
+  cv: false
   pdf: /writings/talks/colmez_notes.pdf
   notes: 'Talks on <a href="http://www.math.jussieu.fr/~colmez/publications.html">Colmez''s paper</a> of the same name.  Joint talks with Ana Caraiani.  List of results and index of notation: <a class="btn-sm pdf-download" href="/writings/talks/colmez.pdf">PDF</a>.'
 - title: Eigenvarieties
@@ -598,6 +617,7 @@
   topic: sums-of-squares
   type: sem
   venue: STAGE
+  cv: false
   venue_url: http://www-math.mit.edu/~kedlaya/stage/
   notes: A review based on Kevin Buzzard's lecture notes from the Eigenvarieties semester, which can be found <a href="http://www.math.harvard.edu/ev/documents.html">here</a>.
 - title: p-Adic arithmetic in SAGE
@@ -621,6 +641,7 @@
   topic: padic-comp
   type: sem
   venue: STAGE
+  cv: false
   venue_url: http://www-math.mit.edu/~kedlaya/stage/
   notes: A discussion of some work of mine on algorithms for computing determinants and characteristic polynomials of <i>p</i>-adic matrices.  I haven't written this material up yet.
 - title: Sums of Squares Formulas
@@ -628,6 +649,7 @@
   topic: sums-of-squares
   type: sem
   venue: Trivial Notions
+  cv: false
   venue_url: http://www.math.harvard.edu/trivial/index.html
   notes: Overview of the results in <a href="http://math.uoregon.edu/~ddugger/hopf.html">this paper</a> of Dugger and Isaksen.
 - title: Vanishing cycles in the analytic case
@@ -635,12 +657,14 @@
   topic: vanishing-cycles
   type: sem
   venue: Weil II seminar
+  cv: false
   notes: Vanishing cycles and perverse sheaves as used in Deligne's proof of the Weil conjectures.
 - title: The eigencurve near the boundary of weight space for p=2 and p=3
   date: November 13, 2006
   topic: eigencurve
   type: sem
   venue: STAGE
+  cv: false
   venue_url: http://www-math.mit.edu/~kedlaya/stage/
   paper: http://arxiv.org/abs/1310.7354
   notes: Presentation of <a "href='http://www.ma.ic.ac.uk/~buzzard/maths/research/papers/annuli.pdf"'>a paper of Buzzard's</a> and a followup <a href="https://eigencurve.pdf">paper of mine</a>

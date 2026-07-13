@@ -17,7 +17,16 @@ stats:
 bib:
 	$(PY) scripts/fetch_bibtex.py
 
-deploy: stats build
+# regenerate the LaTeX CV from data/*.yaml and place the PDF where the
+# website serves it (/about/cv.pdf)
+TEXBIN = /Library/TeX/texbin
+cv:
+	$(PY) scripts/build_cv.py
+	cd cv && PATH=$(TEXBIN):$$PATH latexmk -pdf -quiet -interaction=nonstopmode cv.tex publist.tex
+	mkdir -p static/about
+	cp cv/cv.pdf static/about/cv.pdf
+
+deploy: stats cv build
 	./deploy.sh
 
 clean:
@@ -28,4 +37,4 @@ venv:
 	/opt/homebrew/bin/python3.13 -m venv .venv
 	.venv/bin/pip install -r requirements.txt
 
-.PHONY: build serve deploy clean venv stats bib
+.PHONY: build serve deploy clean venv stats bib cv

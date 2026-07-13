@@ -1,0 +1,217 @@
+\documentclass[10pt]{moderncv}
+
+\moderncvstyle{classic}
+
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+
+\firstname{David}
+\familyname{Roe}
+\title{}
+\address{Department of Mathematics \\ Massachusetts Institute of Technology \\ 2-336, 77 Massachusetts Ave}{Cambridge, MA 02139}
+\email{roed@mit.edu}
+\extrainfo{\weblink{https://math.mit.edu/\textasciitilde roed}}
+
+\newcommand{\goodindentsection}[3]{\section{#1} \cvline{}{} \cvline[-12pt]{#2}{#3}}
+\newcommand{\goodindententrysection}[7]{\section{#1} \cvline{}{} \cvline[-12pt]{#2}{
+    {\bfseries#3}%
+    \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+    \ifthenelse{\equal{#5}{}}{}{, #5}%
+    \ifthenelse{\equal{#6}{}}{}{, #6}%
+    .%
+    \ifthenelse{\equal{#7}{}}{}{\newline{}\small#7}}}
+\newcommand{\cvlinesm}[2]{\cvline[-8pt]{#1}{#2}}
+\newcommand{\bluelink}[2]{\httplink[\color{blue}{#1}]{#2}}
+
+\newcommand{\ZZ}{\mathbb{Z}}
+
+\begin{document}
+
+
+\maketitle
+%% Education %%
+\section{\textsc{Education}}
+\cventry{2011}{Ph.D. in Mathematics}{Harvard University}{Cambridge, MA}{}{}
+\cvline{}{\textsc{Ph.D. Thesis}}
+\cvline{title}{The Local Langlands Correspondence for Tamely Ramified Groups}
+\cvline{supervisor}{Professor Benedict Gross}
+
+\cventry{2006}{B.S. in Mathematics and in Literature}{Massachusetts Institute of Technology}{Cambridge, MA}{}{}
+
+%% Employment %%
+\goodindentsection{\textsc{Employment}}{2025--present}{Principal Research Scientist at MIT}
+
+\cvlinesm{2018--2025}{Research Scientist at MIT (with Simons Collaboration on Arithmetic Geometry, Number Theory, and Computation)}
+
+\cvlinesm{2015--2017}{Postdoctoral Fellow at the University of Pittsburgh (with Thomas Hales)}
+
+\cvlinesm{2014--2015}{Postdoctoral Fellow at the University of British Columbia (with Julia Gordon)}
+
+\cvlinesm{2011--2014}{Postdoctoral Fellow at the University of Calgary (with Clifton Cunningham)}
+
+%% Research Interests %%
+\section{\textsc{Research Interests}}
+
+\cvline{}{Computational number theory, arithmetic geometry, mathematical databases, $p$-adics}
+
+%% Honors and Awards %%
+\goodindentsection{\textsc{Grants, Fellowships, and Awards}}{2025--2030}{Simons Scientific Software Research Faculty Award (00005427)}
+
+\cvlinesm{2022}{MIT award for service to the Math Community}
+
+\cvlinesm{2020}{2020 COVID-19 Hero Award for creating researchseminars.org}
+
+\cvlinesm{2011}{PIMS Postdoctoral Fellow}
+
+\cvlinesm{2006}{National Science Foundation: Graduate Research Fellow}
+
+\cvlinesm{2006}{National Defense Science and Engineering Graduate Research Fellow}
+
+\cvlinesm{2006}{Phi Beta Kappa member}
+
+\cvlinesm{2006}{Todd Anderson Award for excellence in teaching at MIT}
+
+\cvlinesm{2004}{Summer Program in Undergraduate Research at MIT: Rogers Prize}
+
+\cvlinesm{2002}{National Merit Scholar}
+
+%% Publications %%
+\input{generated/publications}
+
+%% Software %%
+
+% goodindententrysection was too fragile for hrefs, so we break it out
+\section{\textsc{Software and Databases}}
+\cvline{}{}
+\cvline[-12pt]{2008--2025}{\textbf{L-functions and Modular Forms Database (LMFDB)}, \bluelink{www.lmfdb.org}{lmfdb.org}.{\newline{}\small Serve on editorial board, develop site-wide infrastructure, add content (described below)}}
+
+\cventry{2016--2025}{LMFDB: Abelian varieties over finite fields}{}{\bluelink{www.lmfdb.org/Variety/Abelian/Fq}{lmfdb.org/Variety/Abelian/Fq}}{}{}
+
+\cventry{2018--2021}{LMFDB: Classical modular forms}{}{\bluelink{www.lmfdb.org/ModularForm/GL2/Q/holomorphic}{lmfdb.org/ModularForm/GL2/Q/holomorphic/}}{}{}
+
+\cventry{2019--2025}{LMFDB: Finite groups}{}{\bluelink{beta.lmfdb.org/Groups/Abstract}{beta.lmfdb.org/Groups/Abstract}}{}{}
+
+\cventry{2020--2025}{LMFDB: Hypergeometric motives}{}{\bluelink{beta.lmfdb.org/Motive/Hypergeometric/Q/}{beta.lmfdb.org/Motive/Hypergeometric/Q/}}{}{}
+
+\cventry{2022--2025}{LMFDB: Modular curves}{}{\bluelink{beta.lmfdb.org/ModularCurve/Q/}{beta.lmfdb.org/ModularCurve/Q/}}{}{}
+
+\cventry{2006--2025}{SageMath}{}{\bluelink{sagemath.org}{sagemath.org}}{}{Most of my effort has gone to creating $p$-adics module, but also worked on finite fields, elliptic curves, number fields, the transition to git and github, and the coercion system.  I also serve on the Code of Conduct Commitee.}
+
+\cventry{2020--2022}{Research Seminars}{}{\bluelink{researchseminars.org}{researchseminars.org}}{}{Cofounder of online index of online seminars worldwide}
+
+\cventry{2021--2022}{Pset Partners}{}{\bluelink{psetpartners.mit.edu}{psetpartners.mit.edu/about}}{}{Helped with initial setup and matching algorithm}
+
+\cventry{2019--2022}{Psycodict}{}{\bluelink{github.com/roed314/psycodict}{github.com/roed314/psycodict}}{}{Python-SQL interface, used in LMFDB, researchseminars and pset partners}
+
+%% Talks %%
+\input{generated/talks}
+
+%% Teaching Experience %%
+\goodindententrysection{\textsc{Teaching Experience}}{Summer 2022, 2023}{Supervisor: Undergraduate Research Opportunities Program}{Dept. of Mathematics, MIT}{}{}{Ran 3 undergraduate research projects}
+
+\cventry{Fall 2020}{Instructor: Arithmetic geometry}{Dept. of Mathematics, MIT}{}{}{Instructor, online due to covid}
+
+\cventry{Spring 2019}{Instructor: $p$-adic analysis}{Dept. of Mathematics, MIT}{}{}{Independent study with 3 students}
+
+\cventry{Fall 2017}{Instructor: Intro. Abstract Algebraic Structures}{Dept. of Mathematics, Pitt}{}{}{Sole instructor.}
+
+\cventry{Fall 2017}{Lecturer: Calculus 1}{Dept of Mathematics, Pitt}{}{}{}
+
+\cventry{Spring 2017}{Lecturer: Calculus 3}{Dept. of Mathematics, Pitt}{}{}{}
+
+\cventry{Fall 2016}{Lecturer: Calculus 1}{Dept. of Mathematics, Pitt}{}{}{}
+
+\cventry{Fall 2016}{Lecturer: Discrete Mathematical Structures}{Dept. of Mathematics, Pitt}{}{}{}
+
+\cventry{Spring 2016}{Instructor: Intro. Abstract Algebraic Structures}{Dept. of Mathematics, Pitt}{}{}{Sole instructor.}
+
+\cventry{Fall 2015}{Lecturer: Calculus 1}{Dept. of Mathematics, Pitt}{}{}{Lectured for two sections.}
+
+\cventry{Fall 2014}{Lecturer: Multivariable Calculus}{Dept. of Mathematics, UBC}{}{}{Lectured for two sections.}
+
+\cventry{Fall 2013}{Lecturer: Linear Methods}{Dept. of Mathematics, Calgary}{}{}{Lectured for a 140-person section of science majors.}
+
+\cventry{Fall 2012}{Instructor: Computational Number Theory}{Dept. of Mathematics, Calgary}{}{}{Designed and taught this joint undergraduate/graduate course.}
+
+\cventry{Fall 2008}{Course Assistant: Algebraic Number Theory}{Dept. of Mathematics, Harvard}{}{}{Taught recitations, assisted students in preparing for weekly student talks, and graded.}
+
+\cventry{Fall 2007, 2008}{Teaching Fellow: Magic of Numbers}{Core Program, Harvard}{}{}{Taught recitations, wrote homework and tests, and graded.}
+
+\cventry{Summers 2007-2009 \\ 2011 \\ 2016}{Mentor and Academic Coordinator}{Canada/USA Mathcamp}{}{}{Taught short courses at this camp for high school students, including Unique Factorization, Algebraic Topology, $p$-Adics, Elliptic Curves, Modular Forms, Coxeter Groups, Factoring Algorithms.} 
+
+\cventry{Spring 2006}{Teaching Assistant: Project Lab in Mathematics}{Dept. of Mathematics, MIT}{}{}{Assisted small groups of students with carrying out and writing up a series of research projects.}
+
+\cventry{Fall 2005 \\ Spring 2005 \\ Fall 2003}{Instructor: Multivariable Calculus}{Experimental Study Group, MIT}{}{}{Sole instructor.  Lectured, wrote homework and tests, and graded.}
+
+%% Conferences Organized %%
+\input{generated/conferences_organized}
+
+\vspace{0.4in}
+
+%% Sage %%
+
+%\goodindentsection{\textsc{Contributions to Sage}}{}{Attended 21 Sage Days workshops, developed Sage's $p$-adic codebase (2006-2023)}
+%\cvlinesm{}{Added more than 40,000 lines (net) of peer-reviewed code to the math software system Sage, including the following selected tickets viewable on \weblink{http://trac.sagemath.org}}
+%\cvlinesm{\weblink[\#285]{http://trac.sagemath.org/ticket/285}}{Major new version of $p$-adic arithmetic}
+%\cvlinesm{\weblink[\#721]{http://trac.sagemath.org/ticket/721}}{Tate's algorithm for elliptic curves over number fields (based on code of Cremona)}
+%\cvlinesm{\weblink[\#812]{http://trac.sagemath.org/ticket/812}}{Overconvergent modular symbols (with others)}
+%\cvlinesm{\weblink[\#7931]{http://trac.sagemath.org/ticket/7931}}{Improved $k$-th roots for finite fields and $\ZZ/n\ZZ$}
+%\cvlinesm{\weblink[\#8335]{http://trac.sagemath.org/ticket/8335}}{Lattice of compatibly embedded finite fields via Conway polynomials (with others)}
+%\cvlinesm{\weblink[\#12116]{http://trac.sagemath.org/ticket/12116}}{Improved perfect power function for integers}
+%\cvlinesm{\weblink[\#12415]{http://trac.sagemath.org/ticket/12415}}{Rewrite of Sage's testing framework}
+%\cvlinesm{\weblink[\#12555]{http://trac.sagemath.org/ticket/12555}}{Reimplementation of $p$-adics with better extensibility}
+%\cvlinesm{\weblink[\#12766]{http://trac.sagemath.org/ticket/12766}}{Better plotting of elliptic curves}
+%\cvlinesm{\weblink[\#14304]{http://trac.sagemath.org/ticket/14304}}{Updated implementation of unramified extensions}
+%\cvlinesm{\weblink[\#20348]{http://trac.sagemath.org/ticket/20348}}{$p$-adic floating point rings}
+%\cvlinesm{\weblink[\#23218]{http://trac.sagemath.org/ticket/23218}}{General extensions of $p$-adic rings}
+
+%\vspace{0.4in}
+
+%\goodindentsection{\textsc{Contributions to LMFDB}}{}{LMFDB editor, attended many LMFDB workshops; selected contributions:}
+%\cvlinesm{\weblink[\#865]{https://github.com/LMFDB/lmfdb/pull/865} \weblink[\#896]{https://github.com/LMFDB/lmfdb/pull/896}}{Centralized functions for parsing search boxes}
+%\cvlinesm{\weblink[\#1966]{https://github.com/LMFDB/lmfdb/pull/1966} \weblink[\#3340]{https://github.com/LMFDB/lmfdb/pull/3340}}{Isogeny classes of abelian varieties over finite fields (with Dupuy, Kedlaya and Vincent)}
+%\cvlinesm{\weblink[\#2557]{https://github.com/LMFDB/lmfdb/pull/2557} \weblink[\#2572]{https://github.com/LMFDB/lmfdb/pull/2572}}{Switch from MongoDB to Postgres (with Costa)}
+%\cvlinesm{\weblink[\#2717]{https://github.com/LMFDB/lmfdb/pull/2717}}{Classical modular forms (with Costa, Sutherland, Voight)}
+%\cvlinesm{\weblink[\#2736]{https://github.com/LMFDB/lmfdb/pull/2736}}{Improvements to knowledge db (with Costa)}
+
+%% Other Activites %%
+\goodindentsection{\textsc{Other Activities}}{2023}{Served on NSF grant review panel}
+
+\cvlinesm{2020--2023}{Served on LMFDB editorial board}
+
+\cvlinesm{2020}{Created \weblink{researchseminars.org}}
+
+\cvlinesm{Summer 2016}{Academic Coordinator for Canada/USA Mathcamp}
+
+\cvlinesm{Fall 2014}{Organizer of the number theory video seminar at UBC}
+
+\cvlinesm{Fall 2012}{Organizer of the ABC seminar at University of Calgary}
+
+\cvlinesm{2008-2011}{Organizer of the Alcove Seminar, a graduate number theory seminar at Harvard}
+
+\cvlinesm{2002-2009}{Volunteer teacher at Splash, a program for high school students run by MIT's Educational Studies Program}
+
+\cvlinesm{1998-2002}{Founder and coach of one MATHCOUNTS team (\weblink{www.mathcounts.org}), coach of another}
+
+%\subsection{\textsc{Non-academic Interests}}
+
+%\cvlinesm{}{I enjoy hiking, bridge, board games, traveling, reading, and Mystery Hunt puzzles.  I have recently started skiing and sailing.}
+
+%% References %%
+\section{\textsc{References}}
+
+\cventry{}{Professor Clifton Cunningham}{University of Calgary}{\emaillink{cunning@math.ucalgary.ca}}{}{Postdoctoral supervisor, collaborator}
+
+\cventry{}{Professor Julia Gordon}{University of British Columbia}{\emaillink{gor@math.ubc.ca}}{}{Postdoctoral supervisor, collaborator}
+
+\cventry{}{Professor Benedict Gross}{Harvard University}{\emaillink{gross@math.harvard.edu}}{}{Ph.D. thesis advisor}
+
+\cventry{}{Professor Thomas Hales}{University of Pittsburgh}{\emaillink{hales@pitt.edu}}{}{Postdoctoral supervisor}
+
+\cventry{}{Professor Kiran Kedlaya}{University of California, San Diego}{\emaillink{kedlaya@ucsd.edu}}{}{Undergrad research supervisor, collaborator}
+
+\cventry{}{Andrew Sutherland}{MIT}{\emaillink{drew@math.mit.edu}}{}{Research supervisor}
+
+\cventry{}{Professor John Voight}{Dartmouth College}{\emaillink{john.voight@dartmouth.edu }}{}{LMFDB editor, collaborator}
+
+\end{document}

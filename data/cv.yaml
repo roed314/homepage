@@ -61,6 +61,18 @@
     - '2004'
   - - <a href="http://www.nationalmerit.org/">National Merit Scholar</a>
     - '2002'
+- section: Editorial Positions
+  headers: []
+  rows:
+  - - Program committee
+    - '<a href="https://antsmath.org/">ANTS: Algorithmic Number Theory Symposium</a>'
+    - '2024'
+  - - Associate editor
+    - '<a href="https://lucant.org/">LuCaNT: LMFDB, Computation, and Number Theory</a>'
+    - 2023-present
+  - - Editorial board
+    - '<a href="https://www.lmfdb.org/management">LMFDB: L-functions and modular forms database</a>'
+    - 2020-present
 - section: Publications
   link: /papers/
 - section: Software

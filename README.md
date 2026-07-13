@@ -82,6 +82,17 @@ lovelace.mit.edu).  rsync runs without `--delete`, so server content the
 build doesn't know about (writings/, courses/, conferences/*/, the old
 site's stylesheets/) is never touched.
 
-## TODO
+## LaTeX CV
 
-- Generate the CV PDF from the same data files.
+The moderncv sources live in `cv/` (shells: `cv.tex`, `publist.tex`, plus
+the not-yet-wired `cvMIT.tex` and `SoS_CV.tex`).  `make cv` runs
+`scripts/build_cv.py`, which renders the data-driven sections
+(Preprints/Publications, Invited Talks, Conferences Organized) from
+`data/*.yaml` into `cv/generated/*.tex`; the shells `\input` those
+fragments and keep everything else (preamble, References, framing)
+hand-maintained.  latexmk then builds the PDFs and the CV lands at
+`static/about/cv.pdf`, so the website serves the same document.
+Per-entry knobs: `cv: false` (exclude from CV), `cv_section: publications`
+(arXiv-only paper listed as a publication), `cv_venue:`/`title_tex:`
+overrides, `cv_only: true` on software shown in the CV but not the site.
+`make deploy` regenerates the CV automatically.

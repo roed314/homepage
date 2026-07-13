@@ -240,7 +240,7 @@ def main():
     write_bibs(data)
 
     # static assets
-    for sub in ("css", "js", "pics", "writings"):
+    for sub in ("css", "js", "pics", "writings", "about"):
         src = STATIC / sub
         if src.exists():
             shutil.copytree(src, SITE / sub)

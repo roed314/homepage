@@ -10,7 +10,7 @@
       <tr><th>Project</th><th></th><th>Active</th><th>Contributions</th></tr>
     </thead>
     <tbody>
-      {% for pr in sec.projects %}
+      {% for pr in sec.projects if not pr.cv_only %}
       <tr>
         <td class="project-cell">
           {% set label %}
