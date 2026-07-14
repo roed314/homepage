@@ -206,13 +206,21 @@ def gen_editorial(cv):
     return rows_section("Editorial Positions", rows)
 
 
-def gen_other_activities(cv):
-    sec = cv_section(cv, "Other Activities")
+def three_col_rows(cv, section):
+    sec = cv_section(cv, section)
     rows = []
     for what, where, when in sec["rows"]:
         text = html2latex(what) + (f", {html2latex(where)}" if where else "")
         rows.append((years(when), text))
-    return rows_section("Other Activities", rows)
+    return rows
+
+
+def gen_seminars(cv):
+    return rows_section("Seminars Organized", three_col_rows(cv, "Seminars Organized"))
+
+
+def gen_other_activities(cv):
+    return rows_section("Other Activities", three_col_rows(cv, "Other Activities"))
 
 
 def span_title(cell):
@@ -286,6 +294,7 @@ def main():
         "awards.tex": gen_awards(cv),
         "editorial.tex": gen_editorial(cv),
         "other_activities.tex": gen_other_activities(cv),
+        "seminars.tex": gen_seminars(cv),
         "software.tex": gen_software(software),
         "teaching.tex": gen_teaching(cv),
     }

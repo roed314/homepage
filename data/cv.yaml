@@ -179,30 +179,33 @@
 - section: Conferences Organized
   link: /conferences/
   generate: organized
+- section: Seminars Organized
+  headers: []
+  rows:
+  - - <a href="https://math.mit.edu/nt/">MIT number theory seminar</a>
+    - <a href="http://web.mit.edu">Massachusetts Institute of Technology</a>
+    - 2024-present
+  - - Number theory video seminar
+    - <a href="http://math.ubc.ca">University of British Columbia</a>
+    - Fall 2014
+  - - ABC seminar
+    - <a href="http://math.ucalgary.ca">University of Calgary</a>
+    - Fall 2012
+  - - <a href="/courses/alcove.html">Alcove seminar</a>
+    - <a href="http://math.harvard.edu">Harvard University</a>
+    - 2008-2011
 - section: Other Activities
   headers: []
   rows:
   - - Served on grant review panel
     - <a href="https://www.nsf.gov/">National Science Foundation</a>
     - 2023, 2026
-  - - Organizer of the <a href="https://math.mit.edu/nt/">MIT number theory seminar</a>
-    - <a href="http://web.mit.edu">Massachusetts Institute of Technology</a>
-    - 2024-present
   - - Created <a href="https://researchseminars.org">researchseminars.org</a>
     - ''
     - '2020'
   - - Academic Coordinator for Mathcamp 2016
     - <a href="http://www.mathcamp.org">Canada/USA Mathcamp</a>
     - Summer 2016
-  - - Organizer of the Number theory video seminar
-    - <a href="http://math.ubc.ca">University of British Columbia</a>
-    - Fall 2014
-  - - Organizer of the ABC seminar
-    - <a href="http://math.ucalgary.ca">University of Calgary</a>
-    - Fall 2012
-  - - Organizer of the <a href="/courses/alcove.html">Alcove seminar</a>
-    - <a href="http://math.harvard.edu">Harvard University</a>
-    - 2008-2011
   - - Developer for the <a href="http://sagemath.org">Sage</a> project
     - ''
     - 2006-present
