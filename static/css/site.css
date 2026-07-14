@@ -406,11 +406,12 @@ body.home {
 .tile .rolemark.speaker { background: var(--speaker-blue); }
 
 .funding {
-  max-width: 460px;
+  max-width: 880px;
   margin: 6px auto 0;
   padding: 0 20px;
   font-size: 13px;
   color: #555;
+  text-align: center;
 }
 .funding p { margin: 6px 0; }
 .funding a { color: #444; }
