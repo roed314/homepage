@@ -126,10 +126,14 @@
   </div>
 
   <div class="funding">
-    <p><span class="flabel">Current support</span>
-      {% for f in profile.funding.current %}{{ f|safe }}{{ '; ' if not loop.last else '.' }}{% endfor %}</p>
-    <p><span class="flabel">Past support</span>
-      {% for f in profile.funding.past %}{{ f|safe }}{{ '; ' if not loop.last else '.' }}{% endfor %}</p>
+    <div class="fgroup">
+      <span class="flabel">Current support</span>
+      {% for f in profile.funding.current %}<span class="fitem">{{ f|safe }}</span>{% endfor %}
+    </div>
+    <div class="fgroup">
+      <span class="flabel">Past support</span>
+      {% for f in profile.funding.past %}<span class="fitem">{{ f|safe }}</span>{% endfor %}
+    </div>
   </div>
 
   <div class="home-foot"><a href="https://accessibility.mit.edu">Accessibility</a></div>
