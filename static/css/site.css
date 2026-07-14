@@ -412,10 +412,13 @@ body.home {
   color: #555;
   text-align: center;
 }
-.funding .fgroup {
+.funding .fund-inner {
   display: table;
+  margin: 0 auto;
   text-align: left;
-  margin: 6px auto;
+}
+.funding .fgroup {
+  margin: 6px 0;
 }
 .funding .fitem { display: block; }
 .funding a { color: #444; }

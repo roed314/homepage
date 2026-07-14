@@ -126,13 +126,15 @@
   </div>
 
   <div class="funding">
-    <div class="fgroup">
-      <span class="flabel">Current support</span>
-      {% for f in profile.funding.current %}<span class="fitem">{{ f|safe }}</span>{% endfor %}
-    </div>
-    <div class="fgroup">
-      <span class="flabel">Past support</span>
-      {% for f in profile.funding.past %}<span class="fitem">{{ f|safe }}</span>{% endfor %}
+    <div class="fund-inner">
+      <div class="fgroup">
+        <span class="flabel">Current support</span>
+        {% for f in profile.funding.current %}<span class="fitem">{{ f|safe }}</span>{% endfor %}
+      </div>
+      <div class="fgroup">
+        <span class="flabel">Past support</span>
+        {% for f in profile.funding.past %}<span class="fitem">{{ f|safe }}</span>{% endfor %}
+      </div>
     </div>
   </div>
 
