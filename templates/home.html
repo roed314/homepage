@@ -126,10 +126,10 @@
   </div>
 
   <div class="funding">
-    My work is supported by the <a href="https://www.simonsfoundation.org/">Simons Foundation</a>
-    through a Scientific Software Research Faculty Award (SFI-MPS-SSRFA-00005427) and the
-    <a href="https://simonscollab.icerm.brown.edu/">Simons Collaboration on Arithmetic Geometry,
-    Number Theory, and Computation</a> (550033).
+    <p><span class="flabel">Current support</span>
+      {% for f in profile.funding.current %}{{ f|safe }}{{ '; ' if not loop.last else '.' }}{% endfor %}</p>
+    <p><span class="flabel">Past support</span>
+      {% for f in profile.funding.past %}{{ f|safe }}{{ '; ' if not loop.last else '.' }}{% endfor %}</p>
   </div>
 
   <div class="home-foot"><a href="https://accessibility.mit.edu">Accessibility</a></div>

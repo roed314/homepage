@@ -27,3 +27,12 @@ address:
 - Room 2-336
 - Massachusetts Institute of Technology
 - Cambridge, MA 02139-4307
+funding:
+  current:
+  - '<a href="https://www.simonsfoundation.org/">Simons Foundation</a> Scientific Software Research Faculty Award (SFI-MPS-SSRFA-00005427)'
+  - the <a href="https://simonscollab.icerm.brown.edu/">Simons Collaboration on Arithmetic Geometry, Number Theory, and Computation</a> (grant 550033 to Andrew Sutherland)
+  - the <a href="https://www.renaissancephilanthropy.org/initiatives/ai-for-math-fund">AI for Math Fund</a>, managed by Renaissance Philanthropy
+  past:
+  - a <a href="https://www.pims.math.ca/opportunities/">PIMS Postdoctoral Fellowship</a> (2011)
+  - an <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a> (2006)
+  - an <a href="https://ndseg.org/">NDSEG Fellowship</a> (2006)
