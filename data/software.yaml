@@ -132,6 +132,18 @@
     additions: 22,045
     deletions: 7,656
     description: With the start of the COVID-19 pandemic, many research seminars moved online.  Together with Costa, Poonen and Sutherland, I created an online index of these seminars which helps researchers worldwide find talks of interest that are newly accessible.  It also provides useful tools for creating lightweight homepages for seminars and conferences.
+  - name: MathBases
+    cv_note: Help run and edit a community index of mathematical databases
+    url: https://mathbases.org
+    links:
+      browse: https://mathbases.org/
+      code: https://github.com/MathBases/MathBases
+    stats_url: https://github.com/MathBases/MathBases/graphs/contributors
+    active: 2023-2026
+    commits: '57'
+    additions: 9,854
+    deletions: 4,830
+    description: MathBases is a community-curated index of mathematical databases, helping researchers discover existing datasets and the tools to explore them.  It catalogs databases across more than twenty-five areas of mathematics, searchable and filterable by area, with a lightweight process for anyone to propose and maintain entries.  I help run and maintain the site.
   - name: PSet Partners
     cv_note: Helped with initial setup and matching algorithm
     url: https://psetpartners.mit.edu/about
