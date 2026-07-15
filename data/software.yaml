@@ -179,6 +179,6 @@
     stats_url: https://github.com/roed-math/paperforge/graphs/contributors
     description: 'As language models begin to contribute to research mathematics, the process of writing papers needs new infrastructure.  Paperforge is a framework for turning an AI-written paper, backed by a <a href="https://leanprover.github.io/">Lean</a> formalization, into two synchronized outputs: LaTeX for arXiv and structured HTML with reader-controlled levels of detail and links into the formalization.  The source of truth is <a href="https://pretextbook.org/">PreTeXt</a>, authored by the model; deterministic validators (checking notation, references, and links to the formalization) provide regression safety, while generative passes handle drafting and revision.'
     active: 2026-2026
-    commits: '66'
-    additions: 12,940
-    deletions: 1,060
+    commits: '70'
+    additions: 13,015
+    deletions: 1,082
