@@ -140,8 +140,8 @@
       code: https://github.com/MathBases/MathBases
     stats_url: https://github.com/MathBases/MathBases/graphs/contributors
     active: 2023-2026
-    commits: '57'
-    additions: 9,854
+    commits: '58'
+    additions: 9,998
     deletions: 4,830
     description: MathBases is a community-curated index of mathematical databases, helping researchers discover existing datasets and the tools to explore them.  It catalogs databases across more than twenty-five areas of mathematics, searchable and filterable by area, with a lightweight process for anyone to propose and maintain entries.  I help run and maintain the site.
   - name: PSet Partners
