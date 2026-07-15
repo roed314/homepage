@@ -196,7 +196,7 @@ def main():
     past = [c for c in confs if c not in upcoming]
     derived = {
         "recent_papers": data["papers"]["articles"][:3],
-        "recent_talks": data["talks"][:3],
+        "recent_talks": data["talks"][:6],
         "upcoming_conferences": upcoming,
         "recent_conferences": past[:3],
         "recent_courses": data["courses"][:2],

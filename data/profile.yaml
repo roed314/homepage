@@ -4,7 +4,7 @@ position_url: https://research.mit.edu/research-policies-and-procedures/research
 department: MIT Department of Mathematics
 department_url: https://math.mit.edu
 email: roed@mit.edu
-photo: /pics/david_600.jpg
+photo: /pics/davidmit_600.jpg
 findme:
 - label: arXiv
   url: https://arxiv.org/a/roe_d_1.html
@@ -29,10 +29,10 @@ address:
 - Cambridge, MA 02139-4307
 funding:
   current:
-  - '<a href="https://www.simonsfoundation.org/grant/scientific-software-research-faculty-award/?tab=awardees">Simons Foundation Scientific Software Research Faculty Award</a> (SFI-MPS-SSRFA-00005427)'
-  - '<a href="https://www.renaissancephilanthropy.org/scalable-theorem-proving">Scalable Theorem Proving via Mathematical Databases</a>, funded by the <a href="https://www.renaissancephilanthropy.org/initiatives/ai-for-math-fund">AI for Math Fund</a>'
+  - '<a href="https://www.simonsfoundation.org/grant/scientific-software-research-faculty-award/?tab=awardees">Simons Foundation Scientific Software Research Faculty Award</a>, SFI-MPS-SSRFA-00005427 (2025–2030)'
+  - '<a href="https://www.renaissancephilanthropy.org/scalable-theorem-proving">Scalable Theorem Proving via Mathematical Databases</a>, funded by the <a href="https://www.renaissancephilanthropy.org/initiatives/ai-for-math-fund">AI for Math Fund</a> (2025–2027)'
   past:
-  - '<a href="https://simonscollab.icerm.brown.edu/">Simons Collaboration</a> (grant 550033 to Andrew Sutherland et al.)'
-  - <a href="https://www.pims.math.ca/opportunities/">PIMS Postdoctoral Fellowship</a> (2011)
-  - <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a> (2006)
-  - <a href="https://ndseg.org/">NDSEG Fellowship</a> (2006)
+  - '<a href="https://simonscollab.icerm.brown.edu/">Simons Collaboration</a> grant 550033 to Andrew Sutherland et al., (2018–2025)'
+  - <a href="https://www.pims.math.ca/opportunities/">PIMS Postdoctoral Fellowship</a> (2011–2014)
+  - <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a> (2006–2011)
+  - <a href="https://ndseg.org/">NDSEG Fellowship</a> (2006–2011)

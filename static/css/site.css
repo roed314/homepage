@@ -405,6 +405,15 @@ body.home {
 .tile .rolemark.organizer { background: var(--gold); }
 .tile .rolemark.speaker { background: var(--speaker-blue); }
 
+.tile .grouplabel {
+  margin: 10px 0 0;
+  font: small-caps 600 12px 'Playfair Display', Georgia, Times, serif;
+  letter-spacing: .12em;
+  color: var(--navy);
+  opacity: .7;
+}
+.tile .grouplabel + ul { margin-top: 2px; }
+
 .funding {
   margin: 6px auto 0;
   padding: 0 20px;

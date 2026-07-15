@@ -19,6 +19,15 @@
   </script>
 {% endblock %}
 {% block body %}
+  {% macro conf_row(c) %}
+        <li>
+          <span class="t">
+            {% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}
+            {% if c.role %}<span class="rolemark {{ c.role }}">{{ c.role }}</span>{% endif %}
+          </span>
+          <span class="meta">{{ c.dates }}, {{ c.year }} &middot; {{ c.location }}</span>
+        </li>
+  {% endmacro %}
   <div class="hero">
     <img class="me" src="{{ profile.photo|u }}" alt="photo of David Roe">
     <div>
@@ -40,8 +49,14 @@
       <h2><a href="{{ '/papers/'|u }}">Papers</a></h2>
       <ul>
         {% for p in recent_papers %}
+        {% if p.html %}{% set url = p.html|u %}
+        {% elif p.arxiv %}{% set url = 'https://arxiv.org/abs/' + p.arxiv %}
+        {% elif p.doi %}{% set url = p.doi %}
+        {% elif p.pdf %}{% set url = p.pdf|u %}
+        {% else %}{% set url = none %}
+        {% endif %}
         <li>
-          <span class="t">{{ p.title }}</span>
+          <span class="t">{% if url %}<a href="{{ url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
           {% if p['with'] %}<span class="meta">with {{ p['with']|join(', ') }}</span>{% endif %}
           {% if p.status %}<span class="meta">{{ p.status|rel|safe }}</span>{% endif %}
         </li>
@@ -65,17 +80,20 @@
 
     <section class="tile">
       <h2><a href="{{ '/conferences/'|u }}">Conferences</a></h2>
+      {% set upcoming = upcoming_conferences[:3] %}
+      {% set past = recent_conferences[:2] %}
+      {% if upcoming %}
+      <p class="grouplabel">Upcoming</p>
       <ul>
-        {% for c in (upcoming_conferences[:3] if upcoming_conferences else recent_conferences) %}
-        <li>
-          <span class="t">
-            {% if c.url %}<a href="{{ c.url|u }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}
-            {% if c.role %}<span class="rolemark {{ c.role }}">{{ c.role }}</span>{% endif %}
-          </span>
-          <span class="meta">{{ c.dates }}, {{ c.year }} &middot; {{ c.location }}</span>
-        </li>
-        {% endfor %}
+        {% for c in upcoming %}{{ conf_row(c) }}{% endfor %}
       </ul>
+      {% endif %}
+      {% if past %}
+      <p class="grouplabel">Recent</p>
+      <ul>
+        {% for c in past %}{{ conf_row(c) }}{% endfor %}
+      </ul>
+      {% endif %}
       <div class="more"><a href="{{ '/conferences/'|u }}">All conferences &rarr;</a></div>
     </section>
 
