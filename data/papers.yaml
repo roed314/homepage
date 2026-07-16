@@ -1,10 +1,16 @@
 articles:
 - title: A Presentation of the Absolute Galois Group of ℚ₂
   with:
-  - David Corneliu Turturean
+  - David Turturean
   pdf: https://roed314.github.io/gq2/paper.pdf
   html: https://roed314.github.io/gq2/
   status: Preprint
+- title: 'MathBases: Indexing and Creating Mathematical Databases'
+  with:
+  - Katja Berčič
+  - Edgar Costa
+  pdf: /writings/research/mathbases.pdf
+  status: Accepted to <a href="https://icms-conference.org/2026/">ICMS 2026</a>
 - title: Distinguished defining polynomials for extensions of p-adic fields
   with:
   - Jordi Guàrdia
