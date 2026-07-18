@@ -95,9 +95,9 @@
     stats_url: https://github.com/jvoight/k3s-lmfdb/graphs/contributors
     description: Growing out of a <a href="/conferences/Lat26/">workshop held at MIT in February 2026</a>, we are rebuilding the Lattice section of the LMFDB, greatly expanding the collection of integral lattices and the invariants computed for each, in support both of lattice searches in their own right and of other parts of the site such as a planned section on K3 surfaces.
     active: 2024-2026
-    commits: '36'
-    additions: 2,534
-    deletions: '476'
+    commits: '39'
+    additions: 4,031
+    deletions: '716'
 - section: Open Source Computation
   projects:
   - name: SageMath
@@ -179,6 +179,6 @@
     stats_url: https://github.com/roed-math/paperforge/graphs/contributors
     description: 'As language models begin to contribute to research mathematics, the process of writing papers needs new infrastructure.  Paperforge is a framework for turning an AI-written paper, backed by a <a href="https://leanprover.github.io/">Lean</a> formalization, into two synchronized outputs: LaTeX for arXiv and structured HTML with reader-controlled levels of detail and links into the formalization.  The source of truth is <a href="https://pretextbook.org/">PreTeXt</a>, authored by the model; deterministic validators (checking notation, references, and links to the formalization) provide regression safety, while generative passes handle drafting and revision.'
     active: 2026-2026
-    commits: '70'
-    additions: 13,015
-    deletions: 1,082
+    commits: '74'
+    additions: 13,649
+    deletions: 1,306
