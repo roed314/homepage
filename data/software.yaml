@@ -11,7 +11,7 @@
       paper: /writings/research/zen.pdf
     stats_url: https://github.com/LMFDB/lmfdb/graphs/contributors
     active: 2008-2026
-    commits: 3,332
+    commits: 3,450
     additions: 101,824
     deletions: 88,791
     description: 'The LMFDB has been a major focus of my work at MIT since 2018, and I now serve on its <a href="https://www.lmfdb.org/management">editorial board</a>.  My contributions fall into two categories: improving LMFDB''s infrastructure and adding mathematical content to the site.  On the infrastructure front, I converted the backend database from <a href="https://www.mongodb.com/">MongoDB</a> to <a href="https://www.postgresql.org/">PostgreSQL</a>, spinning off a Python-SQL interface library, <a href="https://github.com/roed314/psycodict">Psycodict</a>, in the process.  I have also worked on centralizing functionality (such as code for laying out search pages) that had been duplicated in many sections, easing the process of adding new site-wide functionality and adding new sections.  My mathematical contributions are described below.'
@@ -127,10 +127,10 @@
       code: https://github.com/roed314/seminars
       paper: https://math.mit.edu/~drew/ResearchSeminars.pdf
     stats_url: https://github.com/roed314/seminars/graphs/contributors
-    active: 2020-2025
-    commits: '378'
-    additions: 22,045
-    deletions: 7,656
+    active: 2020-2026
+    commits: '383'
+    additions: 22,191
+    deletions: 7,694
     description: With the start of the COVID-19 pandemic, many research seminars moved online.  Together with Costa, Poonen and Sutherland, I created an online index of these seminars which helps researchers worldwide find talks of interest that are newly accessible.  It also provides useful tools for creating lightweight homepages for seminars and conferences.
   - name: MathBases
     cv_note: Help run and edit a community index of mathematical databases
@@ -154,10 +154,10 @@
       code: https://github.com/AndrewVSutherland/psetpartners
       paper: https://www.ams.org/journals/notices/202111/rnoti-p1919.pdf
     stats_url: https://github.com/AndrewVSutherland/psetpartners/graphs/contributors
-    active: 2020-2020
-    commits: '17'
-    additions: 12,276
-    deletions: '402'
+    active: 2020-2026
+    commits: '18'
+    additions: 12,281
+    deletions: '404'
     description: The pandemic made it harder to form collaborations between students in undergraduate classes to work on homework.  This site allows instructors at MIT to opt in and help their students find study groups.  The project is mostly driven by Sutherland (and the linked paper is written by him), but I helped with the initial setup and the matching algorithm.
   - name: Psycodict
     cv_note: Python-SQL interface, used in LMFDB, researchseminars and psetpartners
@@ -166,10 +166,10 @@
     links:
       code: https://github.com/roed314/psycodict
     stats_url: https://github.com/roed314/psycodict/graphs/contributors
-    active: 2019-2025
-    commits: '165'
-    additions: 21,081
-    deletions: 13,093
+    active: 2019-2026
+    commits: '321'
+    additions: 49,071
+    deletions: 17,061
     description: The most popular interface to PostgreSQL from Python is <a href="https://www.psycopg.org/">psycopg</a>, which allows for the execution of SQL commands from python.  While robust and fast, it requires users to know SQL.  For the LMFDB, I developed a layer on top of psycopg that constructs queries from dictionaries and returns the output in dictionaries as well.  In support of researchseminars and psetpartners, this part of the LMFDB was extracted out into its own library.
   - name: Paperforge
     logo: /pics/paperforge_logo.svg
@@ -179,6 +179,6 @@
     stats_url: https://github.com/roed-math/paperforge/graphs/contributors
     description: 'As language models begin to contribute to research mathematics, the process of writing papers needs new infrastructure.  Paperforge is a framework for turning an AI-written paper, backed by a <a href="https://leanprover.github.io/">Lean</a> formalization, into two synchronized outputs: LaTeX for arXiv and structured HTML with reader-controlled levels of detail and links into the formalization.  The source of truth is <a href="https://pretextbook.org/">PreTeXt</a>, authored by the model; deterministic validators (checking notation, references, and links to the formalization) provide regression safety, while generative passes handle drafting and revision.'
     active: 2026-2026
-    commits: '74'
-    additions: 13,649
-    deletions: 1,306
+    commits: '115'
+    additions: 26,333
+    deletions: 2,669
