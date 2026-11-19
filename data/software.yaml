@@ -134,9 +134,9 @@
     additions: '0'
     deletions: '0'
     ai:
-      commits: 3,430
-      additions: 1,105,842
-      deletions: 76,985
+      commits: 3,447
+      additions: 1,108,797
+      deletions: 77,429
 - section: Open Source Computation
   projects:
   - name: SageMath
