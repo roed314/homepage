@@ -1,3 +1,43 @@
+- title: Absolute Galois groups of 2-adic fields, AI, and formalization
+  date: Dec 12, 2026
+  topic: gq2
+  type: conf
+  venue: 2026 CMS Winter Meeting
+  venue_url: https://www2.cms.math.ca/Events/winter26/abs/cnt#dr
+  paper: https://roed314.github.io/gq2/
+  notes: In the session on Computational Number Theory and Number Theory from Computations
+- title: Absolute Galois groups of 2-adic fields, AI, and formalization
+  date: Dec 2, 2026
+  topic: gq2
+  type: sem
+  venue: Johns Hopkins number theory seminar
+  venue_url: https://mathematics.jhu.edu/event/number-theory-seminar-david-roe-mit/
+  paper: https://roed314.github.io/gq2/
+- title: Absolute Galois groups of 2-adic fields, AI, and formalization
+  date: Nov 10, 2026
+  topic: gq2
+  type: sem
+  venue: AI, Combinatorics and Number Theory seminar
+  venue_url: https://researchseminars.org/seminar/AI-CoNT
+  pdf: /writings/talks/2026_11_10.pdf
+  paper: https://roed314.github.io/gq2/
+- title: Absolute Galois groups of 2-adic fields, AI, and formalization
+  date: Oct 27, 2026
+  topic: gq2
+  type: sem
+  venue: VaNTAGe seminar
+  venue_url: https://sites.google.com/view/vantageseminar
+  pdf: /writings/talks/2026_10_27.pdf
+  paper: https://roed314.github.io/gq2/
+  notes: Presentations of absolute Galois groups of 2-adic fields, found with AI help and formalized in <a href="https://lean-lang.org/">Lean</a>, and the <a href="https://taucetiproject.org/">Tau Ceti</a> project
+- title: K3 surfaces in the LMFDB
+  date: Oct 23, 2026
+  topic: k3
+  type: conf
+  venue: K3 Surfaces over finite fields
+  venue_url: https://icerm.brown.edu/program/semester_research_cluster/sp-f26-rc1
+  pdf: /writings/talks/2026_10_23.pdf
+  notes: Interactive talk on the database schemas planned for K3 surfaces in the <a href="https://www.lmfdb.org">LMFDB</a>
 - title: 'LMFDB: Past, Present and Future'
   date: Jun 29, 2026
   topic: lmfdb

@@ -66,6 +66,9 @@
 - section: Editorial Positions
   headers: []
   rows:
+  - - Scientific Advisory Board
+    - '<a href="https://taucetiproject.org/people.html">Tau Ceti: AI-built library of formal mathematics</a>'
+    - 2026-present
   - - Managing editor
     - '<a href="https://www.lmfdb.org/management">LMFDB: L-functions and modular forms database</a>'
     - 2025-present

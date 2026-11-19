@@ -273,6 +273,10 @@ td.project-links a.badge { display: block; text-align: center; margin: 4px 0; }
 .active-container span { display: block; margin-bottom: 6px; white-space: nowrap; }
 .active-container .plus { color: #1a7f37; }
 .active-container .minus { color: #d1242f; }
+.active-container .split { display: grid; grid-template-columns: repeat(3, auto); gap: 6px 12px; justify-content: start; }
+.active-container .split span { margin: 0; text-align: right; }
+.active-container .split span:nth-child(3n+1) { text-align: left; }
+.active-container .split .who { font-size: 11px; color: #555; }
 
 /* ------------------------------------------------------------- home (variant A) */
 

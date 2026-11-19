@@ -22,7 +22,7 @@
         <td>{{ t.title }}</td>
         <td class="nowrap">{{ t.date }}</td>
         <td>{% if t.venue_url %}<a href="{{ t.venue_url|u }}">{{ t.venue }}</a>{% else %}{{ t.venue }}{% endif %}</td>
-        <td>{% if t.paper %}<a class="badge arxiv" href="{{ t.paper|u }}">arXiv</a>{% endif %}</td>
+        <td>{% if t.paper %}<a class="badge arxiv" href="{{ t.paper|u }}">{{ 'arXiv' if 'arxiv.org' in t.paper else 'paper' }}</a>{% endif %}</td>
         <td>{% if t.notes %}{{ t.notes|rel|safe }}{% endif %}</td>
       </tr>
       {% endfor %}

@@ -135,6 +135,23 @@ def talk_date(talk):
         return None
 
 
+def group_talks(talks):
+    """Group talks by topic, in order of first appearance.
+
+    Talks with a list of topics group only with talks on exactly that list,
+    so a joint talk never pulls two unrelated series together.  Each group
+    is titled by its latest talk, since titles drift across a series.
+    """
+    groups = {}
+    for t in talks:
+        topic = t.get("topic")
+        key = tuple(sorted(topic)) if isinstance(topic, list) else topic or id(t)
+        groups.setdefault(key, []).append(t)
+    return [{"title": max(g, key=lambda t: t["when"] or datetime.date.min)["title"],
+             "talks": g}
+            for g in groups.values()]
+
+
 # ------------------------------------------------------------------ bibtex
 
 # preferred field order in rendered entries; anything else follows alphabetically
@@ -194,9 +211,16 @@ def main():
     upcoming = sorted([c for c in confs if c["start"] and c["start"] >= today],
                       key=lambda c: c["start"])
     past = [c for c in confs if c not in upcoming]
+    talks = data["talks"]
+    for t in talks:
+        t["when"] = talk_date(t)
+    upcoming_talks = sorted([t for t in talks if t["when"] and t["when"] >= today],
+                            key=lambda t: t["when"])
+    past_talks = [t for t in talks if t not in upcoming_talks]
     derived = {
         "recent_papers": data["papers"]["articles"][:3],
-        "recent_talks": data["talks"][:6],
+        "upcoming_talks": group_talks(upcoming_talks),
+        "recent_talks": group_talks(past_talks[:6]),
         "upcoming_conferences": upcoming,
         "recent_conferences": past[:3],
         "recent_courses": data["courses"][:2],

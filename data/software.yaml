@@ -11,11 +11,15 @@
       paper: /writings/research/zen.pdf
     stats_url: https://github.com/LMFDB/lmfdb/graphs/contributors
     active: 2008-2026
-    commits: 3,450
-    additions: 101,824
-    deletions: 88,791
+    commits: 2,282
+    additions: 102,116
+    deletions: 88,888
     description: 'The LMFDB has been a major focus of my work at MIT since 2018, and I now serve on its <a href="https://www.lmfdb.org/management">editorial board</a>.  My contributions fall into two categories: improving LMFDB''s infrastructure and adding mathematical content to the site.  On the infrastructure front, I converted the backend database from <a href="https://www.mongodb.com/">MongoDB</a> to <a href="https://www.postgresql.org/">PostgreSQL</a>, spinning off a Python-SQL interface library, <a href="https://github.com/roed314/psycodict">Psycodict</a>, in the process.  I have also worked on centralizing functionality (such as code for laying out search pages) that had been duplicated in many sections, easing the process of adding new site-wide functionality and adding new sections.  My mathematical contributions are described below.'
     since: 2008
+    ai:
+      commits: '80'
+      additions: 4,661
+      deletions: 1,214
   - name: Abelian varieties over finite fields
     url: https://www.lmfdb.org/Variety/Abelian/Fq/6/2/ag_r_abd_bg_ay_u
     logo: /pics/AV2_logo.png
@@ -95,9 +99,44 @@
     stats_url: https://github.com/jvoight/k3s-lmfdb/graphs/contributors
     description: Growing out of a <a href="/conferences/Lat26/">workshop held at MIT in February 2026</a>, we are rebuilding the Lattice section of the LMFDB, greatly expanding the collection of integral lattices and the invariants computed for each, in support both of lattice searches in their own right and of other parts of the site such as a planned section on K3 surfaces.
     active: 2024-2026
-    commits: '39'
-    additions: 4,031
-    deletions: '716'
+    commits: '36'
+    additions: 2,469
+    deletions: '411'
+    ai:
+      commits: '15'
+      additions: 5,915
+      deletions: '568'
+- section: Formal Mathematics
+  projects:
+  - name: Tau Ceti
+    cv_note: Member of the Scientific Advisory Board; write roadmaps and run contributing agents
+    url: https://taucetiproject.org/
+    logo: /pics/tauceti_logo.png
+    banner: true
+    links:
+      browse: https://taucetiproject.org/
+      code: https://github.com/TauCetiProject/TauCeti
+      roadmaps: https://github.com/TauCetiProject/TauCetiRoadmap
+    stats_url: https://github.com/TauCetiProject/TauCeti/graphs/contributors
+    repos:
+    - TauCetiProject/TauCeti
+    - TauCetiProject/TauCetiRoadmap
+    - TauCetiProject/TauCetiRoadmapWorker
+    - TauCetiProject/TauCetiWorker
+    - TauCetiProject/TauCetiReview
+    - TauCetiProject/TauCetiProgress
+    - TauCetiProject/TauCetiFleet
+    - TauCetiProject/TauCetiTools
+    - TauCetiProject/TauCetiWebsite
+    description: Tau Ceti is an open-source library of formal mathematics in <a href="https://lean-lang.org/">Lean</a>, built on <a href="https://leanprover-community.github.io/">Mathlib</a>, whose code is written and reviewed entirely by AI agents while humans set its direction through roadmaps.  It is incubated by the <a href="https://lean-lang.org/fro/">Lean FRO</a> and the <a href="https://mathlib-initiative.org/">Mathlib Initiative</a>, and I serve on its <a href="https://taucetiproject.org/people.html">Scientific Advisory Board</a>.  I write roadmaps, mostly in number theory and toward the mathematics behind the LMFDB, run agents that contribute to the library, and help build the tooling that coordinates them.
+    active: 2026-2026
+    commits: '0'
+    additions: '0'
+    deletions: '0'
+    ai:
+      commits: 3,430
+      additions: 1,105,842
+      deletions: 76,985
 - section: Open Source Computation
   projects:
   - name: SageMath
@@ -128,22 +167,32 @@
       paper: https://math.mit.edu/~drew/ResearchSeminars.pdf
     stats_url: https://github.com/roed314/seminars/graphs/contributors
     active: 2020-2026
-    commits: '383'
-    additions: 22,191
-    deletions: 7,694
+    commits: '377'
+    additions: 14,699
+    deletions: 7,478
     description: With the start of the COVID-19 pandemic, many research seminars moved online.  Together with Costa, Poonen and Sutherland, I created an online index of these seminars which helps researchers worldwide find talks of interest that are newly accessible.  It also provides useful tools for creating lightweight homepages for seminars and conferences.
+    ai:
+      commits: '6'
+      additions: '148'
+      deletions: '41'
   - name: MathBases
     cv_note: Help run and edit a community index of mathematical databases
     url: https://mathbases.org
+    logo: /pics/mathbases_logo.png
+    banner: true
     links:
       browse: https://mathbases.org/
       code: https://github.com/MathBases/MathBases
     stats_url: https://github.com/MathBases/MathBases/graphs/contributors
     active: 2023-2026
-    commits: '58'
-    additions: 9,998
-    deletions: 4,830
+    commits: '41'
+    additions: 4,634
+    deletions: 1,006
     description: MathBases is a community-curated index of mathematical databases, helping researchers discover existing datasets and the tools to explore them.  It catalogs databases across more than twenty-five areas of mathematics, searchable and filterable by area, with a lightweight process for anyone to propose and maintain entries.  I help run and maintain the site.
+    ai:
+      commits: '17'
+      additions: 1,780
+      deletions: '240'
   - name: PSet Partners
     cv_note: Helped with initial setup and matching algorithm
     url: https://psetpartners.mit.edu/about
@@ -155,10 +204,14 @@
       paper: https://www.ams.org/journals/notices/202111/rnoti-p1919.pdf
     stats_url: https://github.com/AndrewVSutherland/psetpartners/graphs/contributors
     active: 2020-2026
-    commits: '18'
-    additions: 12,281
-    deletions: '404'
+    commits: '17'
+    additions: 12,276
+    deletions: '402'
     description: The pandemic made it harder to form collaborations between students in undergraduate classes to work on homework.  This site allows instructors at MIT to opt in and help their students find study groups.  The project is mostly driven by Sutherland (and the linked paper is written by him), but I helped with the initial setup and the matching algorithm.
+    ai:
+      commits: '1'
+      additions: '5'
+      deletions: '2'
   - name: Psycodict
     cv_note: Python-SQL interface, used in LMFDB, researchseminars and psetpartners
     logo: /pics/psycodict_logo.png
@@ -167,10 +220,14 @@
       code: https://github.com/roed314/psycodict
     stats_url: https://github.com/roed314/psycodict/graphs/contributors
     active: 2019-2026
-    commits: '321'
-    additions: 49,071
-    deletions: 17,061
+    commits: '166'
+    additions: 7,617
+    deletions: 4,423
     description: The most popular interface to PostgreSQL from Python is <a href="https://www.psycopg.org/">psycopg</a>, which allows for the execution of SQL commands from python.  While robust and fast, it requires users to know SQL.  For the LMFDB, I developed a layer on top of psycopg that constructs queries from dictionaries and returns the output in dictionaries as well.  In support of researchseminars and psetpartners, this part of the LMFDB was extracted out into its own library.
+    ai:
+      commits: '154'
+      additions: 27,656
+      deletions: 3,967
   - name: Paperforge
     logo: /pics/paperforge_logo.svg
     banner: true
@@ -179,6 +236,10 @@
     stats_url: https://github.com/roed-math/paperforge/graphs/contributors
     description: 'As language models begin to contribute to research mathematics, the process of writing papers needs new infrastructure.  Paperforge is a framework for turning an AI-written paper, backed by a <a href="https://leanprover.github.io/">Lean</a> formalization, into two synchronized outputs: LaTeX for arXiv and structured HTML with reader-controlled levels of detail and links into the formalization.  The source of truth is <a href="https://pretextbook.org/">PreTeXt</a>, authored by the model; deterministic validators (checking notation, references, and links to the formalization) provide regression safety, while generative passes handle drafting and revision.'
     active: 2026-2026
-    commits: '115'
-    additions: 26,333
-    deletions: 2,669
+    commits: '0'
+    additions: '0'
+    deletions: '0'
+    ai:
+      commits: '115'
+      additions: 24,316
+      deletions: 2,677

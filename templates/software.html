@@ -32,9 +32,18 @@
         <td>
           {% set stats %}
           <span>{{ pr.active }}</span>
+          {% if pr.ai %}
+          <span class="split">
+            <span></span><span class="who">human</span><span class="who">AI</span>
+            <span>commits</span><span>{{ pr.commits }}</span><span>{{ pr.ai.commits }}</span>
+            <span class="plus">++</span><span class="plus">{{ pr.additions }}</span><span class="plus">{{ pr.ai.additions }}</span>
+            <span class="minus">--</span><span class="minus">{{ pr.deletions }}</span><span class="minus">{{ pr.ai.deletions }}</span>
+          </span>
+          {% else %}
           {% if pr.commits %}<span>{{ pr.commits }} commits</span>{% endif %}
           {% if pr.additions %}<span class="plus">{{ pr.additions }} ++</span>{% endif %}
           {% if pr.deletions %}<span class="minus">{{ pr.deletions }} --</span>{% endif %}
+          {% endif %}
           {% endset %}
           {% if pr.stats_url %}<a class="active-container" href="{{ pr.stats_url }}">{{ stats }}</a>
           {% else %}<div class="active-container">{{ stats }}</div>{% endif %}

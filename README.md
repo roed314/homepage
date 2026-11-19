@@ -57,7 +57,18 @@ from the YAML files on each build; there is no cache to invalidate.
 `data/software.yaml` from the GitHub contributor-stats API (login roed314).
 `make deploy` runs it automatically, so the figures refresh on every deploy;
 failures (offline, rate limit, not in a repo's top-100 contributors) keep the
-old numbers and never block a deploy.  A `since: <year>` field on a project
+old numbers and never block a deploy.
+
+Contributions are split between hand-written (roed314) and AI (roed-math,
+created 2026-05-14).  Both accounts commit as roed.math@gmail.com, so each
+commit since then is credited to the author of the merged pull request that
+brought it in, or else to whoever pushed it to the default branch.  A
+project with any AI commits gets an `ai:` block and its figures come from
+the GraphQL commit history, excluding merge commits; the page then shows a
+human/AI table.  This takes a few minutes, mostly paging through Tau Ceti.
+A `repos:` list (owner/name) sums a project's figures over several
+repositories instead of just its code link; Tau Ceti uses it for the library
+plus its roadmap, worker and website repos.  A `since: <year>` field on a project
 pins the start of its active range where involvement predates the repo's git
 history (SageMath 2006, LMFDB 2008).
 
@@ -70,6 +81,10 @@ build rewrites them per page, so the site works at any mount point.
 make build      # render into site/
 make serve      # build + http://localhost:8314/
 ```
+
+The preview server falls back to `~/claude/current_homepage` for paths the
+build doesn't produce, as the live server does, so conference sites and
+other hand-maintained pages show up locally too.
 
 ## Deploy
 

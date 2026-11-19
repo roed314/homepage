@@ -31,6 +31,19 @@
   role: organizer
   organizers:
   - Andrew Sutherland
+- name: Diophantine Library Workshop
+  url: /conferences/Dioph27/
+  dates: January 19-23
+  year: 2027
+  location: MIT, Cambridge, MA
+  role: organizer
+  organizers: []
+- name: 2026 CMS Winter Meeting
+  url: https://winter26.cms.math.ca/
+  dates: December 11-14
+  year: 2026
+  location: Montréal, QC
+  role: speaker
 - name: K3 Surfaces over finite fields
   url: https://icerm.brown.edu/program/semester_research_cluster/sp-f26-rc1
   dates: October 19-23

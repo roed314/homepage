@@ -28,6 +28,20 @@
           <span class="meta">{{ c.dates }}, {{ c.year }} &middot; {{ c.location }}</span>
         </li>
   {% endmacro %}
+  {% macro talk_row(g) %}
+        <li>
+          {% if g.talks|length == 1 %}
+          {% set t = g.talks[0] %}
+          <span class="t">{% if t.pdf %}<a href="{{ t.pdf|u }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</span>
+          <span class="meta">{{ t.venue }} &middot; {{ t.date }}</span>
+          {% else %}
+          <span class="t">{{ g.title }}</span>
+          {% for t in g.talks %}
+          <span class="meta">{% if t.pdf %}<a href="{{ t.pdf|u }}">{{ t.venue }}</a>{% else %}{{ t.venue }}{% endif %} &middot; {{ t.date }}</span>
+          {% endfor %}
+          {% endif %}
+        </li>
+  {% endmacro %}
   <div class="hero">
     <img class="me" src="{{ profile.photo|u }}" alt="photo of David Roe">
     <div>
@@ -67,14 +81,20 @@
 
     <section class="tile">
       <h2><a href="{{ '/talks/'|u }}">Talks</a></h2>
+      {% set upcoming = upcoming_talks[:3] %}
+      {% set past = recent_talks[:2] %}
+      {% if upcoming %}
+      <p class="grouplabel">Upcoming</p>
       <ul>
-        {% for t in recent_talks %}
-        <li>
-          <span class="t">{% if t.pdf %}<a href="{{ t.pdf|u }}">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</span>
-          <span class="meta">{{ t.venue }} &middot; {{ t.date }}</span>
-        </li>
-        {% endfor %}
+        {% for g in upcoming %}{{ talk_row(g) }}{% endfor %}
       </ul>
+      {% endif %}
+      {% if past %}
+      <p class="grouplabel">Recent</p>
+      <ul>
+        {% for g in past %}{{ talk_row(g) }}{% endfor %}
+      </ul>
+      {% endif %}
       <div class="more"><a href="{{ '/talks/'|u }}">All talks &rarr;</a></div>
     </section>
 
@@ -103,7 +123,11 @@
         {% for pr in featured_software %}
         <li>
           <span class="t"><a href="{{ pr.url|u }}">{{ pr.name }}</a></span>
+          {% if pr.ai %}
+          <span class="meta">active {{ pr.active }} &middot; {% if pr.commits != '0' %}{{ pr.commits }} human + {% endif %}{{ pr.ai.commits }} AI commits</span>
+          {% else %}
           <span class="meta">active {{ pr.active }}{% if pr.commits %} &middot; {{ pr.commits }} commits{% endif %}</span>
+          {% endif %}
         </li>
         {% endfor %}
       </ul>
